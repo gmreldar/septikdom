@@ -1,0 +1,1588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+		<yml_catalog date="2020-02-02 14:38">
+		<shop>
+			<name>septikdom.com</name>
+			<company>septikdom.com</company>
+			<url>https://septikdom.com/</url>
+		<currencies>
+			<currency id="RUR" rate="1" />
+		</currencies>
+		<categories>
+			<category id="2">Септик</category>
+			<category id="3">трубы</category>
+			<category id="4">запчасти для септиков</category>
+			<category id="5">колодец</category>
+			<category id="6">насос</category>
+		</categories>
+		<offers>
+			<offer id="650008989" available="true">
+			       <url>https://septikdom.com/katalog/unilos/astra_3</url>
+			       <price>65450</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Астра 3 - дачная канализация</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2129784295" available="true">
+			       <url>https://septikdom.com/katalog/unilos/astra_4</url>
+			       <price>70550</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Астра 4 - новинка от Юнилос</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1795773260" available="true">
+			       <url>https://septikdom.com/katalog/unilos/astra_5</url>
+			       <price>79900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Астра 5 - Лучшая цена</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2123524429" available="true">
+			       <url>https://septikdom.com/katalog/unilos/astra_6</url>
+			       <price>85000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Астра 6 - септик Юнилос</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3559205440" available="true">
+			       <url>https://septikdom.com/katalog/unilos/astra_7</url>
+			       <price>94775</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Астра 7 от Юнилос</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="582729009" available="true">
+			       <url>https://septikdom.com/katalog/unilos/astra_8</url>
+			       <price>97750</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Астра 8 - канализация дома Юнилос</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3086477790" available="true">
+			       <url>https://septikdom.com/katalog/unilos/astra_9</url>
+			       <price>102170</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Астра 9 - септик Юнилос</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2732153266" available="true">
+			       <url>https://septikdom.com/katalog/unilos/astra_10</url>
+			       <price>126650</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Астра 10</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2827895852" available="true">
+			       <url>https://septikdom.com/katalog/unilos/astra_15</url>
+			       <price>169150</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Астра 15</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1433889191" available="true">
+			       <url>https://septikdom.com/katalog/unilos/astra_20</url>
+			       <price>228650</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Астра 20</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2053308487" available="true">
+			       <url>https://septikdom.com/katalog/unilos/astra_30</url>
+			       <price>288150</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Астра 30</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1865618130" available="true">
+			       <url>https://septikdom.com/katalog/unilos/astra_40</url>
+			       <price>334390</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Астра 40</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3972231722" available="true">
+			       <url>https://septikdom.com/katalog/unilos/astra_50</url>
+			       <price>389130</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Астра 50</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1572122296" available="true">
+			       <url>https://septikdom.com/katalog/unilos/astra_75</url>
+			       <price>470305</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Астра 75</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1993142143" available="true">
+			       <url>https://septikdom.com/katalog/unilos/astra_100</url>
+			       <price>629170</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Астра 100</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="418359361" available="true">
+			       <url>https://septikdom.com/katalog/unilos/astra_150</url>
+			       <price>944180</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Астра 150</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="30793061" available="true">
+			       <url>https://septikdom.com/katalog/unilos/astra_200</url>
+			       <price>1256470</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Астра 200. Новинка!!!</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="785726652" available="true">
+			       <url>https://septikdom.com/katalog/topas/topas_4</url>
+			       <price>88470</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Топас 4</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="700011271" available="true">
+			       <url>https://septikdom.com/katalog/topas/topas_5</url>
+			       <price>101070</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Септик Топас 5</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3273314548" available="true">
+			       <url>https://septikdom.com/katalog/topas/topas_6</url>
+			       <price>104400</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Топас 6</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1036497380" available="true">
+			       <url>https://septikdom.com/katalog/topas/topas_8</url>
+			       <price>121950</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Топас 8</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1361136347" available="true">
+			       <url>https://septikdom.com/katalog/topas/topas_9</url>
+			       <price>124200</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Топас 9</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="4156570517" available="true">
+			       <url>https://septikdom.com/katalog/topas/topas_10</url>
+			       <price>158400</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Топас 10</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3331416124" available="true">
+			       <url>https://septikdom.com/katalog/topas/topas_12</url>
+			       <price>161730</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Топас 12</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3687295413" available="true">
+			       <url>https://septikdom.com/katalog/topas/topas_15</url>
+			       <price>192690</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Топас 15</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1383280823" available="true">
+			       <url>https://septikdom.com/katalog/topas/topas_20</url>
+			       <price>257130</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Топас 20</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1501233768" available="true">
+			       <url>https://septikdom.com/katalog/topas/topas_30</url>
+			       <price>323190</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Топас 30</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="4136409153" available="true">
+			       <url>https://septikdom.com/katalog/topas/topas_40</url>
+			       <price>416250</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Топас 40</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2591817099" available="true">
+			       <url>https://septikdom.com/katalog/topas/topas_50</url>
+			       <price>460170</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Топас 50</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3892933352" available="true">
+			       <url>https://septikdom.com/katalog/topas/topas_75</url>
+			       <price>562320</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Топас 75</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1218509361" available="true">
+			       <url>https://septikdom.com/katalog/topas/topas_100</url>
+			       <price>777420</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Топас 100</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="4071004890" available="true">
+			       <url>https://septikdom.com/katalog/topas/topas_150</url>
+			       <price>1151550</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Топас 150</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2674376156" available="true">
+			       <url>https://septikdom.com/katalog/biodeka/biodeka_3</url>
+			       <price>71852</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Биодека 3</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="521782396" available="true">
+			       <url>https://septikdom.com/katalog/biodeka/biodeka_5</url>
+			       <price>83600</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Биодека 5</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1229231899" available="true">
+			       <url>https://septikdom.com/katalog/biodeka/biodeka_8</url>
+			       <price>107300</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Биодека 8</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2889317311" available="true">
+			       <url>https://septikdom.com/katalog/biodeka/biodeka_10</url>
+			       <price>140900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Биодека 10</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="768278120" available="true">
+			       <url>https://septikdom.com/katalog/biodeka/biodeka_15</url>
+			       <price>172400</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Биодека 15</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="856109973" available="true">
+			       <url>https://septikdom.com/katalog/biodeka/biodeka_20</url>
+			       <price>227800</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Биодека 20</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1241241115" available="true">
+			       <url>https://septikdom.com/katalog/biodeka/biodeka_30</url>
+			       <price>287000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Биодека 30</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="4228916623" available="true">
+			       <url>https://septikdom.com/katalog/biodeka/biodeka_40</url>
+			       <price>329000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Биодека 40</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="197616463" available="true">
+			       <url>https://septikdom.com/katalog/biodeka/biodeka_50</url>
+			       <price>391500</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Биодека 50</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2043081214" available="true">
+			       <url>https://septikdom.com/katalog/biodeka/biodeka_75</url>
+			       <price>497000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Биодека 75</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="4170328442" available="true">
+			       <url>https://septikdom.com/katalog/biodeka/biodeka_100</url>
+			       <price>674000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Биодека 100</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1026154615" available="true">
+			       <url>https://septikdom.com/katalog/biodeka/biodeka_150</url>
+			       <price>977000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Биодека 150</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2499547061" available="true">
+			       <url>https://septikdom.com/katalog/evrobion/evrobion_5</url>
+			       <price>76500</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евробион 5</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="995368988" available="true">
+			       <url>https://septikdom.com/katalog/evrobion/evrobion_6</url>
+			       <price>86250</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евробион 6</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2704579935" available="true">
+			       <url>https://septikdom.com/katalog/evrobion/evrobion_8</url>
+			       <price>103500</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евробион 8</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2990938852" available="true">
+			       <url>https://septikdom.com/katalog/evrobion/evrobion_10</url>
+			       <price>128700</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евробион 10</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1235584750" available="true">
+			       <url>https://septikdom.com/katalog/evrobion/evrobion_15</url>
+			       <price>154800</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евробион 15</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1501367337" available="true">
+			       <url>https://septikdom.com/katalog/evrobion/evrobion_20</url>
+			       <price>204120</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евробион 20</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2776755690" available="true">
+			       <url>https://septikdom.com/katalog/evrobion/evrobion_30</url>
+			       <price>275310</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евробион 30</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3941041427" available="true">
+			       <url>https://septikdom.com/katalog/evrobion/evrobion_40</url>
+			       <price>355410</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евробион 40</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2447407257" available="true">
+			       <url>https://septikdom.com/katalog/evrobion/evrobion_50</url>
+			       <price>398610</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евробион 50</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="936163805" available="true">
+			       <url>https://septikdom.com/katalog/evrobion/evrobion_75</url>
+			       <price>486900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евробион 75</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3269687138" available="true">
+			       <url>https://septikdom.com/katalog/evrobion/evrobion_100</url>
+			       <price>670410</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евробион 100</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1295679822" available="true">
+			       <url>https://septikdom.com/katalog/evrobion/evrobion2_100</url>
+			       <price>731700</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евробион 100 двухкорпусные септики</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1113733770" available="true">
+			       <url>https://septikdom.com/katalog/evrobion/evrobion2_150</url>
+			       <price>942300</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евробион-150 двухкорпусные септики</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3387565551" available="true">
+			       <url>https://septikdom.com/katalog/volgar/volgar_3</url>
+			       <price>70650</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ВОЛГАРЬ-3</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="582181057" available="true">
+			       <url>https://septikdom.com/katalog/volgar/volgar_5</url>
+			       <price>77400</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ВОЛГАРЬ-5</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1524996521" available="true">
+			       <url>https://septikdom.com/katalog/volgar/volgar_8</url>
+			       <price>92340</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ВОЛГАРЬ-8</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2446963648" available="true">
+			       <url>https://septikdom.com/katalog/volgar/volgar_10</url>
+			       <price>121410</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ВОЛГАРЬ-10</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2953619527" available="true">
+			       <url>https://septikdom.com/katalog/topass/topas_4s</url>
+			       <price>75960</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Топас-С 4</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="72495968" available="true">
+			       <url>https://septikdom.com/katalog/topass/topas_5s</url>
+			       <price>86670</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Топас-С 5</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1950759907" available="true">
+			       <url>https://septikdom.com/katalog/topass/topas_6s</url>
+			       <price>91800</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Топас-С 6</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1867732917" available="true">
+			       <url>https://septikdom.com/katalog/topass/topas_8s</url>
+			       <price>106650</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Топас-С 8</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="874060752" available="true">
+			       <url>https://septikdom.com/katalog/topass/topas_9s</url>
+			       <price>111060</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Топас-С 9</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="472375698" available="true">
+			       <url>https://septikdom.com/katalog/topass/topas_10s</url>
+			       <price>138060</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Топас-С 10</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="4025605972" available="true">
+			       <url>https://septikdom.com/katalog/topass/topas_12s</url>
+			       <price>141660</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Топас-С 12</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="127377887" available="true">
+			       <url>https://septikdom.com/katalog/genesis/genesis_350</url>
+			       <price>123900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Genesis 350</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="263299697" available="true">
+			       <url>https://septikdom.com/katalog/genesis/genesis_500</url>
+			       <price>149500</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Genesis 500</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1093788402" available="true">
+			       <url>https://septikdom.com/katalog/genesis/genesis_700</url>
+			       <price>159800</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Genesis 700</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="201769538" available="true">
+			       <url>https://septikdom.com/katalog/genesis/genesis_1000</url>
+			       <price>196200</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Genesis 1000</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2432494504" available="true">
+			       <url>https://septikdom.com/katalog/biopurit_flotenk/biopurit_3</url>
+			       <price>66000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Биопурит 3</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1657829454" available="true">
+			       <url>https://septikdom.com/katalog/biopurit_flotenk/biopurit_4</url>
+			       <price>70500</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Биопурит 4</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="426200591" available="true">
+			       <url>https://septikdom.com/katalog/biopurit_flotenk/biopurit_5</url>
+			       <price>78000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Биопурит 5</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2230083354" available="true">
+			       <url>https://septikdom.com/katalog/biopurit_flotenk/biopurit_8</url>
+			       <price>91500</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Биопурит 8</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1648996137" available="true">
+			       <url>https://septikdom.com/katalog/evrolos_bio/evrolos_bio_3</url>
+			       <price>62700</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос БИО-3</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1194504019" available="true">
+			       <url>https://septikdom.com/katalog/evrolos_bio/evrolos_bio_4</url>
+			       <price>66500</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос БИО-4</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3179946096" available="true">
+			       <url>https://septikdom.com/katalog/evrolos_bio/evrolos_bio_5</url>
+			       <price>71915</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос БИО-5</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2879775176" available="true">
+			       <url>https://septikdom.com/katalog/evrolos_bio/evrolos_bio_6</url>
+			       <price>79800</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос БИО 6</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3965542451" available="true">
+			       <url>https://septikdom.com/katalog/evrolos_bio/evrolos_bio_8</url>
+			       <price>95950</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос БИО 8</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="406965875" available="true">
+			       <url>https://septikdom.com/katalog/evrolos_bio/evrolos_bio_10</url>
+			       <price>122550</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос БИО 10</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="691927864" available="true">
+			       <url>https://septikdom.com/katalog/evrolos_bio/evrolos_bio_12</url>
+			       <price>132050</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос БИО 12</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="4281674663" available="true">
+			       <url>https://septikdom.com/katalog/evrolos_bio/evrolos_bio_15</url>
+			       <price>151050</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос БИО 15</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1894572542" available="true">
+			       <url>https://septikdom.com/katalog/evrolos_bio/evrolos_bio_20</url>
+			       <price>179550</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос БИО 20</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3699891266" available="true">
+			       <url>https://septikdom.com/katalog/kolo_vesi/kolo_vesi_3</url>
+			       <price>133900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Kolo Vesi 3</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="8743357" available="true">
+			       <url>https://septikdom.com/katalog/kolo_vesi/kolo_vesi_3_nizkiy_korpus</url>
+			       <price>145900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Kolo Vesi 3 низкий корпус</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="4086691166" available="true">
+			       <url>https://septikdom.com/katalog/kolo_vesi/kolo_vesi_5</url>
+			       <price>157900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Kolo Vesi 5</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3179525023" available="true">
+			       <url>https://septikdom.com/katalog/kolo_vesi/kolo_vesi_5_nizkiy_korpus</url>
+			       <price>163900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Kolo Vesi 5 низкий корпус</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="396702577" available="true">
+			       <url>https://septikdom.com/katalog/kolo_vesi/kolo_vesi_8</url>
+			       <price>169900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Kolo Vesi 8</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1983325825" available="true">
+			       <url>https://septikdom.com/katalog/kolo_vesi/kolo_vesi_8_nizkiy_korpus</url>
+			       <price>175900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Kolo Vesi 8 низкий корпус</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1431569648" available="true">
+			       <url>https://septikdom.com/katalog/kolo_vesi/kolo_vesi_10</url>
+			       <price>181900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Kolo Vesi 10</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3811839525" available="true">
+			       <url>https://septikdom.com/katalog/kolo_vesi/kolo_vesi_15</url>
+			       <price>254900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Kolo Vesi 15</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="4094817117" available="true">
+			       <url>https://septikdom.com/katalog/kolo_vesi/kolo_vesi_20</url>
+			       <price>313900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Kolo Vesi 20</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1874355692" available="true">
+			       <url>https://septikdom.com/katalog/kolo_vesi/kolo_vesi_30</url>
+			       <price>375900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Kolo Vesi 30</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2518538350" available="true">
+			       <url>https://septikdom.com/katalog/kolo_vesi/kolo_vesi_40</url>
+			       <price>479900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Kolo Vesi 40</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2022942272" available="true">
+			       <url>https://septikdom.com/katalog/kolo_vesi/kolo_vesi_50</url>
+			       <price>531900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Kolo Vesi 50</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="719080147" available="true">
+			       <url>https://septikdom.com/katalog/kolo_vesi/kolo_vesi_60</url>
+			       <price>604900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Kolo Vesi 60</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2126910686" available="true">
+			       <url>https://septikdom.com/katalog/zorde/zorde_4</url>
+			       <price>85405</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Zorde 4</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1627423352" available="true">
+			       <url>https://septikdom.com/katalog/zorde/zorde_7</url>
+			       <price>94905</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Zorde 7</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2583768175" available="true">
+			       <url>https://septikdom.com/katalog/tver/tver_0_35</url>
+			       <price>71300</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Тверь-0,35</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3880479561" available="true">
+			       <url>https://septikdom.com/katalog/tver/tver_0_50</url>
+			       <price>78800</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Тверь-0,50</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="647773725" available="true">
+			       <url>https://septikdom.com/katalog/tver/tver_0_75</url>
+			       <price>90200</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Тверь-0,75</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2651062166" available="true">
+			       <url>https://septikdom.com/katalog/tver/tver_0_85</url>
+			       <price>97400</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Тверь-0,85</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="704103315" available="true">
+			       <url>https://septikdom.com/katalog/tver/tver_1</url>
+			       <price>109000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Тверь-1</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2056225562" available="true">
+			       <url>https://septikdom.com/katalog/tver/tver_1_2</url>
+			       <price>117600</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Тверь-1,2</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2257675549" available="true">
+			       <url>https://septikdom.com/katalog/tver/tver_1_5</url>
+			       <price>132300</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Тверь-1,5</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1320741120" available="true">
+			       <url>https://septikdom.com/katalog/tver/tver_2</url>
+			       <price>165800</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Тверь-2</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2121874593" available="true">
+			       <url>https://septikdom.com/katalog/tver/tver_3</url>
+			       <price>189900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Тверь-3</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3547608955" available="true">
+			       <url>https://septikdom.com/katalog/tver/tver_4</url>
+			       <price>313900</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Тверь-4</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2033537355" available="true">
+			       <url>https://septikdom.com/katalog/tver/tver_6</url>
+			       <price>373600</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Тверь-6</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="966649372" available="true">
+			       <url>https://septikdom.com/katalog/topaero/topaero_3</url>
+			       <price>215730</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ТОПАЭРО 3</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="4173242478" available="true">
+			       <url>https://septikdom.com/katalog/topaero/topaero_4</url>
+			       <price>275130</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ТОПАЭРО 4</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3499849122" available="true">
+			       <url>https://septikdom.com/katalog/topaero/topaero_6</url>
+			       <price>349200</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ТОПАЭРО 6</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1963258498" available="true">
+			       <url>https://septikdom.com/katalog/topaero/topaero_7</url>
+			       <price>419580</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ТОПАЭРО 7</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="303232913" available="true">
+			       <url>https://septikdom.com/katalog/topaero/topaero_9</url>
+			       <price>523260</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ТОПАЭРО 9</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2700497498" available="true">
+			       <url>https://septikdom.com/katalog/topaero/topaero_12</url>
+			       <price>637920</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ТОПАЭРО 12</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="4156774388" available="true">
+			       <url>https://septikdom.com/katalog/topaero/topaero_16</url>
+			       <price>908820</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ТОПАЭРО 16</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="4241828390" available="true">
+			       <url>https://septikdom.com/katalog/topaero/topaero_24</url>
+			       <price>1260810</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ТОПАЭРО 24</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="780661566" available="true">
+			       <url>https://septikdom.com/katalog/topaero/topaero_32</url>
+			       <price>1771830</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ТОПАЭРО 32</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1036438471" available="true">
+			       <url>https://septikdom.com/katalog/evrolos_pro/evrolos_pro_3</url>
+			       <price>67450</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос ПРО 3</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2632023715" available="true">
+			       <url>https://septikdom.com/katalog/evrolos_pro/evrolos_pro_4</url>
+			       <price>74100</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос ПРО 4</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1646440460" available="true">
+			       <url>https://septikdom.com/katalog/evrolos_pro/evrolos_pro_5</url>
+			       <price>78850</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос ПРО 5</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="239175144" available="true">
+			       <url>https://septikdom.com/katalog/evrolos_pro/evrolos_pro_6</url>
+			       <price>87400</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос ПРО 6</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2676147986" available="true">
+			       <url>https://septikdom.com/katalog/evrolos_pro/evrolos_pro_8</url>
+			       <price>100700</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос ПРО 8</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2056788912" available="true">
+			       <url>https://septikdom.com/katalog/evrolos_pro/evrolos_pro_10</url>
+			       <price>128250</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос ПРО 10</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="915232527" available="true">
+			       <url>https://septikdom.com/katalog/evrolos_pro/evrolos_pro_15</url>
+			       <price>155800</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос ПРО 15</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2871194116" available="true">
+			       <url>https://septikdom.com/katalog/evrolos_pro/evrolos_pro_20</url>
+			       <price>193800</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос ПРО 20</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2293059556" available="true">
+			       <url>https://septikdom.com/katalog/evrolos_pro/evrolos_pro_25</url>
+			       <price>223250</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос ПРО 25</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2838540562" available="true">
+			       <url>https://septikdom.com/katalog/evrolos_pro/evrolos_pro_30</url>
+			       <price>245100</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос ПРО 30</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3602919084" available="true">
+			       <url>https://septikdom.com/katalog/biodevice/biodevice_3</url>
+			       <price>75500</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>BioDevice - 3</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="286637285" available="true">
+			       <url>https://septikdom.com/katalog/biodevice/biodevice_5</url>
+			       <price>85200</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>BioDevice - 5</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2257298754" available="true">
+			       <url>https://septikdom.com/katalog/biodevice/biodevice_8</url>
+			       <price>125000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>BioDevice - 8</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2974029123" available="true">
+			       <url>https://septikdom.com/katalog/biodevice/biodevice_10</url>
+			       <price>125000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>BioDevice - 10</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1013297818" available="true">
+			       <url>https://septikdom.com/katalog/dalos/dalos_3</url>
+			       <price>89000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Далос 3</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="886085322" available="true">
+			       <url>https://septikdom.com/katalog/dalos/dalos_5</url>
+			       <price>110000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Далос 5</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3354606716" available="true">
+			       <url>https://septikdom.com/katalog/dalos/dalos_8</url>
+			       <price>124000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Далос 8</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2332901818" available="true">
+			       <url>https://septikdom.com/katalog/dalos/dalos_10</url>
+			       <price>144000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Далос 10</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1267216756" available="true">
+			       <url>https://septikdom.com/katalog/topaero/topaero_5</url>
+			       <price>97090</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос ГРУНТ 5</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3758089195" available="true">
+			       <url>https://septikdom.com/katalog/topaero/topaero_8</url>
+			       <price>113050</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос ГРУНТ 8</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2854802355" available="true">
+			       <url>https://septikdom.com/katalog/topaero/topaero_10</url>
+			       <price>147250</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос ГРУНТ 10</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="783509076" available="true">
+			       <url>https://septikdom.com/katalog/topaero/topaero_15</url>
+			       <price>185250</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос ГРУНТ 15</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2339176611" available="true">
+			       <url>https://septikdom.com/katalog/topaero/topaero_20</url>
+			       <price>232750</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос ГРУНТ 20</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2105708931" available="true">
+			       <url>https://septikdom.com/katalog/topaero/topaero_25</url>
+			       <price>280250</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос ГРУНТ 25</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="299222647" available="true">
+			       <url>https://septikdom.com/katalog/topaero/topaero_30</url>
+			       <price>351500</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Евролос ГРУНТ 30</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="895701835" available="true">
+			       <url>https://septikdom.com/katalog/novo_eko/novo_eko_3</url>
+			       <price>50255</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Novo Eko 3</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2631593082" available="true">
+			       <url>https://septikdom.com/katalog/novo_eko/novo_eko_5</url>
+			       <price>60705</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Novo Eko 5</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2385702433" available="true">
+			       <url>https://septikdom.com/katalog/uni_sep/uni_sep_0_6</url>
+			       <price>59000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>UNI-SEP 0,6</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1714245108" available="true">
+			       <url>https://septikdom.com/katalog/uni_sep/uni_sep_0_8</url>
+			       <price>65000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>UNI-SEP 0,8</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2791919464" available="true">
+			       <url>https://septikdom.com/katalog/uni_sep/uni_sep_1</url>
+			       <price>72000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>UNI-SEP 1</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="572516676" available="true">
+			       <url>https://septikdom.com/katalog/uni_sep/uni_sep_1_6</url>
+			       <price>85000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>UNI-SEP 1,6</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3949525358" available="true">
+			       <url>https://septikdom.com/katalog/kitari_black/kitari_black___3</url>
+			       <price>61965</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Kitari Black - 3</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="751636156" available="true">
+			       <url>https://septikdom.com/katalog/kitari_black/kitari_black___5</url>
+			       <price>74970</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Kitari Black - 5</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3817318052" available="true">
+			       <url>https://septikdom.com/katalog/kitari_black/kitari_black___8</url>
+			       <price>91970</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Kitari Black - 8</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="4266996465" available="true">
+			       <url>https://septikdom.com/katalog/kitari_black/kitari_black___10</url>
+			       <price>120105</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>Kitari Black - 10</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="1832338394" available="true">
+			       <url>https://septikdom.com/katalog/eko_prom/eko_prom_40</url>
+			       <price>325000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ЭКО ПРОМ 40</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="589632169" available="true">
+			       <url>https://septikdom.com/katalog/eko_prom/eko_prom_50</url>
+			       <price>395000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ЭКО ПРОМ 50</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2412915055" available="true">
+			       <url>https://septikdom.com/katalog/eko_prom/eko_prom_60</url>
+			       <price>435000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ЭКО ПРОМ 60</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="293973091" available="true">
+			       <url>https://septikdom.com/katalog/eko_prom/eko_prom_70</url>
+			       <price>485000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ЭКО ПРОМ 70</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3166867219" available="true">
+			       <url>https://septikdom.com/katalog/eko_prom/eko_prom_80</url>
+			       <price>580000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ЭКО ПРОМ 80</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3914177230" available="true">
+			       <url>https://septikdom.com/katalog/eko_prom/eko_prom_90</url>
+			       <price>630000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ЭКО ПРОМ 90</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="4003485332" available="true">
+			       <url>https://septikdom.com/katalog/eko_prom/eko_prom_100</url>
+			       <price>710000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ЭКО ПРОМ 100</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="3612923776" available="true">
+			       <url>https://septikdom.com/katalog/eko_prom/eko_prom_150</url>
+			       <price>1000000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ЭКО ПРОМ 150</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="4102064389" available="true">
+			       <url>https://septikdom.com/katalog/eko_prom/eko_prom_200</url>
+			       <price>1270000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>2</categoryId>
+				<delivery>true</delivery>
+			       <name>ЭКО ПРОМ 200</name>
+				<description>Самотечный способ</description>
+			</offer>
+			<offer id="2527093159" available="true">
+			       <url>https://septikdom.com/katalog/trubi/kanalizasionnie_trubi</url>
+			       <price>100</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>3</categoryId>
+				<delivery>true</delivery>
+			       <name>Канализационные трубы</name>
+				<description>Утеплитель энергофлекс (термофлекс)</description>
+			</offer>
+			<offer id="3574908639" available="true">
+			       <url>https://septikdom.com/katalog/komplectuyushie_na_septik/blok_upravlenia_astra</url>
+			       <price>4000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>4</categoryId>
+				<delivery>true</delivery>
+			       <name>Блок управления Астра, Топас</name>
+				<description>На блоке управления топас отсутствует тумблер переключения фазы очистки стоков</description>
+			</offer>
+			<offer id="299488803" available="true">
+			       <url>https://septikdom.com/katalog/komplectuyushie_na_septik/remkomplekt</url>
+			       <price>201</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>4</categoryId>
+				<delivery>true</delivery>
+			       <name>Ремкомплект на компрессор HIBLOW HP</name>
+				<description>Предохранительный болт</description>
+			</offer>
+			<offer id="478721849" available="true">
+			       <url>https://septikdom.com/katalog/komplectuyushie_na_septik/klapan_na_astra</url>
+			       <price>6000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>4</categoryId>
+				<delivery>true</delivery>
+			       <name>Электромагнитный клапан на Юнилос Астра</name>
+				<description>Электромагнитный клапан</description>
+			</offer>
+			<offer id="764159913" available="true">
+			       <url>https://septikdom.com/katalog/komplectuyushie_na_septik/hiblow</url>
+			       <price>15209</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>4</categoryId>
+				<delivery>true</delivery>
+			       <name>Компрессоры HIBLOW НР 60/80</name>
+				<description>компрессор</description>
+			</offer>
+			<offer id="2682500631" available="true">
+			       <url>https://septikdom.com/katalog/komplectuyushie_na_septik/secoh</url>
+			       <price>13752</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>4</categoryId>
+				<delivery>true</delivery>
+			       <name>Компрессоры SECOH</name>
+				<description>компрессор</description>
+			</offer>
+			<offer id="973863287" available="true">
+			       <url>https://septikdom.com/katalog/drenajniy_kolodec-1/dr_kolodci-1</url>
+			       <price>15000</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>5</categoryId>
+				<delivery>true</delivery>
+			       <name>Конический дренажный колодец</name>
+				<description>Стоимость указана с учетом монтажных работ</description>
+			</offer>
+			<offer id="355178359" available="true">
+			       <url>https://septikdom.com/katalog/nasosi/nasos_top_1</url>
+			       <price>8700</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>6</categoryId>
+				<delivery>true</delivery>
+			       <name>Дренажные насосы для чистой воды Pedrollo</name>
+				<description>Технические характеристики дренажного насоса: Мощность-0,25 кВт Напор максимальный-7 м Глубина погружения-5м Расход максимальный-9.6 м3/час</description>
+			</offer>
+			<offer id="2053679889" available="true">
+			       <url>https://septikdom.com/katalog/nasosi/nasosi_mc10-1-2</url>
+			       <price>29500</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>6</categoryId>
+				<delivery>true</delivery>
+			       <name>Насосы для фекальных стоков Pedrollo</name>
+				<description>Технические характеристики: Мощность – 0,75 Квт Напор максимальный – 11 м Расход максимальный – 30 м3/час.</description>
+			</offer>
+			<offer id="3018655946" available="true">
+			       <url>https://septikdom.com/katalog/nasosi/nasosi_dab-1</url>
+			       <price>7500</price>
+			       <currencyId>RUR</currencyId>
+			       <categoryId>6</categoryId>
+				<delivery>true</delivery>
+			       <name>Дренажные насосы DAB</name>
+				<description>Для принудительного выброса воды в станции очистки стоков Юнилос Астра.</description>
+			</offer>
+		</offers>
+</shop>
+</yml_catalog>

@@ -1,0 +1,428 @@
+
+hr {
+  border: none;
+  margin: 16px 0;
+  display: block;
+  height: 1px;
+  background-color: #eaebed;
+}
+
+div[style="text-align:left"], div[style="text-align:center"], div[style="text-align:right"] {
+  figure, img {
+    margin: 10px auto;
+  }
+}
+
+iframe {
+  max-width: 768px !important;
+  // @include media((
+  //         width: ($sm: 100%)
+  // ));
+  @media screen and (max-width: 950px) {
+    max-width: 100% !important;
+  }
+}
+
+.youtube-embed-wrapper {
+  padding-top: 0 !important;
+  margin: 20px auto;
+  width: 100%;
+  iframe {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+a {
+  color: $accent;
+  transition: all .3s ease-out;
+  &:hover {
+    border-bottom: 1px solid $accent;
+  }
+}
+
+span {
+  margin-top: 5px;
+  color: #838383;
+  font-family: 'Lato';
+  font-size: 18px;
+  line-height: 28px;
+  display: block;
+}
+
+table {
+  text-align: left;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  width: 100%;
+  padding-right: 4px;
+  overflow: auto;
+  border-spacing: 0;
+  border: none !important;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+  -moz-user-select: moz-none;
+  -ms-user-select: none;
+  user-select: none;
+  thead tr th {
+    border-color: #eaebed;
+    display: table-cell;
+    vertical-align: top;
+    font-family: 'Lato';
+    font-size: 18px;
+    line-height: 26px;
+    color: #838383;
+    font-weight: 400;
+    border-left: none;
+    border-right: 1px solid #eaebed;
+    border-bottom: 1px solid #eaebed;
+    padding: 18px;
+    p {
+      margin: 0;
+      padding: 0;
+    }
+  }
+  thead tr:first-child {
+    border: 1px solid #eaebed;
+    th {
+      border-color: #eaebed;
+      display: table-cell;
+      vertical-align: top;
+      font-family: 'Lato';
+      font-size: 18px;
+      line-height: 26px;
+      color: #838383;
+      font-weight: 400;
+      border-top: 1px solid #eaebed;
+      border-left: none;
+      border-bottom: 1px solid #eaebed;
+      border-right: 1px solid #eaebed;
+      padding: 18px;
+      p {
+        margin: 0;
+        padding: 0;
+      }
+      &:first-child {
+        border-radius: 4px 0 0 0;
+        border-left: 1px solid #eaebed;
+      }
+      &:last-child {
+        border-radius: 0 4px 0 0;
+      }
+    }
+  }
+
+  &::-webkit-scrollbar {
+    height: 4px;
+    background-color: #cfcfcf;
+    border-radius: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #303030;
+  }
+  a {
+    color: $accent;
+    transition: all .3s ease-out;
+    &:hover {
+      border-bottom: 1px solid $accent;
+    }
+  }
+  tr {
+    border-color: #eaebed;
+    //border-bottom: 1px solid #eaebed;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    @include media((
+            min-width: ($xs: 450px)
+    ));
+    &:last-child {
+      border-radius: 0 0 4px 4px;
+      td:first-child {
+        border-radius: 0 0 0 4px;
+      }
+      td:last-child {
+        border-radius: 0 0 4px 0;
+      }
+    }
+    td {
+      border-color: #eaebed;
+      display: table-cell;
+      vertical-align: top;
+      font-family: 'Lato';
+      font-size: 18px;
+      line-height: 26px;
+      color: #838383;
+      border-top: none;
+      border-bottom: 1px solid #eaebed;
+      border-left: none;
+      border-right: 1px solid #eaebed;
+      padding: 18px;
+      p {
+        margin: 0;
+        padding: 0;
+      }
+      &:first-child {
+        border-left: 1px solid #eaebed;
+      }
+      &:last-child {
+        border-right: 1px solid #eaebed;
+      }
+    }
+  }
+}
+
+h2 {
+  margin: 45px 0 15px 0;
+  color: #151515;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 38px;
+  @include media((
+          font-size: (420: 24px),
+          line-height: (420: 34px)
+  ));
+}
+
+h3 {
+  margin: 15px 0;
+  color: #151515;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+}
+
+blockquote {
+  position: relative;
+  margin: 15px 0;
+  display: flex;
+  &:before {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 0;
+    content: '';
+    background-color: $accent;
+    border-radius: 2px;
+    width: 4px;
+    min-width: 4px;
+  }
+  p {
+    margin: 15px 0 15px 39px;
+    color: #303030;
+    font-family: 'Lato';
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+strong {
+  font-family: 'Lato';
+  color: #303030;
+  font-weight: 400;
+}
+
+ul {
+  //margin: 5px 0;
+  display: inline-block;
+  list-style: none;
+  li {
+    margin: 10px 0;
+    position: relative;
+    display: block;
+    text-align: left;
+    color: #838383;
+    font-family: 'Lato';
+    padding-left: 40px;
+    font-size: 18px;
+    line-height: 28px;
+    &:first-child {
+      margin-top: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+    p {
+      margin: 0;
+    }
+    &:before {
+      content: url('../img/mark-ul.svg');
+      fill: $accent;
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+
+figure {
+  display: table !important;
+  box-sizing: border-box;
+  margin: 10px auto 20px auto;
+  max-width: 100%;
+  text-align: center;
+  &[style="float:right"] {
+    clear: both;
+    margin: 10px 0 15px 15px;
+  }
+  &[style="float:left"] {
+    clear: both;
+    margin: 10px 15px 15px 0;
+  }
+  img {
+    margin: 0 auto;
+    border-radius: 4px;
+    max-width: 100%;
+    display: block;
+    @include media((
+            width: (650: 100%),
+            max-width: (650: 100%),
+            height: (650: auto),
+            margin: (650: 20px auto)
+    ));
+  }
+  figcaption {
+    box-sizing: border-box;
+    margin-top: 2px;
+    display: table-caption;
+    caption-side: bottom;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #838383;
+    font-family: 'Lato';
+  }
+}
+
+img {
+  border-radius: 4px;
+  max-width: 100%;
+  display: block;
+  margin: 15px auto;
+  @include media((
+          width: (650: 100%),
+          max-width: (650: 100%),
+          height: (650: auto)
+  ));
+}
+
+img[style="float:right"] {
+  margin: 8px 0 15px 15px;
+}
+
+img[style="float:left"] {
+  margin: 8px 15px 15px 0;
+}
+
+img[style="float:right"], img[style="float:left"] {
+  @include media((
+          width: (650: 100%),
+          max-width: (650: 100%),
+          height: (650: auto),
+          margin: (650: 20px auto)
+  ));
+}
+
+p {
+  margin: 15px 0;
+  color: #838383;
+  font-family: 'Lato';
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+}
+
+p+p,
+table + p,
+img + p,
+.articles-pic + p{
+  margin-top: 0;
+}
+
+p + img {
+  margin-top: 0;
+}
+
+ol {
+  //margin: 5px 0;
+  counter-reset: ulCounter;
+  list-style: none;
+  display: inline-block;
+  li {
+    margin: 10px 0;
+    counter-increment: ulCounter;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    color: #838383;
+    font-family: 'Lato';
+    font-size: 18px;
+    line-height: 28px;
+    position: relative;
+    padding-left: 40px;
+    &:first-child {
+      margin-top: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+    p {
+      margin: 0;
+    }
+    &:before {
+      content: counter(ulCounter) '.';
+      display: block;
+      color: $accent;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 28px;
+      width: 16px;
+      min-width: 16px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    & > ul {
+      display: inline-block;
+      list-style: none;
+      counter-reset: none;
+      margin: 10px 0;
+      width: 100%;
+      li {
+        margin: 10px 0;
+        display: flex;
+        text-align: left;
+        color: #838383;
+        font-family: 'Lato';
+        counter-increment: none;
+        font-size: 18px;
+        line-height: 28px;
+        &:first-child {
+          margin-top: 0;
+        }
+        &:last-child {
+          margin-bottom: 0;
+        }
+        p {
+          margin: 0;
+        }
+        &:before {
+          content: url('../img/mark-ul.svg');
+          margin-top: 3px;
+          margin-right: 24px;
+          fill: $accent;
+          width: 15px;
+          height: 15px;
+          min-width: 15px;
+          min-height: 15px;
+        }
+      }
+    }
+  }
+}
