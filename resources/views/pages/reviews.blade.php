@@ -252,7 +252,7 @@
 
 @section('script')
     <script defer src="/js/slick.min.js"></script>
-    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <script src="/js/wavesurfer.js"></script>
     <script defer src="/js/slider.js"></script>
     <script>
         var waves = [];

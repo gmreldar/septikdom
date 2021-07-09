@@ -3,7 +3,7 @@
         <div class="wrapper">
             <div class="title-box">
                 <div class="title-content">
-                    <h2 class="title">FAQ</h2>
+                    <h1 class="title">FAQ</h1>
                     <span>Часто задаваемые вопросы</span>
                 </div>
                 <div class="subtitle">Здесь собраны самые популярные вопросы о септиках для загородного дома</div>

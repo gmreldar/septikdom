@@ -2,7 +2,7 @@
     <div class="wrapper">
         <div class="title-box">
             <div class="title-content">
-                <h2 class="title">Карта</h2>
+                <h1 class="title">Карта</h1>
                 <span>Выполненные работы</span>
             </div>
             <div class="subtitle">Здесь собраны выполненные работы</div>
@@ -14,7 +14,7 @@
 
     <div id="markerWindow" style="display: none">
         <div class="">
-            <span style="font-weight: bold">Продукт: <a style="font-weight: normal" href="|PRODUCT_LINK|">|PRODUCT_TITLE|</a></span><br>
+            <span style="font-weight: bold">Продукт: <span style="font-weight: normal">|PRODUCT_TITLE|</span></span><br>
             <span style="font-weight: bold">Цена: <span style="font-weight: normal">|PRICE| руб</span></span><br>
             <span style="font-weight: bold">Комментарий: <span style="font-weight: normal">|COMMENT|</span></span>
         </div>
