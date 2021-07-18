@@ -222,13 +222,7 @@ class MainController extends Controller
 
     public function paymentShipping()
     {
-        $page = Page::find(10);
-
-        MainController::sessionIncrement($page);
-
-        return view('pages.payment', [
-            'page' => $page
-        ]);
+        return redirect(route('shipping'), 301);
     }
 
     public function shipping()
