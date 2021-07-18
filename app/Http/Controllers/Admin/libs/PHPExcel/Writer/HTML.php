@@ -353,9 +353,11 @@ class PHPExcel_Writer_HTML extends PHPExcel_Writer_Abstract implements PHPExcel_
         }
         if ($properties->getTitle() > '') {
             $html .= '      <meta name="title" content="' . htmlspecialchars($properties->getTitle()) . '" />' . PHP_EOL;
+             $html .= '      <meta property="og:title" content="' . htmlspecialchars($properties->getTitle()) . '" />' . PHP_EOL;
         }
         if ($properties->getDescription() > '') {
             $html .= '      <meta name="description" content="' . htmlspecialchars($properties->getDescription()) . '" />' . PHP_EOL;
+            $html .= '      <meta property="og:description" content="' . htmlspecialchars($properties->getDescription()) . '" />' . PHP_EOL;
         }
         if ($properties->getSubject() > '') {
             $html .= '      <meta name="subject" content="' . htmlspecialchars($properties->getSubject()) . '" />' . PHP_EOL;

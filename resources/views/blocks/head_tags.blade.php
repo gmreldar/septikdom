@@ -3,14 +3,18 @@
 <meta name="csrf-token" content="{{ csrf_token() }}" />
 <meta name="yandex-verification" content="361580dba62fd52e" />
 <meta name="og:type" content="website">
-<meta name="og:url" content="https://septikdom.com/">
+<meta name="og:url" content="{{ URL::current() }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Септикдом">
+<meta property="og:locale" content="ru_RU">
+
 <link rel="preload" href="/css/fonts.css" as="style" onload="this.rel='stylesheet'">
 <link rel="stylesheet" href="/css/main.css">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+<link rel="stylesheet" href="/css/leaflet.css"
       integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
       crossorigin=""/>
 !-- Make sure you put this AFTER Leaflet's CSS -->
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+<script src="/js/leaflet.js"
         integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
         crossorigin=""></script>
 
