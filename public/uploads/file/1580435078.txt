@@ -1,0 +1,1 @@
+ALTER TABLE `products` ADD `wiring_diagram` INT(11) NULL AFTER `is_active`, ADD `installation` INT(11) NULL AFTER `wiring_diagram`, ADD `installation_supervision` INT(11) NULL AFTER `installation`, ADD `technical certificate` INT(11) NULL AFTER `installation_supervision`;
