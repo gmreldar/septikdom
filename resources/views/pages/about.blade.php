@@ -1,7 +1,7 @@
 @extends('index')
 
 @section('head')
-    <title>{{ $page->title }}</title>
+    <title>{{ $title ?? $page->title }}</title>
     <meta name="keywords" content="{{ $page->keywords }}">
     <meta name="description" content="{{ $page->description }}">
     @if($page->image)

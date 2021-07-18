@@ -57,6 +57,7 @@ class MapController extends Controller
             ];
         }
 
-        return view('pages.map', compact('page', 'markers'));
+        $title = 'Выполненные работы | Септикдом';
+        return view('pages.map', compact('page', 'markers', 'title'));
     }
 }

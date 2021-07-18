@@ -39,8 +39,9 @@ class FAQPageController extends Controller
             ->get();
 
         MainController::sessionIncrement($page);
-
+        $title = 'Ответы на часто задаваемые вопросы | Септикдом';
         return view('pages.faq', [
+            'title' => $title,
             'page' => $page,
             'text1' => $text1,
             'text2' => $text2,

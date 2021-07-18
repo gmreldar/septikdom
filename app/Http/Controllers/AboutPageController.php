@@ -35,8 +35,10 @@ class AboutPageController extends Controller
             ->get();
 
         MainController::sessionIncrement($page);
+        $title = 'О компании Септикдом';
 
         return view('pages.about', [
+            'title' => $title,
             'page' => $page,
             'text1' => $text1,
             'text2' => $text2,
