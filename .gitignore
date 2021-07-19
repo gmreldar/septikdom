@@ -10,7 +10,7 @@ Homestead.yam
 /vendor
 /.well-known
 /cgi-bin
-public/uploads/
+
 public/sitemap.xml
 public/min/
 public/images/
@@ -18,7 +18,7 @@ storage/logs
 .env
 .htaccess
 package.json
-
+!public/.htaccess
 /.vscode/
 
 node_modules/
