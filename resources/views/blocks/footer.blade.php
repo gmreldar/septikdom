@@ -94,7 +94,7 @@
 									<use xlink:href="/img/svgdefs.svg#icon-arrow"
 										xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 								</svg>
-								<a href="{!! route('payment-shipping') !!}">Оплата</a>
+								<a href="{!! route('shipping') !!}">Оплата</a>
 							</li>
 							<li>
 								<svg>

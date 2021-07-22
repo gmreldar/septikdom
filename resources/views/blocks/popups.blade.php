@@ -225,7 +225,7 @@
                                                         <button class="btn font-text" id="uid12" data-id=""
                                                                 data-action="link" data-ym_goal="" data-ga_category=""
                                                                 data-ga_action="" need_hover="true"><img
-                                                                    src="///img/instagram.png"
+                                                                    src="/img/instagram.png"
                                                                     style="width: 36px;" class=""></button>
                                                     </a></div>
                                             </div>
