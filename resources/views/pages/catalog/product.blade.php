@@ -5,8 +5,7 @@
     <meta name="keywords" content="{{ $product->keywords }}">
     <meta name="description" content="{{ $product->description }}">
     @if($product->image)
-        <meta property="og:image" content="{{ url($product->image) }}"/>
-        <link rel="image_src" href="{{ url($product->image) }}"/>
+
     @endif
     <meta name="twitter:card" content="summary_large_image">
     <meta name="og:title" content="{{ $product->title }}">
@@ -129,8 +128,16 @@
                                         </div>
 
                                         <div class="single-item-slider">
+                                            @php
+                                                $ogImage = '';
+                                            @endphp
                                             @foreach($product->images as $image)
                                                 @if($image->carousels != 1)
+                                                    @if ($ogImage == '')
+                                                        @php
+                                                            $ogImage = $image->image;
+                                                        @endphp
+                                                    @endif
                                                     <img data-lazy="/{{ $image->image }}" alt="{{ $image->alt }}">
                                                 @endif
                                             @endforeach
@@ -149,6 +156,8 @@
                                         <div class="custom-dots slider5"></div>
                                     </div>
                                 </div>
+                                <meta property="og:image" content="{{ url($ogImage) }}"/>
+                                <link rel="image_src" href="{{ url($ogImage) }}"/>
                                 <div class="single-item-info">
                                     <div class="single-item-type">
                                         <div class="type-title">
