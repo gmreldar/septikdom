@@ -11,9 +11,9 @@
                     {{$promotion->name}}
                 </h3>
                 <div class="post-img_wrapper">
-                    <div class="post-img" style="background-image: url(/min/{{$promotion->discount_menu_img ? $promotion->discount_menu_img : ($promotion->discount_slider_img ? $promotion->discount_slider_img : $promotion->image)}});"></div>
+{{--                    <div class="post-img" style="background-image: url(/min/{{$promotion->discount_menu_img ? $promotion->discount_menu_img : ($promotion->discount_slider_img ? $promotion->discount_slider_img : $promotion->image)}});"></div>--}}
+                    <div class=""><img src="/min/{{$promotion->discount_menu_img ? $promotion->discount_menu_img : ($promotion->discount_slider_img ? $promotion->discount_slider_img : $promotion->image)}}" alt=""></div>
                 </div>
-
             </a>
         @endforeach
     </div>
@@ -40,6 +40,11 @@
             border-radius: 5px;
             overflow: hidden;
             width: 100%;
+        }
+
+        .post-img {
+            width: 500px !important;
+            height: 250px !important;
         }
 
         .post .post-img:hover {
