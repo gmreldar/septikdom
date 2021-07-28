@@ -535,7 +535,7 @@
                 </div>
                 <div class="advantage">
                     <svg>
-                        <use xlink:href="img/svgdefs.svg#icon-advantage2"
+                        <use xlink:href="/dist/img/svgdefs.svg#icon-advantage2"
                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                     <p>Безопасная экономия</p>
@@ -548,7 +548,7 @@
                 </div>
                 <div class="advantage">
                     <svg>
-                        <use xlink:href="img/svgdefs.svg#icon-advantage3"
+                        <use xlink:href="/dist/img/svgdefs.svg#icon-advantage3"
                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                     <p>Мы дилеры вам выгодно</p>
@@ -561,7 +561,7 @@
                 </div>
                 <div class="advantage">
                     <svg>
-                        <use xlink:href="img/svgdefs.svg#icon-advantage4"
+                        <use xlink:href="/dist/img/svgdefs.svg#icon-advantage4"
                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                     <p>Бесплатный выезд</p>
@@ -574,7 +574,7 @@
                 </div>
                 <div class="advantage">
                     <svg>
-                        <use xlink:href="img/svgdefs.svg#icon-advantage7"
+                        <use xlink:href="/dist/img/svgdefs.svg#icon-advantage7"
                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                     <p>Гарантия - 36 месяцев</p>
@@ -587,7 +587,7 @@
                 </div>
                 <div class="advantage">
                     <svg>
-                        <use xlink:href="img/svgdefs.svg#icon-rezult1" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        <use xlink:href="/dist/img/svgdefs.svg#icon-rezult1" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                     <p>Ответы на вопросы</p>
                     <div class="overlay">
@@ -599,7 +599,7 @@
                 </div>
                 <div class="advantage">
                     <svg>
-                        <use xlink:href="img/svgdefs.svg#icon-rezult2" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        <use xlink:href="/dist/img/svgdefs.svg#icon-rezult2" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                     <p>Адекватные сроки</p>
                     <div class="overlay">
@@ -612,6 +612,7 @@
                 <div class="advantage">
                     <svg>
                         <use xlink:href="img/svgdefs.svg#icon-rezult3" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        <use xlink:href="/dist/img/svgdefs.svg#icon-rezult3" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                     <p>Качественный монтаж</p>
                     <div class="overlay">
