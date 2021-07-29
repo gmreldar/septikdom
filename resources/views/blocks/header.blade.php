@@ -243,25 +243,25 @@
                         {{--</a>     --}}
                         <a href="{{ $contact->yt }}" target="_blank" class="telegram-social">
                             <svg>
-                                <use xlink:href="/img/svgdefs.svg#icon-youtube"
+                                <use xlink:href="/dist/img/svgdefs.svg#icon-youtube"
                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                         </a>
                         <a href="{{ $contact->in }}" target="_blank" class="instagram-social">
                             <svg>
-                                <use xlink:href="/img/svgdefs.svg#icon-instagram"
+                                <use xlink:href="/dist/img/svgdefs.svg#icon-instagram"
                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                         </a>
                         <a href="{{ $contact->fb }}" target="_blank" class="fb-social">
                             <svg>
-                                <use xlink:href="/img/svgdefs.svg#icon-facebook"
+                                <use xlink:href="/dist/img/svgdefs.svg#icon-facebook"
                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                         </a>
                         <a href="{{ $contact->vk }}" target="_blank" class="vk-social">
                             <svg>
-                                <use xlink:href="/img/svgdefs.svg#icon-vk"
+                                <use xlink:href="/dist/img/svgdefs.svg#icon-vk"
                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                         </a>

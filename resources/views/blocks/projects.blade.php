@@ -10,7 +10,7 @@
     <div class="slider-new-comments-box">
         <div class="custom-prev-arrow new-slider1">
             <svg class="default-arrow">
-                <use xlink:href="/img/svgdefs.svg#icon-arrow-two" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                <use xlink:href="/dist/img/svgdefs.svg#icon-arrow-two" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
             <svg class="hover-arrow">
                 <use xlink:href="/img/svgdefs.svg#icon-arrow" xmlns:xlink="http://www.w3.org/1999/xlink"></use>

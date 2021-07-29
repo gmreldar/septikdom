@@ -8,10 +8,10 @@
 			<div class="slider-comments-box">
 					<div class="custom-prev-arrow slider2">
 							<svg class="default-arrow">
-									<use xlink:href="/img/svgdefs.svg#icon-arrow-two" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+									<use xlink:href="/dist/img/svgdefs.svg#icon-arrow-two" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 							</svg>
 							<svg class="hover-arrow">
-									<use xlink:href="/img/svgdefs.svg#icon-arrow" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+									<use xlink:href="/dist/img/svgdefs.svg#icon-arrow" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 							</svg>
 					</div>
 					<div class="slider-comments">
@@ -36,7 +36,7 @@
 					</div>
 					<div class="custom-next-arrow slider2">
 							<svg class="default-arrow">
-									<use xlink:href="/img/svgdefs.svg#icon-arrow-two" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+									<use xlink:href="/dist/img/svgdefs.svg#icon-arrow-two" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 							</svg>
 							<svg class="hover-arrow">
 									<use xlink:href="/img/svgdefs.svg#icon-arrow" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
