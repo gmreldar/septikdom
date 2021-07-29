@@ -110,7 +110,8 @@
             },
             type: 'post',
             success: function (data) {
-              location.href="http://septikdom.paradigma.in.ua/spasibo";
+              location.href="https://septikdom.com/spasibo";
+              // location.href="http://septikdom.paradigma.in.ua/spasibo";
                 // $.each(values, function (key, value) {
                 //     $('#' + value + '-error-montazh').html('');
                 //     $('#' + value + '-error-montazh').parent().removeClass("error");
