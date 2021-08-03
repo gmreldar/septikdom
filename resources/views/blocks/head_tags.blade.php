@@ -46,9 +46,9 @@
 {{--</script>--}}
 {{--<!-- Marquiz script end -->--}}
 @if( empty(Request::path()) || Request::path() === '/')
-    <link rel="canonical" href="{{ url('/') }}">
+    <link rel="canonical" href="{{ url('/') }}" />
 @else
-    <link rel="canonical" href="{{ url('/') }}/{{ Request::path() }}">
+    <link rel="canonical" href="{{ url('/') }}/{{ Request::path() }}" />
 @endif
 <!-- Facebook Pixel Code -->
 <script>

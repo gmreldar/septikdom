@@ -68,7 +68,7 @@
       <a href="{!! route('shipping') !!}">
         <h4>Доставка</h4>
       </a><br />
-      <a href="{!! route('payment-shipping') !!}">
+      <a href="{!! route('shipping') !!}">
         <h4>Оплата</h4>
       </a><br />
       <a href="{!! route('portfolio') !!}">

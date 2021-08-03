@@ -38,7 +38,12 @@
                         <a href="{{route('catalog.category', $category->link)}}" class="septic-item-link">
                             <div class="septic-item">
                                 <div class="septic-img">
-                                    <img class="lazy" data-src="/min/{{ $category->image }}" alt="{{ $category->alt }}">
+                                    @if ($category->image)
+                                        <img class="lazy" data-src="/min/{{ $category->image }}"
+                                             alt="{{ $category->alt }}">
+                                    @else
+                                        <img alt="{{ $category->alt }}">
+                                    @endif
                                 </div>
                                 <div class="septic-footer">
                                     <div class="septic-content">
@@ -92,7 +97,12 @@
                         <a href="{{route('catalog.category', $category->link)}}" class="septic-item-link">
                             <div class="septic-item">
                                 <div class="septic-img">
-                                    <img class="lazy" data-src="/min/{{ $category->image }}" alt="{{ $category->alt }}">
+                                    @if ($category->image)
+                                        <img class="lazy" data-src="/min/{{ $category->image }}"
+                                             alt="{{ $category->alt }}">
+                                    @else
+                                        <img alt="{{ $category->alt }}">
+                                    @endif
                                 </div>
                                 <div class="septic-footer">
                                     <div class="septic-content">
@@ -144,7 +154,12 @@
                         <a href="{{route('catalog.category', $category->link)}}" class="septic-item-link">
                             <div class="septic-item">
                                 <div class="septic-img">
-                                    <img class="lazy" data-src="/min/{{ $category->image }}" alt="{{ $category->alt }}">
+                                    @if ($category->image)
+                                        <img class="lazy" data-src="/min/{{ $category->image }}"
+                                             alt="{{ $category->alt }}">
+                                    @else
+                                        <img alt="{{ $category->alt }}">
+                                    @endif
                                 </div>
                                 <div class="septic-footer">
                                     <div class="septic-content">
@@ -190,7 +205,12 @@
                         <a href="{{route('catalog.category', $category->link)}}" class="septic-item-link">
                             <div class="septic-item">
                                 <div class="septic-img">
-                                    <img class="lazy" data-src="/min/{{ $category->image }}" alt="{{ $category->alt }}">
+                                    @if ($category->image)
+                                        <img class="lazy" data-src="/min/{{ $category->image }}"
+                                             alt="{{ $category->alt }}">
+                                    @else
+                                        <img alt="{{ $category->alt }}">
+                                    @endif
                                 </div>
                                 <div class="septic-footer">
                                     <div class="septic-content">

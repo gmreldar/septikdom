@@ -183,7 +183,7 @@
                                                         <button class="btn font-text" id="uid10" data-id=""
                                                                 data-action="link" data-ym_goal="" data-ga_category=""
                                                                 data-ga_action="" need_hover="true"><img
-                                                                    src="//u20.filesonload.ru/s/239lf4051/45fe5f3374476105fcbe36796d114c8d/82dbd230583fe2771348117e780bb1c5.png"
+                                                                    src="{{ asset('icons/82dbd230583fe2771348117e780bb1c5.png') }}"
                                                                     style="width: 36px;" class=""></button>
                                                     </a></div>
                                             </div>
@@ -246,7 +246,7 @@
                                                         <button class="btn font-text" id="uid13" data-id=""
                                                                 data-action="link" data-ym_goal="" data-ga_category=""
                                                                 data-ga_action="" need_hover="true"><img
-                                                                    src="//u20.filesonload.ru/s/23pp30051/e3eda9ecba97e2f8fd9d739bcfff0d95/e02f1d182b19df27cafd4a9c7161ad79.jpg"
+                                                                    src="{{ asset('icons/e02f1d182b19df27cafd4a9c7161ad79.jpg') }}"
                                                                     style="width: 38px;" class=""></button>
                                                     </a></div>
                                             </div>
