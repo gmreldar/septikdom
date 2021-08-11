@@ -2,7 +2,7 @@
     <div class="title-box">
         <div class="title-content">
             @isset($is_main)
-                <h2 class="title"><a href="{{route('catalog')}}">Автономная канализация</a></h2>
+                <h1 class="title"><a href="{{route('catalog')}}">Автономная канализация</a></h1>
             @else
                 <h2 class="title"><a href="{{route('catalog')}}">Септики</a></h2>
             @endif
