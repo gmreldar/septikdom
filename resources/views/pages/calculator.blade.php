@@ -59,7 +59,7 @@
 			{{ Breadcrumbs::render('single.first_page', "Калькулятор стоимости") }}
 			<div class="title-box">
 				<div class="title-content">
-					<h1 class="title">Калькулятор</h1>
+					<h2 class="title">Калькулятор</h2>
 					<span>Рассчитать стоимость</span>
 				</div>
 				<span class="subtitle">Подбери себе станцию очистки за 2 минуты</span>
