@@ -19,7 +19,7 @@
             {{ Breadcrumbs::render('blog.category', $activeCategory) }}
             <div class="title-box">
                 <div class="title-content">
-                    <h2 class="title">{{ $activeCategory->name }}</h2>
+                    <h1 class="title">{{ $activeCategory->name }}</h1>
                     <span>Блог</span>
                 </div>
             </div>

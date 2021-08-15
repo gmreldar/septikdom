@@ -19,7 +19,7 @@
             {{ Breadcrumbs::render('single.first_page', "Блог", route("blog")) }}
             <div class="title-box">
                 <div class="title-content">
-                    <h2 class="title">Все статьи</h2>
+                    <h1 class="title">Все статьи</h1>
                     <span>Блог</span>
                 </div>
             </div>

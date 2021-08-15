@@ -1,7 +1,7 @@
 <section id="new-comments">
     <div class="title-box">
         <div class="title-content">
-            <h2 class="title">Видео отзывы</h2>
+            <h1 class="title">Видео отзывы</h1>
             <span>Видеоролики о нашей работе</span>
         </div>
     </div>

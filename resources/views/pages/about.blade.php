@@ -23,7 +23,7 @@
         <div class="wrapper-text">
             <div class="title-box">
                 <div class="title-content">
-                    <h2 class="title">О нас</h2>
+                    <h1 class="title">О нас</h1>
                     <span>Кто мы?</span>
                 </div>
                 <span class="subtitle">{!! $text1 !!}</span>

@@ -1,7 +1,7 @@
 <div class="wrapper">
     <div class="title-box">
         <div class="title-content">
-            <h2 class="title"><a href="{{route('portfolio')}}">Портфолио</a></h2>
+            <h1 class="title"><a href="{{route('portfolio')}}">Портфолио</a></h1>
             <span>Примеры наших работ</span>
         </div>
     </div>

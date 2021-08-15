@@ -61,7 +61,7 @@
             {{ Breadcrumbs::render('single.first_page', "Калькулятор стоимости", route('katalog.calculator')) }}
             <div class="title-box">
                 <div class="title-content">
-                    <h2 class="title">Калькулятор</h2>
+                    <h1 class="title">Калькулятор</h1>
                     <span>Рассчитать стоимость</span>
                 </div>
                 <span class="subtitle">Подбери себе станцию очистки за 2 минуты</span>

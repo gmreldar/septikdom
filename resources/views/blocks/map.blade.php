@@ -2,7 +2,7 @@
     <div class="wrapper">
         <div class="title-box">
             <div class="title-content">
-                <h2 class="title">Карта</h2>
+                <h1 class="title">Карта</h1>
                 <span>Выполненные работы</span>
             </div>
             <div class="subtitle">Здесь собраны выполненные работы</div>
