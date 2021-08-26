@@ -22,6 +22,7 @@
                 <span class="description">{{ $service->annotation }}</span>
                 <div class="articles-text">
                     {{--<div class="articles-pic first" style="background-image: url(/{{ $service->image }});"></div>--}}
+                    {{-- @todo --}
                     <img class="articles-pic first lazy" data-src="/{{ $service->image }}" alt="">
                     {!! $service->text !!}
 
@@ -30,7 +31,7 @@
                             <div class="info-date">
                                 <div class="block-svg">
                                     <svg class="icon-like">
-                                        <use xlink:href="/img/svgdefs.svg#icon-calendar"
+                                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-calendar') }}"
                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                     </svg>
                                 </div>
@@ -39,7 +40,7 @@
                             <div class="info-view">
                                 <div class="block-svg">
                                     <svg class="icon-like">
-                                        <use xlink:href="/img/svgdefs.svg#icon-view"
+                                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-view') }}"
                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                     </svg>
                                 </div>
@@ -60,5 +61,5 @@
 @endsection
 
 @section('script')
-    <script src="/js/share.js"></script>
+    <script src="{{ asset('/js/share.js') }}"></script>
 @endsection

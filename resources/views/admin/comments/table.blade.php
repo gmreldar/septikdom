@@ -23,7 +23,7 @@
                 <input data-id="{{ $comment->id }}" id="check-{{ $comment->id }}" class="checkbox" type="checkbox" @if($comment->is_active) checked @endif>
                 <label for="check-{{ $comment->id }}">
                     <svg>
-                        <use xlink:href="/img/svgdefs.svg#icon-check" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-check') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                 </label>
             </td>

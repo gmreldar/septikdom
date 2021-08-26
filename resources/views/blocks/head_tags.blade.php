@@ -8,11 +8,11 @@
 <meta property="og:site_name" content="Септикдом">
 <meta property="og:locale" content="ru_RU">
 
-<link rel="preload" href="/css/fonts.css" as="style" onload="this.rel='stylesheet'">
-<link rel="stylesheet" href="/css/main.css">
-<link rel="stylesheet" href="/css/leaflet.css"/>
+<link rel="preload" href="{{ asset('/css/fonts.css') }}" as="style" onload="this.rel='stylesheet'">
+<link rel="stylesheet" href="{{ asset('/css/main.css') }}">
+<link rel="stylesheet" href="{{ asset('/css/leaflet.css') }}"/>
 !-- Make sure you put this AFTER Leaflet's CSS -->
-<script src="/js/leaflet.js"
+<script src="{{ asset('/js/leaflet.js') }}"
         integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
         crossorigin=""></script>
 

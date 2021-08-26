@@ -34,5 +34,5 @@
         var model = '{{ isset($articleCategory) ? quotemeta(get_class($articleCategory)) : '' }}';
         var orderableBlock = 'tbody';
     </script>
-    <script src="/js/orderable.js"></script>
+    <script src="{{ asset('/js/orderable.js') }}"></script>
 @endsection

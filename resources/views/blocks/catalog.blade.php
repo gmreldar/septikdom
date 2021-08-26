@@ -3,11 +3,11 @@
         <a class="cd-dropdown-trigger" href="#0">
             Каталог
             <svg class="burger">
-                <use xlink:href="/img/svgdefs.svg#icon-burger"
+                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-burger') }}"
                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
             <svg class="close">
-                <use xlink:href="/img/svgdefs.svg#icon-cross" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-cross') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
         </a>
         <nav class="cd-dropdown">
@@ -18,7 +18,7 @@
                             <a href="{{route('catalog.category', $productCategory->link)}}">
                                 <p>{{ $productCategory->short_name }}</p>
                                 {{-- <svg class="hover">
-                                    <use xlink:href="/img/svgdefs.svg#icon-arrow"
+                                    <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                 </svg> --}}
                             </a>

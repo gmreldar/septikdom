@@ -1,5 +1,5 @@
 <section id="fiveteen">
-	<img data-src="/img/bg-about.jpg" alt="Img" class="bgi lazy-img">
+	<img data-src="{{ asset('/img/bg-about.jpg') }}" alt="Img" class="bgi lazy-img">
 	<div class="wrapper">
 		<h2>Узнайте точную стоимость всех работ за 1 минуту</h2>
 		<p>Получите годовое обслуживание бесплатно при обращении сегодня! Позвоните прямо сейчас <a
@@ -7,7 +7,7 @@
 	</div>
 </section>
 <footer>
-	<img data-src="/img/bg2.jpg" alt="Img" class="bgi lazy-img">
+	<img data-src="{{ asset('/img/bg2.jpg') }}" alt="Img" class="bgi lazy-img">
 	<div class="footer-wrap">
 		<div class="form-box">
 			<div class="wrapper">
@@ -31,20 +31,20 @@
 		<div class="wrapper">
 			<div class="footer-content">
 				<div class="footer-first-sec">
-					<a href="/" class="logo">
-						<img class="lazy" data-src="/img/logo_footer.svg" width="178" height="29" alt="Логотип">
+					<a href="{{ asset('/') }}" class="logo">
+						<img class="lazy" data-src="{{ asset('/img/logo_footer.svg') }}" width="178" height="29" alt="Логотип">
 					</a>
 					<ul class="footer-menu-first">
 						<li class="footer-menu-first-item">
 							<svg class="footer-menu-first-item-icon">
-								<use xlink:href="/img/svgdefs.svg#icon-arrow"
+								<use xlink:href="{{ assset('/img/svgdefs.svg#icon-arrow') }}"
 									xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 							</svg>
 							<span class="footer-menu-first-item-link" id="privacy-policy-modal">Политика конфиденциальности</span>
 						</li>
 						<li class="footer-menu-first-item">
 							<svg class="footer-menu-first-item-icon">
-								<use xlink:href="/img/svgdefs.svg#icon-arrow"
+								<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 									xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 							</svg>
 							<span class="footer-menu-first-item-link" id="requisites-modal">Реквизиты</span>
@@ -56,49 +56,49 @@
 						<div class="footer-item-wrap">
 							<li class="footer-column-title">
 								<svg>
-									<use xlink:href="/img/svgdefs.svg#icon-arrow"
+									<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 										xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 								</svg>
 								<span class="footer-title">О компании</span>
 							</li>
 							<li>
 								<svg>
-									<use xlink:href="/img/svgdefs.svg#icon-arrow"
+									<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 										xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 								</svg>
 								<a href="{!! route('index') !!}">Главная</a>
 							</li>
 							<li>
 								<svg>
-									<use xlink:href="/img/svgdefs.svg#icon-arrow"
+									<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 										xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 								</svg>
 								<a href="{!! route('about') !!}">О нас</a>
 							</li>
 							<li>
 								<svg>
-									<use xlink:href="/img/svgdefs.svg#icon-arrow"
+									<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 										xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 								</svg>
 								<a href="{!! route('portfolio') !!}">Портфолио</a>
 							</li>
 							<li>
 								<svg>
-									<use xlink:href="/img/svgdefs.svg#icon-arrow"
+									<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 										xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 								</svg>
 								<a href="{!! route('shipping') !!}">Доставка</a>
 							</li>
 							<li>
 								<svg>
-									<use xlink:href="/img/svgdefs.svg#icon-arrow"
+									<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 										xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 								</svg>
 								<a href="{!! route('shipping') !!}">Оплата</a>
 							</li>
 							<li>
 								<svg>
-									<use xlink:href="/img/svgdefs.svg#icon-arrow"
+									<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 										xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 								</svg>
 								<a href="{!! route('contacts') !!}">Контакты</a>
@@ -107,56 +107,56 @@
 						<div class="footer-item-wrap">
 							<li class="footer-column-title">
 								<svg>
-									<use xlink:href="/img/svgdefs.svg#icon-arrow"
+									<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 										xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 								</svg>
 								<span class="footer-title">Информация</span>
 							</li>
 							<li>
 								<svg>
-									<use xlink:href="/img/svgdefs.svg#icon-arrow"
+									<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 										 xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 								</svg>
 								<a href="{!! route('pages.map') !!}">Карта выполненных работ</a>
 							</li>
 							<li>
 								<svg>
-									<use xlink:href="/img/svgdefs.svg#icon-arrow"
+									<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 										 xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 								</svg>
 								<a href="{!! route('faq') !!}">Часто задаваемые вопросы</a>
 							</li>
 							<li>
 								<svg>
-									<use xlink:href="/img/svgdefs.svg#icon-arrow"
+									<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 										 xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 								</svg>
 								<a href="{!! route('services') !!}">Услуги</a>
 							</li>
 							<li>
 								<svg>
-									<use xlink:href="/img/svgdefs.svg#icon-arrow"
+									<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 										xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 								</svg>
 								<a href="{!! route('catalog') !!}">Каталог</a>
 							</li>
 							<li>
 								<svg>
-									<use xlink:href="/img/svgdefs.svg#icon-arrow"
+									<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 										xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 								</svg>
 								<a href="{!! route('price') !!}">Прайс лист</a>
 							</li>
 							<li>
 								<svg>
-									<use xlink:href="/img/svgdefs.svg#icon-arrow"
+									<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 										xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 								</svg>
 								<a href="{!! route('blog') !!}">Блог</a>
 							</li>
 							<li>
 								<svg>
-									<use xlink:href="/img/svgdefs.svg#icon-arrow"
+									<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 										xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 								</svg>
 								<a href="{!! route('sitemap') !!}">Карта сайта</a>
@@ -165,7 +165,7 @@
 						<div class="footer-item-wrap">
 							<li class="footer-column-title">
 								<svg>
-									<use xlink:href="/img/svgdefs.svg#icon-phone"
+									<use xlink:href="{{ asset('/img/svgdefs.svg#icon-phone') }}"
 										xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 								</svg>
 								<span class="footer-title">Контакты</span>
@@ -173,7 +173,7 @@
 							<li class="lh-contacts {{ $contact->phone_class }}">
 								<a href="tel:{{ $contact->phone }}">
 									<svg>
-										<use xlink:href="/img/svgdefs.svg#icon-phone"
+										<use xlink:href="{{ asset('/img/svgdefs.svg#icon-phone') }}"
 											xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 									</svg>
 									{{ $contact->phone }}
@@ -182,7 +182,7 @@
 							<li class="lh-contacts">
 								<a href="mailto:{{ $contact->email }}">
 									<svg>
-										<use xlink:href="/img/svgdefs.svg#icon-email"
+										<use xlink:href="{{ asset('/img/svgdefs.svg#icon-email') }}"
 											xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 									</svg>
 									{{ $contact->email }}
@@ -191,7 +191,7 @@
 							<li class="lh-contacts">
 								<a href="javascript: void(0);" class="work-grafik">
 									<svg>
-										<use xlink:href="/img/svgdefs.svg#icon-clock"
+										<use xlink:href="{{ asset('/img/svgdefs.svg#icon-clock') }}"
 											xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 									</svg>
 									{{ $contact->schedule }}
@@ -211,31 +211,31 @@
 						</a>
 						<a href="{{ $contact->tg }}" target="_blank">
 							<svg>
-								<use xlink:href="/img/svgdefs.svg#icon-telegram"
+								<use xlink:href="{{ asset('/img/svgdefs.svg#icon-telegram') }}"
 									 xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 							</svg>
 						</a>
 						<a href="{{ $contact->yt }}" target="_blank">
 							<svg>
-								<use xlink:href="/img/svgdefs.svg#icon-youtube"
+								<use xlink:href="{{ asset('/img/svgdefs.svg#icon-youtube') }}"
 									 xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 							</svg>
 						</a>
 						<a href="{{ $contact->in }}" target="_blank">
 							<svg>
-								<use xlink:href="/img/svgdefs.svg#icon-instagram"
+								<use xlink:href="{{ asset('/img/svgdefs.svg#icon-instagram') }}"
 									xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 							</svg>
 						</a>
 						<a href="{{ $contact->fb }}" target="_blank">
 							<svg>
-								<use xlink:href="/img/svgdefs.svg#icon-facebook"
+								<use xlink:href="{{ asset('/img/svgdefs.svg#icon-facebook') }}"
 									xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 							</svg>
 						</a>
 						<a href="{{ $contact->vk }}" target="_blank">
 							<svg>
-								<use xlink:href="/img/svgdefs.svg#icon-vk" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+								<use xlink:href="{{ asset('/img/svgdefs.svg#icon-vk') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 							</svg>
 						</a>
 					</div>
@@ -251,7 +251,7 @@
 			<div class="footer-modal-top">
 				<div class="footer-modal-top-close" id="requisites-modal-close-cross">
 					<svg class="footer-modal-top-close-icon">
-						<use xlink:href="/img/svgdefs.svg#icon-cross" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+						<use xlink:href="{{ asset('/img/svgdefs.svg#icon-cross') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 					</svg>
 				</div>
 			</div>
@@ -260,42 +260,42 @@
 				<ul class="footer-modal-content-list">
 					<li class="footer-modal-content-list-item">
 						<svg class="footer-modal-content-list-item-icon">
-							<use xlink:href="/img/svgdefs.svg#icon-arrow"
+							<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 								xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 						</svg>
 						<span class="footer-modal-content-list-item-text">Название организации ООО «Экосеть»</span>
 					</li>
 					<li class="footer-modal-content-list-item">
 						<svg class="footer-modal-content-list-item-icon">
-							<use xlink:href="/img/svgdefs.svg#icon-arrow"
+							<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 								xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 						</svg>
 						<span class="footer-modal-content-list-item-text">ИНН 7811638132</span>
 					</li>
 					<li class="footer-modal-content-list-item">
 						<svg class="footer-modal-content-list-item-icon">
-							<use xlink:href="/img/svgdefs.svg#icon-arrow"
+							<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 								xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 						</svg>
 						<span class="footer-modal-content-list-item-text">КПП 781101001</span>
 					</li>
 					<li class="footer-modal-content-list-item">
 						<svg class="footer-modal-content-list-item-icon">
-							<use xlink:href="/img/svgdefs.svg#icon-arrow"
+							<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 								xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 						</svg>
 						<span class="footer-modal-content-list-item-text">ОГРН 1177847061732</span>
 					</li>
 					<li class="footer-modal-content-list-item">
 						<svg class="footer-modal-content-list-item-icon">
-							<use xlink:href="/img/svgdefs.svg#icon-arrow"
+							<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 								xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 						</svg>
 						<span class="footer-modal-content-list-item-text">Юридический адрес 193079, г. Санкт-Петербург, проспект Большевиков, дом 79, корпус 4, литера А, помещение 4-Н</span>
 					</li>
 					<li class="footer-modal-content-list-item">
 						<svg class="footer-modal-content-list-item-icon">
-							<use xlink:href="/img/svgdefs.svg#icon-arrow"
+							<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 								xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 						</svg>
 						<span class="footer-modal-content-list-item-text">Фактический адрес 196158, г. Санкт-Петербург, Московское шоссе 25 к 1 оф 813</span>
@@ -312,7 +312,7 @@
 			<div class="footer-modal-top">
 				<div class="footer-modal-top-close" id="privacy-policy-modal-close-cross">
 					<svg class="footer-modal-top-close-icon">
-						<use xlink:href="/img/svgdefs.svg#icon-cross" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+						<use xlink:href="{{ asset('/img/svgdefs.svg#icon-cross') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 					</svg>
 				</div>
 			</div>

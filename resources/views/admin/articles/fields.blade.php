@@ -81,7 +81,7 @@
 </div>
 
 @section('scripts')
-<script src="/js/selectImage.js"></script>
+<script src="{{ asset('/js/selectImage.js') }}"></script>
 <script>
     $('#article_category_id').on('change', () => {
         if ($('#article_category_id').val() === "22")

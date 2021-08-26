@@ -37,7 +37,7 @@
 </div>
 
 @section('scripts')
-    <script src="/js/selectImage.js"></script>
+    <script src="{{ asset('/js/selectImage.js') }}"></script>
     <script>
         {{--function myMap() {--}}
         {{--var mapOptions = {--}}

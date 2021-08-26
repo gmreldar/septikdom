@@ -64,7 +64,7 @@
 </div>
 
 @section('scripts')
-    <script src="/js/selectImage.js"></script>
+    <script src="{{ asset('/js/selectImage.js') }}"></script>
     <script>
         $('.fine_select').select2({ width: '100%' });
         CKEDITOR.replace( 'text' );

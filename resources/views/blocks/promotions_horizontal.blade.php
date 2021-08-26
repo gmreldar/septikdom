@@ -12,10 +12,10 @@
         <div class="slider-services-box">
             <div class="custom-prev-arrow slider11">
                 <svg class="default-arrow">
-                    <use xlink:href="/img/svgdefs.svg#icon-arrow-two" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                    <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                 </svg>
                 <svg class="hover-arrow">
-                    <use xlink:href="/img/svgdefs.svg#icon-arrow" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                    <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                 </svg>
             </div>
             <div class="slider-promotions">
@@ -24,6 +24,7 @@
                         <div>
                             <div class="item" style="width: 100%; display: inline-block; min-height: 280px; height: 280px;">
                                 <a href="{{route('blog.article', [$promotion->category->link, $promotion->link])}}">
+                                {{-- @todo --}}
                                     <div class="img" style="height: 100%;"><img style="height: 100%;" data-src="/min/{{ $promotion->discount_slider_img ? $promotion->discount_slider_img : $promotion->image }}"
                                                           alt="{{ $promotion->alt }}"
                                                           class="lazy-img"></div>
@@ -42,11 +43,11 @@
                         {{--                                <a href="{{route('services.item', $service->link)}}" class="item-link">Подробнее</a>--}}
                         {{--                                <div class="svg-box">--}}
                         {{--                                    <svg class="no-hover-svg">--}}
-                        {{--                                        <use xlink:href="/img/svgdefs.svg#icon-arrow"--}}
+                        {{--                                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"--}}
                         {{--                                             xmlns:xlink="http://www.w3.org/1999/xlink"></use>--}}
                         {{--                                    </svg>--}}
                         {{--                                    <svg class="hover-svg">--}}
-                        {{--                                        <use xlink:href="/img/svgdefs.svg#icon-arrow-two"--}}
+                        {{--                                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"--}}
                         {{--                                             xmlns:xlink="http://www.w3.org/1999/xlink"></use>--}}
                         {{--                                    </svg>--}}
                         {{--                                </div>--}}
@@ -58,10 +59,10 @@
             </div>
             <div class="custom-next-arrow slider11">
                 <svg class="default-arrow">
-                    <use xlink:href="/img/svgdefs.svg#icon-arrow-two" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                    <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                 </svg>
                 <svg class="hover-arrow">
-                    <use xlink:href="/img/svgdefs.svg#icon-arrow" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                    <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                 </svg>
             </div>
             <div class="custom-dots slider11"></div>

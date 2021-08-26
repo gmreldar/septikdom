@@ -4,7 +4,7 @@
             <div class="h-search-input">
                 <input type="text" placeholder="Поиск" autocomplete="off" id="h-search-input">
                 <svg class="icon-search" style="fill: rgb(171, 178, 167);">
-                    <use xlink:href="/img/svgdefs.svg#icon-search" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                    <use xlink:href="{{ asset('/img/svgdefs.svg#icon-search') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                 </svg>
             </div>
             <div class="h-search-result scrollbar" id="scrollbar"></div>

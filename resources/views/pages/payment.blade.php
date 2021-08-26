@@ -30,7 +30,7 @@
 
                       <div class="pay-item">
                         <svg>
-                          <use xlink:href="/img/svgdefs.svg#icon-pay3"
+                          <use xlink:href="{{ asset('/img/svgdefs.svg#icon-pay3') }}"
                           xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                         </svg>
                         <p>Наличными при доставке</p>
@@ -38,7 +38,7 @@
 
                         <div class="pay-item">
                             <svg>
-                                <use xlink:href="/img/svgdefs.svg#icon-pay1"
+                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-pay1') }}"
                                         xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                             <p>Банковской картой через сайт</p>
@@ -46,7 +46,7 @@
 
                         <div class="pay-item">
                           <svg style="margin-left: -14px;">
-                            <use xlink:href="/img/svgdefs.svg#icon-pay4"
+                            <use xlink:href="{{ asset('/img/svgdefs.svg#icon-pay4') }}"
                             xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                           </svg>
                           <p>По счету - наш менеджер выставит счет как на физ. так и на юр. лицо</p>
@@ -54,7 +54,7 @@
 
                         <div class="pay-item">
                             <svg>
-                                <use xlink:href="/img/svgdefs.svg#icon-pay2"
+                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-pay2') }}"
                                         xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                             <p>Наличными или банковской картой у нас в офисе</p>

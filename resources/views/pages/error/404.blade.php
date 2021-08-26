@@ -16,7 +16,7 @@
             <span class="subtitle">Вы указали неправильный адрес или перешли по некорректной ссылкe</span>
         </div>
         <div class="wrap">
-            <a href="/" class="button button-transparent">
+            <a "{{ asset('/') }}" class="button button-transparent">
                 <div class="button-content">
                     <span>Вернуться на главную</span>
                     <div class="button-svg">

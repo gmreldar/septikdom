@@ -113,7 +113,7 @@
 </div>
 
 @section('scripts')
-    <script src="/js/selectImage.js"></script>
+    <script src="{{ asset('/js/selectImage.js') }}"></script>
     <script>
         @foreach($images as $image)
             $("#{{ $image['name'] }}").change(function () {

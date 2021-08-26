@@ -33,5 +33,5 @@
         var model = '{{ isset($service) ? quotemeta(get_class($service)) : '' }}';
         var orderableBlock = 'tbody';
     </script>
-    <script src="/js/orderable.js"></script>
+    <script src="{{ asset('/js/orderable.js') }}"></script>
 @endsection

@@ -61,7 +61,7 @@
 									</a>
 									<a class="tele" href="{{ $contact->tg }}" target="_blank">
 										<svg>
-											<use xlink:href="/img/svgdefs.svg#icon-telegram"
+											<use xlink:href="{{ asset('/img/svgdefs.svg#icon-telegram') }}"
 													xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 										</svg>
 									</a>

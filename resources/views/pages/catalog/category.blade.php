@@ -36,11 +36,11 @@
                         <div class="show-text_block">
                             <span>Читать полностью</span>
                             <svg class="hover">
-                                <use xlink:href="/img/svgdefs.svg#icon-arrow"
+                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                             <svg class="unhover">
-                                <use xlink:href="/img/svgdefs.svg#icon-arrow-two" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                         </div>
                     </div>
@@ -50,7 +50,7 @@
                             <div class="hide-text_block">
                                 <span>Свернуть описание</span>
                                 <svg>
-                                    <use xlink:href="/img/svgdefs.svg#icon-arrow"
+                                    <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                 </svg>
                             </div>
@@ -66,14 +66,14 @@
                     <div class="block">
                         <div class="filter-icon table active">
                             <svg>
-                                <use xlink:href="/img/svgdefs.svg#icon-filter-table"
+                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-filter-table') }}"
                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                             <p class="hover-block">Таблица</p>
                         </div>
                         <div class="filter-icon list">
                             <svg>
-                                <use xlink:href="/img/svgdefs.svg#icon-filter-list"
+                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-filter-list') }}"
                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                             <p class="hover-block">Список</p>
@@ -88,19 +88,19 @@
                                     <ul>
                                         <li>Позиции
                                             <svg>
-                                                <use xlink:href="/img/svgdefs.svg#icon-arrow"
+                                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
                                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                             </svg>
                                         </li>
                                         <li class="active">Названию
                                             <svg>
-                                                <use xlink:href="/img/svgdefs.svg#icon-arrow"
+                                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
                                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                             </svg>
                                         </li>
                                         <li>Цене
                                             <svg>
-                                                <use xlink:href="/img/svgdefs.svg#icon-arrow"
+                                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
                                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                             </svg>
                                         </li>
@@ -109,7 +109,7 @@
                             </div>
                             <div class="sorting-arrow">
                                 <svg>
-                                    <use xlink:href="/img/svgdefs.svg#icon-arrow"
+                                    <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                 </svg>
                             </div>
@@ -122,19 +122,19 @@
                                     <ul>
                                         <li>16
                                             <svg>
-                                                <use xlink:href="/img/svgdefs.svg#icon-arrow"
+                                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
                                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                             </svg>
                                         </li>
                                         <li class="active">32
                                             <svg>
-                                                <use xlink:href="/img/svgdefs.svg#icon-arrow"
+                                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
                                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                             </svg>
                                         </li>
                                         <li>64
                                             <svg>
-                                                <use xlink:href="/img/svgdefs.svg#icon-arrow"
+                                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
                                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                             </svg>
                                         </li>
@@ -175,6 +175,7 @@
                                     <a href="{{route('catalog.product', [$category->link, $product->link])}}"
                                        class="analog-img">
                                         @if($image)
+                                        {{-- @todo --}}
                                             <img class="lazy" data-src="/min/{{ $image->image }}"
                                                  alt="{{ $image->alt }}">
                                         @endif
@@ -214,7 +215,7 @@
                                                         <a href="{{route('catalog.product', [$category->link, $product->link . '#otzyvy'])}}"
                                                            class="comments">
                                                             <svg>
-                                                                <use xlink:href="/img/svgdefs.svg#icon-dialog"
+                                                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-dialog') }}"
                                                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                             </svg>
                                                             <span class="value">{{ $product->comments->where('is_active', 1)->count() }}</span>
@@ -223,11 +224,11 @@
                                                 </div>
                                                 <div class="icon">
                                                     <svg class="default-svg">
-                                                        <use xlink:href="/img/svgdefs.svg#icon-arrow"
+                                                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                     </svg>
                                                     <svg class="hover-svg">
-                                                        <use xlink:href="/img/svgdefs.svg#icon-arrow-two"
+                                                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"
                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                     </svg>
                                                 </div>
@@ -273,11 +274,13 @@
                                                class="article-link">Подробнее</a>
                                             <div class="article-svg">
                                                 <svg class="article-svg-default">
-                                                    <use xlink:href="/dist/img/svgdefs.svg#icon-arrow"
+                                                {{-- @todo folder dist --}}
+                                                    <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow') }}"
                                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                 </svg>
                                                 <svg class="article-svg-hover">
-                                                    <use xlink:href="/dist/img/svgdefs.svg#icon-arrow-two"
+                                                {{-- @todo folder dist --}}
+                                                    <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                 </svg>
                                             </div>
@@ -290,11 +293,11 @@
                             <p>Читать все статьи</p>
                             <div class="svg-box">
                                 <svg class="hover-icon">
-                                    <use xlink:href="/img/svgdefs.svg#icon-arrow-two"
+                                    <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"
                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                 </svg>
                                 <svg class="default-icon">
-                                    <use xlink:href="/img/svgdefs.svg#icon-arrow" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                    <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                 </svg>
                             </div>
                         </a>

@@ -30,7 +30,7 @@
                         <a href="{{route('price')}}" class="septic-item-link">
                             <div class="septic-item-price">
                                 <div class="septic-img-price" style="width: 150px">
-                                    <img class="lazy" data-src="/img/prays/septics.png">
+                                    <img class="lazy" data-src="{{ asset('/img/prays/septics.png') }}">
                                 </div>
                                 <div class="septic-footer-price">
                                     <div class="septic-footer-inner-price">
@@ -39,11 +39,11 @@
                                         </div>
                                         <div class="icon-price">
                                             <svg class="default-svg">
-                                                <use xlink:href="/img/svgdefs.svg#icon-arrow"
+                                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
                                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                             </svg>
                                             <svg class="hover-svg">
-                                                <use xlink:href="/img/svgdefs.svg#icon-arrow-two"
+                                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"
                                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                             </svg>
                                         </div>
@@ -57,7 +57,7 @@
                         <a href="{{route('price.category', 3)}}" class="septic-item-link">
                             <div class="septic-item-price">
                                 <div class="septic-img-price" style="width: 150px">
-                                    <img class="lazy" data-src="/img/prays/cellars.png">
+                                    <img class="lazy" data-src="{{ asset('/img/prays/cellars.png') }}">
                                 </div>
                                 <div class="septic-footer-price">
                                     <div class="septic-footer-inner-price">
@@ -67,11 +67,11 @@
                                         </div>
                                         <div class="icon-price">
                                             <svg class="default-svg">
-                                                <use xlink:href="/img/svgdefs.svg#icon-arrow"
+                                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
                                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                             </svg>
                                             <svg class="hover-svg">
-                                                <use xlink:href="/img/svgdefs.svg#icon-arrow-two"
+                                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"
                                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                             </svg>
                                         </div>
@@ -92,11 +92,11 @@
                         {{--</div>--}}
                         {{--<div class="icon">--}}
                         {{--<svg class="default-svg">--}}
-                        {{--<use xlink:href="/img/svgdefs.svg#icon-arrow"--}}
+                        {{--<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"--}}
                         {{--xmlns:xlink="http://www.w3.org/1999/xlink"></use>--}}
                         {{--</svg>--}}
                         {{--<svg class="hover-svg">--}}
-                        {{--<use xlink:href="/img/svgdefs.svg#icon-arrow-two"--}}
+                        {{--<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"--}}
                         {{--xmlns:xlink="http://www.w3.org/1999/xlink"></use>--}}
                         {{--</svg>--}}
                         {{--</div>--}}
@@ -110,7 +110,7 @@
                         <a href="{{route('price.category', 4)}}" class="septic-item-link">
                             <div class="septic-item-price">
                                 <div class="septic-img-price" style="width: 150px">
-                                    <img class="lazy" data-src="/img/prays/caissons.png">
+                                    <img class="lazy" data-src="{{ asset('/img/prays/caissons.png') }}">
                                 </div>
                                 <div class="septic-footer-price">
                                     <div class="septic-footer-inner-price">
@@ -120,11 +120,11 @@
                                         </div>
                                         <div class="icon-price">
                                             <svg class="default-svg">
-                                                <use xlink:href="/img/svgdefs.svg#icon-arrow"
+                                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
                                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                             </svg>
                                             <svg class="hover-svg">
-                                                <use xlink:href="/img/svgdefs.svg#icon-arrow-two"
+                                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"
                                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                             </svg>
                                         </div>

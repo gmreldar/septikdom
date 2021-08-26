@@ -23,8 +23,7 @@
 
     <!-- iCheck -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/iCheck/1.0.2/skins/square/_all.css">
-
-    <link rel="stylesheet" href="/css/admin.css">
+    <link rel="stylesheet" href="{{ asset('/css/admin.css') }}">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,8 +35,9 @@
 <body class="hold-transition register-page">
 <div class="register-box">
     <div class="register-logo">
+    {{-- @todo --}}
         <a href="//egc.fi/" target="_blank">
-            <img src="/img/admin/egc_logo_max.7355130.svg" alt="">
+            <img src="{{ asset('/img/admin/egc_logo_max.7355130.svg') }}" alt="">
         </a>
     </div>
 

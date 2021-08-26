@@ -39,6 +39,7 @@
                                 <div class="septic-item">
                                     <div class="septic-img">
                                         @if ($category->image)
+                                        {{-- @todo --}}
                                             <img class="lazy" data-src="/min/{{ $category->image }}"
                                                  alt="{{ $category->alt }}">
                                         @else
@@ -57,11 +58,11 @@
                                             </div>
                                             <div class="icon">
                                                 <svg class="default-svg">
-                                                    <use xlink:href="/img/svgdefs.svg#icon-arrow"
+                                                    <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
                                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                 </svg>
                                                 <svg class="hover-svg">
-                                                    <use xlink:href="/img/svgdefs.svg#icon-arrow-two"
+                                                    <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"
                                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                 </svg>
                                             </div>

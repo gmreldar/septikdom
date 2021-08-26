@@ -22,8 +22,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.4.3/css/skins/_all-skins.min.css">
 
     <!-- iCheck -->
-    <link rel="stylesheet" href="/libs/square/_all.css">
-    <link rel="stylesheet" href="/css/admin.css">
+    <link rel="stylesheet" href="{{ asset('/libs/square/_all.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/admin.css') }}">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,8 +36,9 @@
 <body class="hold-transition login-page">
 <div class="login-box">
     <div class="login-logo">
+    {{-- @todo --}}
         <a href="//egc.fi/" target="_blank">
-            <img class="lazy" data-src="/img/admin/egc_logo_max.7355130.svg" alt="">
+            <img class="lazy" data-src="{{ asset('/img/admin/egc_logo_max.7355130.svg') }}" alt="">
         </a>
     </div>
 
@@ -73,7 +74,7 @@
                     <input type="checkbox" name="remember" id="remember">
                     <label for="remember" style="margin-right: 10px;">
                         <svg>
-                            <use xlink:href="/img/svgdefs.svg#icon-check" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                            <use xlink:href="{{ asset('/img/svgdefs.svg#icon-check') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                         </svg>
                     </label>
                     <label for="remember" style="margin-bottom: 0; font-weight: 400">Запомнить меня</label>
@@ -98,8 +99,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.4.3/js/adminlte.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/iCheck/1.0.2/icheck.min.js"></script>
-<script src="/js/jquery.lazy.min.js"></script>
-<script src="/js/jquery.lazy.iframe.min.js"></script>
+<script src=src="{{ asset('/js/jquery.lazy.min.js') }}"></script>
+<script src=src="{{ asset('/js/jquery.lazy.iframe.min.js') }}"></script>
 <script>
 </script>
 </body>

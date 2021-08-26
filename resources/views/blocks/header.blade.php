@@ -31,7 +31,8 @@
             </div>
             <li style="display: none"><span>Каталог</span>
                 <svg class="hover">
-                    <use xlink:href="/dist//img/svgdefs.svg#icon-arrow"
+                {{-- @todo folder dist --}}
+                    <use xlink:href="{{ asset'/dist//img/svgdefs.svg#icon-arrow'} }"
                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                 </svg>
                 <ul id="mm-1">
@@ -50,7 +51,8 @@
             </li>
             <li style="display: none"><span>Каталог</span>
                 <svg class="hover">
-                    <use xlink:href="/dist//img/svgdefs.svg#icon-arrow"
+                {{-- @todo folder dist --}}
+                    <use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow') }}"
                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                 </svg>
                 <ul id="mm-2">
@@ -69,7 +71,8 @@
             </li>
             <li style="display: none"><span>Каталог</span>
                 <svg class="hover">
-                    <use xlink:href="/dist//img/svgdefs.svg#icon-arrow"
+                {{-- @todo folder dist --}}
+                    <use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow') }}"
                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                 </svg>
                 <ul id="mm-3">
@@ -110,8 +113,8 @@
     <div class="white-line">
         <div class="wrapper">
             <div class="white-line-inner">
-                <a href="/" class="logo">
-                    <img src="/img/logo.svg" width="178" height="29" alt="Логотип">
+                <a href="{{ asset('/') }}" class="logo">
+                    <img src="{{ asset('/img/logo.svg') }}" width="178" height="29" alt="Логотип">
                 </a>
                 <nav class="scroll-menu">
                     <ul style="list-style:none;">
@@ -168,7 +171,7 @@
                        class="phone {{ $contact->phone_class }}">{{ $contact->phone }}</a>
                 </div>
                 <svg class="mobile-menu-open">
-                    <use xlink:href="/img/svgdefs.svg#icon-menu" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                    <use xlink:href="{{ asset('/img/svgdefs.svg#icon-menu') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                 </svg>
             </div>
         </div>
@@ -243,25 +246,29 @@
                         {{--</a>     --}}
                         <a href="{{ $contact->yt }}" target="_blank" class="telegram-social">
                             <svg>
-                                <use xlink:href="/dist/img/svgdefs.svg#icon-youtube"
+                            {{-- @todo folder dist --}}
+                                <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-youtube') }}"
                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                         </a>
                         <a href="{{ $contact->in }}" target="_blank" class="instagram-social">
                             <svg>
-                                <use xlink:href="/dist/img/svgdefs.svg#icon-instagram"
+                            {{-- @todo folder dist --}}
+                                <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-instagram') }}"
                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                         </a>
                         <a href="{{ $contact->fb }}" target="_blank" class="fb-social">
                             <svg>
-                                <use xlink:href="/dist/img/svgdefs.svg#icon-facebook"
+                            {{-- @todo folder dist --}}
+                                <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-facebook') }}"
                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                         </a>
                         <a href="{{ $contact->vk }}" target="_blank" class="vk-social">
                             <svg>
-                                <use xlink:href="/dist/img/svgdefs.svg#icon-vk"
+                            {{-- @todo folder dist --}}
+                                <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-vk') }}"
                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                         </a>

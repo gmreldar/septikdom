@@ -27,13 +27,13 @@
     <!-- Device -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/device.js/0.2.7/device.min.js" integrity="sha256-7/l5ueSGd9WLyoPL4cgw7QRrS9VnoqA9gDCYHGZUvy8=" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="/css/admin.css">
+    <link rel="stylesheet" href="{{ asset('/css/admin.css') }}">
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
           integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
           crossorigin=""/>
 
-    <script src="/js/leaflet.js"
+    <script src="{{ asset('/js/leaflet.js') }}"
             integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
             crossorigin=""></script>
 
@@ -60,9 +60,9 @@
         <header class="main-header">
 
             <!-- Logo -->
-            <a href="/admin" class="logo">
+            <a href="{{ asset('/admin') }}" class="logo">
                 <b>Septikdom</b>
-                <img class="lazy" data-src="/img/admin/kolosss-min.png" alt="">
+                <img class="lazy" data-src="{{ asset('/img/admin/kolosss-min.png') }}" alt="">
             </a>
 
             <!-- Header Navbar -->
@@ -79,6 +79,7 @@
                             <!-- Menu Toggle Button -->
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <!-- The user image in the navbar-->
+                                {{-- @todo --}}
                                 <img class="lazy" data-src="//api.egc.fi/images/logo_white.png"
                                      class="user-image" alt="User Image"/>
                                 <!-- hidden-xs hides the username on small devices so only the image appears. -->
@@ -87,6 +88,7 @@
                             <ul class="dropdown-menu">
                                 <!-- The user image in the menu -->
                                 <li class="user-header">
+                                {{-- @todo --}}
                                     <img class="lazy" data-src="//api.egc.fi/images/logo_white.png"
                                          class="img-circle" alt="User Image"/>
                                     <p>
@@ -174,13 +176,14 @@
     @endif
 
     <!-- CKEditor 4 -->
-    <script src="/ckeditor/ckeditor.js"></script>
+    <script src="{{ asset('/ckeditor/ckeditor.js') }}"></script>
 
     <!-- jQuery 3.1.1 -->
 <script
         src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
+        {{-- @todo --}}
     <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -211,7 +214,7 @@
         })
     </script>
     @yield('scripts')
-    <script src="/js/jquery.lazy.min.js"></script>
-    <script src="/js/jquery.lazy.iframe.min.js"></script>
+    <script src=src="{{ asset('/js/jquery.lazy.min.js') }}"></script>
+    <script src=src="{{ asset('/js/jquery.lazy.iframe.min.js') }}"></script>
 </body>
 </html>

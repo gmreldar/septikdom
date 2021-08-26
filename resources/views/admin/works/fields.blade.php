@@ -64,7 +64,7 @@
 </div>
 
 @section('scripts')
-    <script src="/js/selectImage.js"></script>
+    <script src="{{ asset('/js/selectImage.js') }}"></script>
     <script>
         CKEDITOR.replace( 'text' );
         @foreach($images as $image)

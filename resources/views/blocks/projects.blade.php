@@ -1,5 +1,5 @@
 @if(!empty($works))
-<link href="/css/portfolio_items.css" rel="stylesheet">
+<link href="{{ asset('/css/portfolio_items.css') }}" rel="stylesheet">
 <section id="new-comments">
     <div class="title-box">
         <div class="title-content">
@@ -10,16 +10,18 @@
     <div class="slider-new-comments-box">
         <div class="custom-prev-arrow new-slider1">
             <svg class="default-arrow">
-                <use xlink:href="/dist/img/svgdefs.svg#icon-arrow-two" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+            {{-- @todo folder dist --}}
+                <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
             <svg class="hover-arrow">
-                <use xlink:href="/img/svgdefs.svg#icon-arrow" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
         </div>
         <div class="slider-new-comments lazy">
         @foreach($works as $work)
             <div class="work-item">
                 <a href="{{route('portfolio.item', $work->link)}}">
+                {{-- @todo --}}
                     <div class="work-img"><img class="lazy" data-src="/min/{{ $work->image }}" alt=""></div>
                     <div class="work-footer">
                         <div class="work-footer-text">
@@ -28,11 +30,12 @@
                         </div>
                         <div class="icon">
                             <svg class="default-svg">
-                                <use xlink:href="/dist/img/svgdefs.svg#icon-arrow"
+                            {{-- @todo folder dist --}}
+                                <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow') }}"
                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                             <svg class="hover-svg">
-                                <use xlink:href="/dist/img/svgdefs.svg#icon-arrow-two"
+                                <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                         </div>
@@ -43,10 +46,10 @@
         </div>
         <div class="custom-next-arrow new-slider1">
             <svg class="default-arrow">
-                <use xlink:href="/img/svgdefs.svg#icon-arrow-two" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
             <svg class="hover-arrow">
-                <use xlink:href="/img/svgdefs.svg#icon-arrow" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
         </div>
         <div class="custom-dots new-slider1"></div>
@@ -54,7 +57,7 @@
     <section class="popup videos-video-popup">
 		<div class="popup-overlay"></div>
             <svg class="popup-close">
-                    <use xlink:href="/img/svgdefs.svg#icon-cross" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                    <use xlink:href="{{ asset('/img/svgdefs.svg#icon-cross') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
             <div class="popup-wrapper">
                     <div class="video-box">

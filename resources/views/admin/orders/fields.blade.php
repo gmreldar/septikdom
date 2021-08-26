@@ -28,7 +28,7 @@
     {!! Form::checkbox('montazh', 1, isset($order->montazh) ? $order->montazh : false) !!}
     <label for="montazh">
         <svg>
-            <use xlink:href="/img/svgdefs.svg#icon-check" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+            <use xlink:href="{{ asset('/img/svgdefs.svg#icon-check') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
         </svg>
     </label>
 </div>

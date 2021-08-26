@@ -31,7 +31,7 @@
 </table>
 
 @section('scripts')
-    <script src="/js/orderable.js"></script>
+    <script src="{{ asset('/js/orderable.js') }}"></script>
     <script>
         var model = '{{ isset($question) ? quotemeta(get_class($question)) : '' }}';
         var orderableBlock = 'tbody';

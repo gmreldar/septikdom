@@ -41,7 +41,7 @@
     {!! Form::checkbox('is_active', 1, isset($productCategory->is_active) ? $productCategory->is_active : false) !!}
     <label for="is_active">
         <svg>
-            <use xlink:href="/img/svgdefs.svg#icon-check" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+            <use xlink:href="{{ asset('/img/svgdefs.svg#icon-check') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
         </svg>
     </label>
 </div>
@@ -88,7 +88,7 @@
 </div>
 
 @section('scripts')
-    <script src="/js/selectImage.js"></script>
+    <script src="{{ asset('/js/selectImage.js') }}"></script>
     <script>
         CKEDITOR.replace('text1');
         CKEDITOR.replace('text2');

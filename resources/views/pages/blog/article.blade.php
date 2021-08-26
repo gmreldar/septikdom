@@ -22,7 +22,7 @@
                     <div class="search-input-mobile">
                         <input type="text" placeholder="Поиск" autocomplete="off" id="search-input-mobile">
                         <svg class="icon-search">
-                            <use xlink:href="/img/svgdefs.svg#icon-search"
+                            <use xlink:href="{{ asset('/img/svgdefs.svg#icon-search') }}"
                                  xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                         </svg>
                         <div class="search-result-mobile scrollbar-mobile" id="scrollbar-mobile">
@@ -40,7 +40,7 @@
                             <div class="info-date">
                                 <div class="block-svg">
                                     <svg class="icon-like">
-                                        <use xlink:href="/img/svgdefs.svg#icon-calendar"
+                                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-calendar') }}"
                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                     </svg>
                                 </div>
@@ -50,7 +50,7 @@
                         <div class="info-view">
                             <div class="block-svg">
                                 <svg class="icon-like">
-                                    <use xlink:href="/img/svgdefs.svg#icon-view"
+                                    <use xlink:href="{{ asset('/img/svgdefs.svg#icon-view') }}"
                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                 </svg>
                             </div>
@@ -63,7 +63,7 @@
                         <div class="search-input">
                             <input type="text" placeholder="Поиск" autocomplete="off" id="search-input">
                             <svg class="icon-search">
-                                <use xlink:href="/img/svgdefs.svg#icon-search"
+                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-search') }}"
                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                         </div>
@@ -91,12 +91,12 @@
                             <div class="social-links">
                                 <a class="fb" onclick="Share.facebook()">
                                     <svg>
-                                        <use xlink:href="/img/svgdefs.svg#icon-facebook" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-facebook') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                     </svg>
                                 </a>
                                 <a class="vk" onclick="Share.vk()">
                                     <svg>
-                                        <use xlink:href="/img/svgdefs.svg#icon-vk" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-vk') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                     </svg>
                                 </a>
                             </div>
@@ -123,5 +123,5 @@
 @endsection
 
 @section('script')
-    <script src="/js/share.js"></script>
+    <script src="{{ asset('/js/share.js') }}"></script>
 @endsection

@@ -9,10 +9,11 @@
     <div class="slider-bestsellers-box">
         <div class="custom-prev-arrow slider10">
             <svg class="default-arrow">
-                <use xlink:href="/dist/img/svgdefs.svg#icon-arrow-two" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+            {{-- @todo папка dist нужна ли она здесь--}}
+                <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
             <svg class="hover-arrow">
-                <use xlink:href="/img/svgdefs.svg#icon-arrow" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
         </div>
         <div class="slider-bestsellers">
@@ -27,6 +28,7 @@
                                 <a href="{{route('catalog.product', [$best['category']->link, $best['product']->link])}}"
                                    class="analog-bestsellers-img">
                                     @if($image)
+                                    {{-- @todo --}}
                                         <img class="lazy" data-src="/min/{{ $image->image }}"
                                              alt="{{ $image->alt }}">
                                     @endif
@@ -67,7 +69,7 @@
                                                     {{--<a href="{{route('catalog.product', [$best['category']->link, $best['product']->link . '#otzyvy'])}}"--}}
                                                        {{--class="comments">--}}
                                                         {{--<svg>--}}
-                                                            {{--<use xlink:href="/img/svgdefs.svg#icon-dialog"--}}
+                                                            {{--<use xlink:href="{{ asset('/img/svgdefs.svg#icon-dialog') }}"--}}
                                                                  {{--xmlns:xlink="http://www.w3.org/1999/xlink"></use>--}}
                                                         {{--</svg>--}}
                                                         {{--<span class="value">{{ $best['product']->comments->where('is_active', 1)->count() }}</span>--}}
@@ -93,11 +95,11 @@
                         {{--</a><a href="{{route('catalog.category', $best['product']->link)}}" class="item-link">Подробнее</a>--}}
                         {{--<div class="svg-box">--}}
                         {{--<svg class="no-hover-svg">--}}
-                        {{--<use xlink:href="/img/svgdefs.svg#icon-arrow"--}}
+                        {{--<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"--}}
                         {{--xmlns:xlink="http://www.w3.org/1999/xlink"></use>--}}
                         {{--</svg>--}}
                         {{--<svg class="hover-svg">--}}
-                        {{--<use xlink:href="/img/svgdefs.svg#icon-arrow-two"--}}
+                        {{--<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"--}}
                         {{--xmlns:xlink="http://www.w3.org/1999/xlink"></use>--}}
                         {{--</svg>--}}
                         {{--</div>--}}
@@ -110,10 +112,11 @@
         </div>
         <div class="custom-next-arrow slider10">
             <svg class="default-arrow">
-                <use xlink:href="/dist/img/svgdefs.svg#icon-arrow-two" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+            {{-- @todo folder dist --}}
+                <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
             <svg class="hover-arrow">
-                <use xlink:href="/img/svgdefs.svg#icon-arrow" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
         </div>
         <div class="custom-dots slider10"></div>
@@ -299,7 +302,7 @@
 </section>
 
 @section('script')
-    <script defer src="/js/slick.min.js"></script>
+    <script defer src="{{ asset('/js/slick.min.js') }}"></script>
 
-    <script defer src="/js/slider.js"></script>
+    <script defer src="{{ asset('/js/slider.js') }}"></script>
 @endsection

@@ -8,10 +8,10 @@
     <div class="slider-new-comments-box">
         <div class="custom-prev-arrow new-slider1">
             <svg class="default-arrow">
-                <use xlink:href="/img/svgdefs.svg#icon-arrow-two" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
             <svg class="hover-arrow">
-                <use xlink:href="/img/svgdefs.svg#icon-arrow" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
         </div>
         <div class="slider-new-comments lazy">
@@ -19,10 +19,11 @@
             @foreach($videos as $video)
                 <div class="video-comment">
                     <div class="video-box">
+                    {{-- @todo --}}
                     <div class="video-poster"><img data-src="/{{ $video->image }}" alt="{{ $video->alt }}" class="lazy"></div>
                         <div class="play-video-comment" data-video-url="{{ $video->link }}">
                             <svg>
-                                <use xlink:href="/img/svgdefs.svg#icon-play" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-play') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                         </div>
                     </div>
@@ -35,10 +36,10 @@
             @endisset
             <!-- <div class="video-comment">
                 <div class="video-box">
-                <div class="video-poster"><img data-src="/img/5.jpg" alt="asdfgg" class="lazy"></div>
+                <div class="video-poster"><img data-src="{{ asset('/img/5.jpg') }}" alt="asdfgg" class="lazy"></div>
                     <div class="play-video-comment" data-video-url="https://www.youtube.com/watch?v=YECikvPVvAs">
                         <svg>
-                            <use xlink:href="/img/svgdefs.svg#icon-play" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                            <use xlink:href="{{ asset('/img/svgdefs.svg#icon-play') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                         </svg>
                     </div>
                 </div>
@@ -49,10 +50,10 @@
             </div>
             <div class="video-comment">
                 <div class="video-box">
-                <div class="video-poster"><img data-src="/img/bg-about.jpg" alt="asdfgg" class="lazy"></div>
+                <div class="video-poster"><img data-src="{{ asset('/img/bg-about.jpg') }}" alt="asdfgg" class="lazy"></div>
                     <div class="play-video-comment" data-video-url="https://www.youtube.com/embed/YECikvPVvAs">
                         <svg>
-                            <use xlink:href="/img/svgdefs.svg#icon-play" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                            <use xlink:href="{{ asset('/img/svgdefs.svg#icon-play') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                         </svg>
                     </div>
                 </div>
@@ -63,10 +64,10 @@
             </div>
             <div class="video-comment">
                 <div class="video-box">
-                <div class="video-poster"><img data-src="/img/bg1-2.jpg" alt="asdfgg" class="lazy"></div>
+                <div class="video-poster"><img data-src="{{ asset('/img/bg1-2.jpg') }}" alt="asdfgg" class="lazy"></div>
                     <div class="play-video-comment" data-video-url="https://www.youtube.com/embed/YECikvPVvAs">
                         <svg>
-                            <use xlink:href="/img/svgdefs.svg#icon-play" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                            <use xlink:href="{{ asset('/img/svgdefs.svg#icon-play') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                         </svg>
                     </div>
                 </div>
@@ -77,10 +78,10 @@
             </div>
             <div class="video-comment">
                 <div class="video-box">
-                <div class="video-poster"><img data-src="/img/bg17.jpg" alt="asdfgg" class="lazy"></div>
+                <div class="video-poster"><img data-src="{{ asset('/img/bg17.jpg') }}" alt="asdfgg" class="lazy"></div>
                     <div class="play-video-comment" data-video-url="https://www.youtube.com/embed/YECikvPVvAs">
                         <svg>
-                            <use xlink:href="/img/svgdefs.svg#icon-play" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                            <use xlink:href="{{ asset('/img/svgdefs.svg#icon-play') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                         </svg>
                     </div>
                 </div>
@@ -92,10 +93,10 @@
         </div>
         <div class="custom-next-arrow new-slider1">
             <svg class="default-arrow">
-                <use xlink:href="/img/svgdefs.svg#icon-arrow-two" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
             <svg class="hover-arrow">
-                <use xlink:href="/img/svgdefs.svg#icon-arrow" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
         </div>
         <div class="custom-dots new-slider1"></div>
@@ -103,7 +104,7 @@
     <section class="popup videos-video-popup">
 		<div class="popup-overlay"></div>
             <svg class="popup-close">
-                    <use xlink:href="/img/svgdefs.svg#icon-cross" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                    <use xlink:href="{{ asset('/img/svgdefs.svg#icon-cross') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
             <div class="popup-wrapper">
                     <div class="video-box">

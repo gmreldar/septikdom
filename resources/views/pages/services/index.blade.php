@@ -28,6 +28,7 @@
                 @foreach($services as $service)
                     <div class="item">
                         <a href="{{route('services.item', $service->link)}}">
+                        {{-- @todo --}
                             <div class="img"><img class="lazy" data-src="/min/{{ $service->image }}" alt="{{ $service->alt }}"></div>
                             <div class="item-text">
                                 <div class="item-text-inner">
@@ -37,11 +38,11 @@
                                 <a href="{{route('services.item', $service->link)}}" class="item-link">Подробнее</a>
                                 <div class="svg-box">
                                     <svg class="no-hover-svg">
-                                        <use xlink:href="/img/svgdefs.svg#icon-arrow"
+                                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                     </svg>
                                     <svg class="hover-svg">
-                                        <use xlink:href="/img/svgdefs.svg#icon-arrow-two"
+                                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"
                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                     </svg>
                                 </div>

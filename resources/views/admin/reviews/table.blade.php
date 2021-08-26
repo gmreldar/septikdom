@@ -19,7 +19,7 @@
                 <input data-id="{{ $review->id }}" id="check-{{ $review->id }}" class="checkbox" type="checkbox" @if($review->is_active) checked @endif>
                 <label for="check-{{ $review->id }}">
                     <svg>
-                        <use xlink:href="/img/svgdefs.svg#icon-check" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-check') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                 </label>
             </td>
@@ -63,5 +63,5 @@
             })
         });
     </script>
-    <script src="/js/orderable.js"></script>
+    <script src="{{ asset('/js/orderable.js') }}"></script>
 @endsection

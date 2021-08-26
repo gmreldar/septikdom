@@ -35,5 +35,5 @@
         var model = '{{ isset($logoSlide) ? quotemeta(get_class($logoSlide)) : '' }}';
         var orderableBlock = 'tbody';
     </script>
-    <script src="/js/orderable.js"></script>
+    <script src="{{ asset('/js/orderable.js') }}"></script>
 @endsection

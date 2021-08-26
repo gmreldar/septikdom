@@ -94,7 +94,7 @@
                 {{--уточнить все детали</p>--}}
                 <p>Для более точного расчета стоимости монтажных работ заполните простую
                     форму. Мы перезвоним в течении 15 минут.<br>
-                    Не нужен монтаж? Узнайте подробнее про услугу <a href="/uslugi/shefmontazkanalizacii">Шеф-монтаж</a>
+                    Не нужен монтаж? Узнайте подробнее про услугу <a href="{{ asset('/uslugi/shefmontazkanalizacii') }}">Шеф-монтаж</a>
                 </p>
             </div>
             <div class="form-order-form">
@@ -148,7 +148,8 @@
                 <p>Посмотрите видео, как мы выполняем монтаж септика,  подпишитесь на наши соцсети.
  И если вдруг мы не смогли вам перезвонить в течении 15 минут,
 смело набирайте наш номер или пишите в мессенджеры!</p>
-<div class="w-menu-grid center"><div class="w-menu-grid__cell" style="padding-left: 7px; padding-right: 7px;"><div class="cont cell"><div class="node node22 widget widget-menu-button"><div class="wrapper1"><div class="wrapper2"><div class="macros-button"><div class="btn-out center xs-none"><a class="btn-inner" href="https://vk.com/septikdom" target="_blank"><button class="btn font-text" id="uid10" data-id="" data-action="link" data-ym_goal="" data-ga_category="" data-ga_action="" need_hover="true"><img src="//u20.filesonload.ru/s/239lf4051/45fe5f3374476105fcbe36796d114c8d/82dbd230583fe2771348117e780bb1c5.png" style="width: 36px;" class=""></button></a></div></div></div></div></div></div></div><div class="w-menu-grid__cell" style="padding-left: 7px; padding-right: 7px;"><div class="cont cell"><div class="node node23 widget widget-menu-button"><div class="wrapper1"><div class="wrapper2"><div class="macros-button"><div class="btn-out center xs-none"><a class="btn-inner" href="https://api.whatsapp.com/send?phone=79119240656&amp;text=%D0%94%D0%BB%D1%8F%20%D1%80%D0%B0%D1%81%D1%87%D0%B5%D1%82%D0%B0%20%D1%81%D0%B5%D0%BF%D1%82%D0%B8%D0%BA%D0%B0%20%D0%BE%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D1%8C%D1%82%D0%B5%20%D1%8D%D1%82%D0%BE%20%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5" target="_self"><button class="btn font-text" id="uid11" data-id="" data-action="link" data-ym_goal="" data-ga_category="" data-ga_action="" need_hover="true"><img src="/img/whats-up.png" style="width: 36px;" class=""></button></a></div></div></div></div></div></div></div><div class="w-menu-grid__cell" style="padding-left: 7px; padding-right: 7px;"><div class="cont cell"><div class="node node24 widget widget-menu-button"><div class="wrapper1"><div class="wrapper2"><div class="macros-button"><div class="btn-out center xs-none"><a class="btn-inner" href="https://www.instagram.com/septikdom" target="_blank"><button class="btn font-text" id="uid12" data-id="" data-action="link" data-ym_goal="" data-ga_category="" data-ga_action="" need_hover="true"><img src="///img/instagram.png" style="width: 36px;" class=""></button></a></div></div></div></div></div></div></div><div class="w-menu-grid__cell" style="padding-left: 7px; padding-right: 7px;"><div class="cont cell"><div class="node node25 widget widget-menu-button"><div class="wrapper1"><div class="wrapper2"><div class="macros-button"><div class="btn-out center xs-none"><a class="btn-inner" href="https://telegram.im/@vgraspb" target="_blank"><button class="btn font-text" id="uid13" data-id="" data-action="link" data-ym_goal="" data-ga_category="" data-ga_action="" need_hover="true"><img src="//u20.filesonload.ru/s/23pp30051/e3eda9ecba97e2f8fd9d739bcfff0d95/e02f1d182b19df27cafd4a9c7161ad79.jpg" style="width: 38px;" class=""></button></a></div></div></div></div></div></div></div></div>
+{{-- @todo --}}
+<div class="w-menu-grid center"><div class="w-menu-grid__cell" style="padding-left: 7px; padding-right: 7px;"><div class="cont cell"><div class="node node22 widget widget-menu-button"><div class="wrapper1"><div class="wrapper2"><div class="macros-button"><div class="btn-out center xs-none"><a class="btn-inner" href="https://vk.com/septikdom" target="_blank"><button class="btn font-text" id="uid10" data-id="" data-action="link" data-ym_goal="" data-ga_category="" data-ga_action="" need_hover="true"><img src="//u20.filesonload.ru/s/239lf4051/45fe5f3374476105fcbe36796d114c8d/82dbd230583fe2771348117e780bb1c5.png" style="width: 36px;" class=""></button></a></div></div></div></div></div></div></div><div class="w-menu-grid__cell" style="padding-left: 7px; padding-right: 7px;"><div class="cont cell"><div class="node node23 widget widget-menu-button"><div class="wrapper1"><div class="wrapper2"><div class="macros-button"><div class="btn-out center xs-none"><a class="btn-inner" href="https://api.whatsapp.com/send?phone=79119240656&amp;text=%D0%94%D0%BB%D1%8F%20%D1%80%D0%B0%D1%81%D1%87%D0%B5%D1%82%D0%B0%20%D1%81%D0%B5%D0%BF%D1%82%D0%B8%D0%BA%D0%B0%20%D0%BE%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D1%8C%D1%82%D0%B5%20%D1%8D%D1%82%D0%BE%20%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5" target="_self"><button class="btn font-text" id="uid11" data-id="" data-action="link" data-ym_goal="" data-ga_category="" data-ga_action="" need_hover="true"><img src="{{ asset('/img/whats-up.png') }}" style="width: 36px;" class=""></button></a></div></div></div></div></div></div></div><div class="w-menu-grid__cell" style="padding-left: 7px; padding-right: 7px;"><div class="cont cell"><div class="node node24 widget widget-menu-button"><div class="wrapper1"><div class="wrapper2"><div class="macros-button"><div class="btn-out center xs-none"><a class="btn-inner" href="https://www.instagram.com/septikdom" target="_blank"><button class="btn font-text" id="uid12" data-id="" data-action="link" data-ym_goal="" data-ga_category="" data-ga_action="" need_hover="true"><img src="///img/instagram.png" style="width: 36px;" class=""></button></a></div></div></div></div></div></div></div><div class="w-menu-grid__cell" style="padding-left: 7px; padding-right: 7px;"><div class="cont cell"><div class="node node25 widget widget-menu-button"><div class="wrapper1"><div class="wrapper2"><div class="macros-button"><div class="btn-out center xs-none"><a class="btn-inner" href="https://telegram.im/@vgraspb" target="_blank"><button class="btn font-text" id="uid13" data-id="" data-action="link" data-ym_goal="" data-ga_category="" data-ga_action="" need_hover="true"><img src="//u20.filesonload.ru/s/23pp30051/e3eda9ecba97e2f8fd9d739bcfff0d95/e02f1d182b19df27cafd4a9c7161ad79.jpg" style="width: 38px;" class=""></button></a></div></div></div></div></div></div></div></div>
  --}}
                 <div class="node node27 widget widget-video pp">
                     <div class="wrapper1">
@@ -156,6 +157,7 @@
                             <div class="macros-video">
                                 <div class="pad-in">
                                     <div class="video video_720x405 video1">
+                                    {{-- @todo --}}
                                         <iframe class="wrap" frameborder="0" allowfullscreen="true"
                                                 src="//www.youtube.com/embed/WH66P0NcXaI?rel=0"></iframe>
                                     </div>
@@ -204,7 +206,7 @@
                                                         <button class="btn font-text" id="uid11" data-id=""
                                                                 data-action="link" data-ym_goal="" data-ga_category=""
                                                                 data-ga_action="" need_hover="true"><img
-                                                                    src="/img/whats-up.png"
+                                                                    src="{{ asset('/img/whats-up.png') }}"
                                                                     style="width: 36px;" class=""></button>
                                                     </a></div>
                                             </div>
@@ -225,7 +227,7 @@
                                                         <button class="btn font-text" id="uid12" data-id=""
                                                                 data-action="link" data-ym_goal="" data-ga_category=""
                                                                 data-ga_action="" need_hover="true"><img
-                                                                    src="/img/instagram.png"
+                                                                    src="{{ asset('/img/instagram.png') }}"
                                                                     style="width: 36px;" class=""></button>
                                                     </a></div>
                                             </div>
@@ -262,12 +264,12 @@
         </div>
         <div class="thankyou-block thankyou-block-review">
             <svg class="popup-close">
-                <use xlink:href="/img/svgdefs.svg#icon-cross" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-cross') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
             <div class="callback-text">
                 <div class="check-box">
                     <svg>
-                        <use xlink:href="/img/svgdefs.svg#icon-checkbox"
+                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-checkbox') }}"
                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                 </div>
@@ -278,12 +280,12 @@
         </div>
         <div class="subscribe-block">
             <svg class="popup-close">
-                <use xlink:href="/img/svgdefs.svg#icon-cross" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-cross') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
             <div class="callback-text">
                 <div class="check-box">
                     <svg>
-                        <use xlink:href="/img/svgdefs.svg#icon-checkbox"
+                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-checkbox') }}"
                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                 </div>
@@ -294,7 +296,7 @@
         </div>
         <div class="review-block">
             <svg class="popup-close">
-                <use xlink:href="/img/svgdefs.svg#icon-cross" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-cross') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
             <div class="calculator-text">
                 <h2>Добавить отзыв</h2>
@@ -591,7 +593,7 @@
     <div class="popup-wrapper">
         <div class="callback-block">
             <svg class="popup-close">
-                <use xlink:href="/img/svgdefs.svg#icon-cross" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-cross') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
             <div class="callback-answer">
                 <h2>Заказать обратный звонок</h2>
@@ -627,7 +629,7 @@
     <div class="fix-buttons-block">
         <a href="{{route('calculator')}}" class="fix-button">
             <svg>
-                <use xlink:href="/img/svgdefs.svg#icon-calc" xmlns:xlink="http://www.w3.org/1999/xlink"
+                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-calc') }}" xmlns:xlink="http://www.w3.org/1999/xlink"
                      style="width: 100%;height:100%;"></use>
             </svg>
             <div class="block-tooltip">Подбор станции онлайн</div>
@@ -638,7 +640,7 @@
             {{-- <a href="{{route('recall')}}" class="fix-button"> --}}
             <div class="block-tooltip">Заказать обратный звонок</div>
             <svg>
-                <use xlink:href="/img/svgdefs.svg#icon-phone" xmlns:xlink="http://www.w3.org/1999/xlink"
+                <use xlink:href="{{ ('/img/svgdefs.svg#icon-phone') }}" xmlns:xlink="http://www.w3.org/1999/xlink"
                      style="width: 100%;height:100%;"></use>
             </svg>
         </a>

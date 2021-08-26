@@ -47,7 +47,7 @@
                         <div class="search-input">
                             <input type="text" placeholder="Поиск" autocomplete="off" id="search-input">
                             <svg class="icon-search">
-                                <use xlink:href="/img/svgdefs.svg#icon-search"
+                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-search') }}"
                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                         </div>
@@ -75,12 +75,12 @@
                             <div class="social-links">
                                 <a class="fb" onclick="Share.facebook()">
                                     <svg>
-                                        <use xlink:href="/img/svgdefs.svg#icon-facebook" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-facebook') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                     </svg>
                                 </a>
                                 <a class="vk" onclick="Share.vk()">
                                     <svg>
-                                        <use xlink:href="/img/svgdefs.svg#icon-vk" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-vk') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                     </svg>
                                 </a>
                             </div>
@@ -107,5 +107,5 @@
 @endsection
 
 @section('script')
-    <script src="/js/share.js"></script>
+    <script src="{{ asset('/js/share.js') }}"></script>
 @endsection

@@ -10,6 +10,7 @@
         @foreach($works as $work)
             <div class="work-item">
                 <a href="{{route('portfolio.item', $work->link)}}">
+                {{-- @todo --}}
 										<div class="work-img"><img class="lazy" data-src="/min/{{ $work->image }}" alt=""></div>
                     <div class="work-footer">
                         <div class="work-footer-text">
@@ -18,11 +19,12 @@
                         </div>
                         <div class="icon">
                             <svg class="default-svg">
-                                <use xlink:href="/dist/img/svgdefs.svg#icon-arrow"
+                            {{-- @todo folder dist --}}
+                                <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow') }}"
                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                             <svg class="hover-svg">
-                                <use xlink:href="/dist/img/svgdefs.svg#icon-arrow-two"
+                                <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                         </div>
@@ -36,10 +38,10 @@
         <p>Смотреть все работы</p>
         <div class="svg-box">
             <svg class="hover-icon">
-                <use xlink:href="/img/svgdefs.svg#icon-arrow-two" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
             <svg class="default-icon">
-                <use xlink:href="/img/svgdefs.svg#icon-arrow" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
         </div>
     </a>

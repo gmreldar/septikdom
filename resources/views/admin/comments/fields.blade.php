@@ -34,7 +34,7 @@
     {!! Form::checkbox('is_active', 1, isset($comment->is_active) ? $comment->is_active : false) !!}
     <label for="is_active">
         <svg>
-            <use xlink:href="/img/svgdefs.svg#icon-check" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+            <use xlink:href="{{ asset('/img/svgdefs.svg#icon-check') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
         </svg>
     </label>
 </div>

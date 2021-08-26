@@ -22,6 +22,7 @@
             <a href="{{route('catalog.category', $septic->link)}}" class="septic-item-link">
                 <div class="septic-item">
                     <div class="septic-img">
+                    {{-- @todo --}}
                         <img class="lazy" data-src="/min/{{ $septic->image }}" alt="{{ $septic->alt }}">
                     </div>
                     <div class="septic-footer">
@@ -36,11 +37,11 @@
                             </div>
                             <div class="icon">
                                 <svg class="default-svg">
-                                    <use xlink:href="/img/svgdefs.svg#icon-arrow"
+                                    <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                 </svg>
                                 <svg class="hover-svg">
-                                    <use xlink:href="/img/svgdefs.svg#icon-arrow-two"
+                                    <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"
                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                 </svg>
                             </div>

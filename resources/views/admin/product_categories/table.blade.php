@@ -21,7 +21,7 @@
                 <input data-id="{{ $productCategory->id }}" id="check-{{ $productCategory->id }}" class="checkbox" type="checkbox" @if($productCategory->is_active) checked @endif>
                 <label for="check-{{ $productCategory->id }}">
                     <svg>
-                        <use xlink:href="/img/svgdefs.svg#icon-check" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-check') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                 </label>
             </td>
@@ -39,7 +39,7 @@
 </table>
 
 @section('scripts')
-    <script src="/js/orderable.js"></script>
+    <script src="{{ asset('/js/orderable.js') }}"></script>
     <script>
         var model = '{{ isset($productCategory) ? quotemeta(get_class($productCategory)) : '' }}';
         var orderableBlock = 'tbody';
