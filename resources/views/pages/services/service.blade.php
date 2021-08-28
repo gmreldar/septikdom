@@ -24,7 +24,7 @@
                 <span class="description">{{ $service->annotation }}</span>
                 <div class="articles-text">
                     {{--<div class="articles-pic first" style="background-image: url(/{{ $service->image }});"></div>--}}
-                    <img class="articles-pic first lazy" data-src="{{ asset('$service->image') }}" alt="">
+                    <img class="articles-pic first lazy" data-src="{{ asset($service->image) }}" alt="">
                     {!! $service->text !!}
 
                     <div class="info">
