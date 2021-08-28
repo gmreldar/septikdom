@@ -7,7 +7,9 @@
     @if($page->image)
         <meta property="og:image" content="{{ url($page->image) }}"/>
         <link rel="image_src" href="{{ url($page->image) }}"/>
-    @endif
+	@else
+		{!! $defaultOGImage !!}
+	@endif
     <meta name="twitter:card" content="summary_large_image">
     <meta name="og:title" content="{{ $page->title }}">
     <meta name="og:description" content="{{ $page->description }}">
@@ -37,7 +39,7 @@
 						<div class="block-wrap">
 							<div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 								<h4>Адрес офиса:</h4>
-								<p>{!! $contact->address !!}</p>
+								<p itemprop="streetAddress">{!! $contact->address !!}</p>
 							</div>
 							<div class="work-time">
 								<h4>График работы:</h4>

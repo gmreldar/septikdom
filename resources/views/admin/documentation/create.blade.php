@@ -124,7 +124,6 @@
 
         function add_link(link) {
             var nameLink = document.getElementById(link).value;
-            {{-- @todo --}}
             var txt = '<a href="/download/' + nameLink + ' ">' + nameLink + '</a>';
             $('#text').val($('#text').val() + txt);
         }
@@ -135,7 +134,6 @@
 
         function creareFileLink(file, link) {
             var nameLink = document.getElementById(link).value;
-            {{-- @todo --}}
             var txt = '<a href="/download/' + nameLink + ' ">' + nameLink + '</a>';
             $('#text').val($('#text').val() + txt);
         }

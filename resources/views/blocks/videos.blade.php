@@ -19,8 +19,7 @@
             @foreach($videos as $video)
                 <div class="video-comment">
                     <div class="video-box">
-                    {{-- @todo --}}
-                    <div class="video-poster"><img data-src="/{{ $video->image }}" alt="{{ $video->alt }}" class="lazy"></div>
+                    <div class="video-poster"><img data-src="{{ asset($video->image) }}" alt="{{ $video->alt }}" class="lazy"></div>
                         <div class="play-video-comment" data-video-url="{{ $video->link }}">
                             <svg>
                                 <use xlink:href="{{ asset('/img/svgdefs.svg#icon-play') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>

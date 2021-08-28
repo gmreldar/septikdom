@@ -7,7 +7,9 @@
     @if($work->image)
         <meta property="og:image" content="{{ url($work->image) }}"/>
         <link rel="image_src" href="{{ url($work->image) }}"/>
-    @endif
+	@else
+		{!! $defaultOGImage !!}
+	@endif
     <meta name="twitter:card" content="summary_large_image">
     <meta name="og:title" content="{{ $work->title }}">
     <meta name="og:description" content="{{ $work->description }}">
@@ -38,8 +40,7 @@
 					<h1>{{ $work->name }}</h1>
 					<span>{{ $work->annotation }}</span>
 				</div>
-				{{-- @todo --}}
-				<img class="lazy" data-src="/{{ $work->image }}" alt="{{ $work->alt }}">
+				<img class="lazy" data-src="{{ asset($work->image) }}" alt="{{ $work->alt }}">
                 <div class="preparation">
 				    {!! $work->text !!}
 

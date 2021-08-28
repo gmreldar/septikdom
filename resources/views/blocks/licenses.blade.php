@@ -6,7 +6,6 @@
 <div class="slider-docs-box">
     <div class="custom-prev-arrow slider3">
         <svg class="default-arrow">
-        {{-- @todo folder dist --}}
             <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
         </svg>
         <svg class="hover-arrow">
@@ -17,15 +16,13 @@
     <div class="slider-docs">
         @isset($licenses)
         @foreach($licenses as $license)
-        {{-- @todo --}}
-            <img data-src="/min/{{ $license->image }}" data-full-img="/{{ $license->image }}" alt="{{ $license->alt }}" class="lazy-img">
+            <img data-src="{{ asset('/min/' . $license->image ) }}" data-full-img="{{ asset($license->image) }}" alt="{{ $license->alt }}" class="lazy-img">
         @endforeach
         @endisset
     </div>
 
     <div class="custom-next-arrow slider3">
         <svg class="default-arrow">
-        {{-- @todo folder dist --}}
             <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
         </svg>
         <svg class="hover-arrow">

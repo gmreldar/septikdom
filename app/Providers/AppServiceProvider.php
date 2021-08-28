@@ -26,6 +26,13 @@ class AppServiceProvider extends ServiceProvider
 
         View::share('contact', $contact);
         View::share('menuProductCategories', $menuProductCategories);
+        View::share('defaultOGImage', $this->getDefaultOGImage());
+    }
+
+    private function getDefaultOGImage()
+    {
+        $url = asset('/uploads/images/logo.png');
+        return '<meta property="og:image" content="' . $url . '">';
     }
 
     /**

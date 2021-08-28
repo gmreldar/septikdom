@@ -35,8 +35,7 @@
 <body class="hold-transition register-page">
 <div class="register-box">
     <div class="register-logo">
-    {{-- @todo --}}
-        <a href="//egc.fi/" target="_blank">
+        <a href="http://egc.fi/" target="_blank">
             <img src="{{ asset('/img/admin/egc_logo_max.7355130.svg') }}" alt="">
         </a>
     </div>

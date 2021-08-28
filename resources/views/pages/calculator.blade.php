@@ -80,12 +80,10 @@
 									<span class="bar"></span>
 									<div class="select-field">
 											<svg class="top-icon top-icon1">
-											{{-- @todo folder dist and two slashes --}}
 													<use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow-two') }}"
 																xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 											</svg>
 											<svg class="bottom-icon bottom-icon1">
-											{{-- @todo folder dist and two slashes --}}
 													<use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow-two') }}"
 																xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 											</svg>
@@ -107,12 +105,10 @@
 									<span class="bar"></span>
 									<div class="select-field">
 											<svg class="top-icon top-icon1">
-											{{-- @todo folder dist and two slashes--}}
 													<use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow-two') }}"
 																xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 											</svg>
 											<svg class="bottom-icon bottom-icon1">
-											{{-- @todo folder dist and two slashes--}}
 													<use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow-two') }}"
 																xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 											</svg>
@@ -134,13 +130,11 @@
 									<span class="bar"></span>
 									<div class="select-field">
 											<svg class="top-icon top-icon1">
-											{{-- @todo folder diat and two slashes--}}
-													<use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow-two') }}"
+													<use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
 																xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 											</svg>
 											<svg class="bottom-icon bottom-icon1">
-											{{-- @todo folder diat and two slashes--}}
-													<use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow-two') }}"
+													<use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
 																xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 											</svg>
 									</div>
@@ -161,13 +155,11 @@
 									<span class="bar"></span>
 									<div class="select-field">
 											<svg class="top-icon top-icon1">
-											{{-- @todo folder dist and two slashes --}}
-													<use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow-two') }}"
+													<use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
 																xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 											</svg>
 											<svg class="bottom-icon bottom-icon1">
-											{{-- @todo folder dist and two slashes --}}
-													<use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow-two') }}"
+													<use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
 																xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 											</svg>
 									</div>
@@ -188,13 +180,11 @@
 									<span class="bar"></span>
 									<div class="select-field">
 											<svg class="top-icon top-icon1">
-											{{-- @todo folder dist and two slashes --}}
-													<use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow-two') }}"
+													<use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
 																xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 											</svg>
 											<svg class="bottom-icon bottom-icon1">
-											{{-- @todo folder dist and two slashes --}}
-													<use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow-two') }}"
+													<use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
 																xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 											</svg>
 									</div>
@@ -215,13 +205,11 @@
 									<span class="bar"></span>
 									<div class="select-field">
 											<svg class="top-icon top-icon1">
-											{{-- @todo folder dist and two slashes --}}
-													<use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow-two') }}"
+													<use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
 																xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 											</svg>
 											<svg class="bottom-icon bottom-icon1">
-											{{-- @todo folder dist and two slashes --}}
-													<use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow-two') }}"
+													<use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
 																xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 											</svg>
 									</div>
@@ -286,13 +274,11 @@
 									<span class="bar"></span>
 									<div class="select-field">
 											<svg class="top-icon">
-											{{-- @todo folder dist and two slashes --}}
-													<use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow-two') }}"
+													<use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
 																xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 											</svg>
 											<svg class="bottom-icon">
-											{{-- @todo folder dist and two slashes --}}
-													<use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow-two') }}"
+													<use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
 																xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 											</svg>
 									</div>
@@ -313,13 +299,11 @@
 									<span class="bar"></span>
 									<div class="select-field">
 											<svg class="top-icon">
-											{{-- @todo folder dist and two slashes--}}
-													<use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow-two') }}"
+													<use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
 																xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 											</svg>
 											<svg class="bottom-icon">
-											{{-- @todo folder dist and two slashes--}}
-													<use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow-two') }}"
+													<use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
 																xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 											</svg>
 									</div>
@@ -340,13 +324,11 @@
 									<span class="bar"></span>
 									<div class="select-field" data-step="10">
 											<svg class="top-icon top-icon1">
-											{{-- @todo folder dist and two slashes --}}
-													<use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow-two') }}"
+													<use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
 																xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 											</svg>
 											<svg class="bottom-icon bottom-icon1">
-											{{-- @todo folder dist and two slashes --}}
-													<use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow-two') }}"
+													<use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
 																xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 											</svg>
 									</div>

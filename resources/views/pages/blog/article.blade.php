@@ -7,6 +7,8 @@
     @if($article->seo_image)
         <meta property="og:image" content="{{ url($article->seo_image) }}"/>
         <link rel="image_src" href="{{ url($article->seo_image) }}"/>
+    @else
+        {!! $defaultOGImage !!}
     @endif
     <meta name="twitter:card" content="summary_large_image">
     <meta name="og:title" content="{{ $article->title }}">

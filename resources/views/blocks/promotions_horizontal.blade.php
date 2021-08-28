@@ -24,8 +24,7 @@
                         <div>
                             <div class="item" style="width: 100%; display: inline-block; min-height: 280px; height: 280px;">
                                 <a href="{{route('blog.article', [$promotion->category->link, $promotion->link])}}">
-                                {{-- @todo --}}
-                                    <div class="img" style="height: 100%;"><img style="height: 100%;" data-src="/min/{{ $promotion->discount_slider_img ? $promotion->discount_slider_img : $promotion->image }}"
+                                    <div class="img" style="height: 100%;"><img style="height: 100%;" data-src="{{ asset('/min/' . $promotion->discount_slider_img ? $promotion->discount_slider_img : $promotion->image) }}"
                                                           alt="{{ $promotion->alt }}"
                                                           class="lazy-img"></div>
                                 </a>

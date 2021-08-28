@@ -7,6 +7,8 @@
     @if($page->image)
         <meta property="og:image" content="{{ url($page->image) }}"/>
         <link rel="image_src" href="{{ url($page->image) }}"/>
+    @else
+        {!! $defaultOGImage !!}
     @endif
     <meta name="twitter:card" content="summary_large_image">
     <meta name="og:title" content="{{ $page->title }}">
@@ -28,8 +30,7 @@
                 @foreach($services as $service)
                     <div class="item">
                         <a href="{{route('services.item', $service->link)}}">
-                        {{-- @todo --}
-                            <div class="img"><img class="lazy" data-src="/min/{{ $service->image }}" alt="{{ $service->alt }}"></div>
+                            <div class="img"><img class="lazy" data-src="{{ asset('/min/' . $service->image) }}" alt="{{ $service->alt }}"></div>
                             <div class="item-text">
                                 <div class="item-text-inner">
                                     <h3>{{ $service->name }}</h3>

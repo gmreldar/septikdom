@@ -7,6 +7,8 @@
     @if($category->image)
         <meta property="og:image" content="{{ url($category->image) }}"/>
         <link rel="image_src" href="{{ url($category->image) }}"/>
+    @else
+        {!! $defaultOGImage !!}
     @endif
     <meta name="twitter:card" content="summary_large_image">
     <meta name="og:title" content="{{ $category->title }}">
@@ -175,8 +177,7 @@
                                     <a href="{{route('catalog.product', [$category->link, $product->link])}}"
                                        class="analog-img">
                                         @if($image)
-                                        {{-- @todo --}}
-                                            <img class="lazy" data-src="/min/{{ $image->image }}"
+                                            <img class="lazy" data-src="{{ asset('' . $image->image) }}"
                                                  alt="{{ $image->alt }}">
                                         @endif
                                         @if($sale)
@@ -274,12 +275,10 @@
                                                class="article-link">Подробнее</a>
                                             <div class="article-svg">
                                                 <svg class="article-svg-default">
-                                                {{-- @todo folder dist --}}
                                                     <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow') }}"
                                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                 </svg>
                                                 <svg class="article-svg-hover">
-                                                {{-- @todo folder dist --}}
                                                     <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                 </svg>

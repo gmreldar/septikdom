@@ -7,6 +7,8 @@
     @if($page->image)
         <meta property="og:image" content="{{ url($page->image) }}"/>
         <link rel="image_src" href="{{ url($page->image) }}"/>
+    @else
+        {!! $defaultOGImage !!}
     @endif
     <meta name="twitter:card" content="summary_large_image">
     <meta name="og:title" content="{{ $page->title }}">
@@ -87,7 +89,7 @@
                 <div class="controls-arrows">
                     <div class="custom-prev-arrow slider-main">
                         <svg class="default-arrow">
-                            <use xlink:href="/img/svgdefs.svg#icon-arrow-two"
+                            <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"
                                  xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                         </svg>
                         <svg class="hover-arrow">
@@ -97,7 +99,7 @@
                     </div>
                     <div class="custom-next-arrow slider-main">
                         <svg class="default-arrow">
-                            <use xlink:href="/img/svgdefs.svg#icon-arrow-two"
+                            <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"
                                  xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                         </svg>
                         <svg class="hover-arrow">
@@ -114,7 +116,7 @@
                 @isset($logoSlider)
                     @foreach($logoSlider as $slide)
                         <div class="station">
-                            <a class="station-item" href="{{ $slide->url }}"><img src="/{{ $slide->image }}"
+                            <a class="station-item" href="{{ $slide->url }}"><img src="{{ asset($slide->image) }}"
                                                                                   alt="{{ $slide->alt }}"></a>
                         </div>
                     @endforeach
@@ -125,7 +127,7 @@
                     <div class="controls-arrows">
                         <div class="custom-prev-arrow slider-stations">
                             <svg class="default-arrow">
-                                <use xlink:href="/img/svgdefs.svg#icon-arrow-two"
+                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"
                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                             <svg class="hover-arrow">
@@ -135,7 +137,7 @@
                         </div>
                         <div class="custom-next-arrow slider-stations">
                             <svg class="default-arrow">
-                                <use xlink:href="/img/svgdefs.svg#icon-arrow-two"
+                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"
                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                             </svg>
                             <svg class="hover-arrow">
@@ -150,7 +152,7 @@
     </section>
 
     <section id="two">
-        <img data-src="/img/bg2.jpg" alt="Img" class="bgi lazy-img">
+        <img data-src="{{ asset('/img/bg2.jpg') }}" alt="Img" class="bgi lazy-img">
         <div class="wrapper">
             <div class="title-box">
                 <div class="title-content">
@@ -450,7 +452,7 @@
                 @isset($articles)
                     @foreach($articles as $article)
                         <div class="article">
-                            <img class="article-img lazy" src="/min/{{ $article->image }}"></img>
+                            <img class="article-img lazy" src="{{ asset('/min/' . $article->image) }}"></img>
                             <div class="article-footer">
                                 <div class="article-content">
                                     <div class="article-title">{{ $article->name }}</div>
@@ -460,11 +462,11 @@
                                    class="article-link">Подробнее</a>
                                 <div class="article-svg">
                                     <svg class="article-svg-default">
-                                        <use xlink:href="/dist/img/svgdefs.svg#icon-arrow"
+                                        <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow') }}"
                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                     </svg>
                                     <svg class="article-svg-hover">
-                                        <use xlink:href="/dist/img/svgdefs.svg#icon-arrow-two"
+                                        <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                     </svg>
                                 </div>
@@ -477,7 +479,7 @@
                 <p>Читать все статьи</p>
                 <div class="svg-box">
                     <svg class="hover-icon">
-                        <use xlink:href="/img/svgdefs.svg#icon-arrow-two"
+                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"
                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                     <svg class="default-icon">
@@ -535,7 +537,7 @@
                 </div>
                 <div class="advantage">
                     <svg>
-                        <use xlink:href="/dist/img/svgdefs.svg#icon-advantage2"
+                        <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-advantage2') }}"
                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                     <p>Безопасная экономия</p>
@@ -548,7 +550,7 @@
                 </div>
                 <div class="advantage">
                     <svg>
-                        <use xlink:href="/dist/img/svgdefs.svg#icon-advantage3"
+                        <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-advantage3') }}"
                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                     <p>Мы дилеры вам выгодно</p>
@@ -561,7 +563,7 @@
                 </div>
                 <div class="advantage">
                     <svg>
-                        <use xlink:href="/dist/img/svgdefs.svg#icon-advantage4"
+                        <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-advantage4') }}"
                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                     <p>Бесплатный выезд</p>
@@ -574,7 +576,7 @@
                 </div>
                 <div class="advantage">
                     <svg>
-                        <use xlink:href="/dist/img/svgdefs.svg#icon-advantage7"
+                        <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-advantage7') }}"
                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                     <p>Гарантия - 36 месяцев</p>
@@ -587,7 +589,7 @@
                 </div>
                 <div class="advantage">
                     <svg>
-                        <use xlink:href="/dist/img/svgdefs.svg#icon-rezult1" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-rezult1') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                     <p>Ответы на вопросы</p>
                     <div class="overlay">
@@ -599,7 +601,7 @@
                 </div>
                 <div class="advantage">
                     <svg>
-                        <use xlink:href="/dist/img/svgdefs.svg#icon-rezult2" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-rezult2') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                     <p>Адекватные сроки</p>
                     <div class="overlay">
@@ -611,8 +613,8 @@
                 </div>
                 <div class="advantage">
                     <svg>
-                        <use xlink:href="img/svgdefs.svg#icon-rezult3" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
-                        <use xlink:href="/dist/img/svgdefs.svg#icon-rezult3" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-rezult3') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-rezult3') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                     <p>Качественный монтаж</p>
                     <div class="overlay">
@@ -629,7 +631,7 @@
 @endsection
 
 @section('script')
-    <script defer src="/js/slick.min.js"></script>
+    <script defer src="{{ asset('/js/slick.min.js') }}"></script>
 
-    <script defer src="/js/slider.js"></script>
+    <script defer src="{{ asset('/js/slider.js') }}"></script>
 @endsection

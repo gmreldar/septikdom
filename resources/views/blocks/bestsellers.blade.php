@@ -9,7 +9,6 @@
     <div class="slider-bestsellers-box">
         <div class="custom-prev-arrow slider10">
             <svg class="default-arrow">
-            {{-- @todo папка dist нужна ли она здесь--}}
                 <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
             <svg class="hover-arrow">
@@ -28,8 +27,7 @@
                                 <a href="{{route('catalog.product', [$best['category']->link, $best['product']->link])}}"
                                    class="analog-bestsellers-img">
                                     @if($image)
-                                    {{-- @todo --}}
-                                        <img class="lazy" data-src="/min/{{ $image->image }}"
+                                        <img class="lazy" data-src="{{ asset('/min/' . $image->image) }}"
                                              alt="{{ $image->alt }}">
                                     @endif
                                     @if($sale)
@@ -112,7 +110,6 @@
         </div>
         <div class="custom-next-arrow slider10">
             <svg class="default-arrow">
-            {{-- @todo folder dist --}}
                 <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
             </svg>
             <svg class="hover-arrow">

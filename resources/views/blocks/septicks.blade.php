@@ -22,8 +22,7 @@
             <a href="{{route('catalog.category', $septic->link)}}" class="septic-item-link">
                 <div class="septic-item">
                     <div class="septic-img">
-                    {{-- @todo --}}
-                        <img class="lazy" data-src="/min/{{ $septic->image }}" alt="{{ $septic->alt }}">
+                        <img class="lazy" data-src=" {{ asset('/min/' . $septic->image) }}" alt="{{ $septic->alt }}">
                     </div>
                     <div class="septic-footer">
                         <div class="septic-content">

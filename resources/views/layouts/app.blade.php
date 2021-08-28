@@ -79,8 +79,7 @@
                             <!-- Menu Toggle Button -->
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <!-- The user image in the navbar-->
-                                {{-- @todo --}}
-                                <img class="lazy" data-src="//api.egc.fi/images/logo_white.png"
+                                <img class="lazy" data-src="api.egc.fi/images/logo_white.png"
                                      class="user-image" alt="User Image"/>
                                 <!-- hidden-xs hides the username on small devices so only the image appears. -->
                                 <span class="hidden-xs">{!! Auth::user()->name !!}</span>
@@ -88,8 +87,7 @@
                             <ul class="dropdown-menu">
                                 <!-- The user image in the menu -->
                                 <li class="user-header">
-                                {{-- @todo --}}
-                                    <img class="lazy" data-src="//api.egc.fi/images/logo_white.png"
+                                    <img class="lazy" data-src="api.egc.fi/images/logo_white.png"
                                          class="img-circle" alt="User Image"/>
                                     <p>
                                         {!! Auth::user()->name !!}
@@ -183,8 +181,7 @@
         src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-        {{-- @todo --}}
-    <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- AdminLTE App -->

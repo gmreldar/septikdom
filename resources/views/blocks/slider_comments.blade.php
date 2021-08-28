@@ -8,11 +8,9 @@
 			<div class="slider-comments-box">
 					<div class="custom-prev-arrow slider2">
 							<svg class="default-arrow">
-							{{-- @todo folder dist --}}
 									<use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 							</svg>
 							<svg class="hover-arrow">
-							{{-- @todo folder dist --}}
 									<use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 							</svg>
 					</div>
@@ -22,8 +20,7 @@
 							<div class="comment">
 									<div class="comment-inner">
 											<div class="comment-img">
-											{{-- @todo --}}
-													<img data-src="/{{ $review->image }}" alt="{{ $review->alt }}" class="lazy-img">
+													<img data-src="{{ asset($review->image) }}" alt="{{ $review->alt }}" class="lazy-img">
 											</div>
 											<div class="comment-text-wrap">
 												<div class="comment-text">
@@ -39,7 +36,6 @@
 					</div>
 					<div class="custom-next-arrow slider2">
 							<svg class="default-arrow">
-							{{-- @todo folder dist --}}
 									<use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 							</svg>
 							<svg class="hover-arrow">

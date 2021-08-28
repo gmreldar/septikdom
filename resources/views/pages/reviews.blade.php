@@ -7,6 +7,8 @@
     @if($page->image)
         <meta property="og:image" content="{{ url($page->image) }}"/>
         <link rel="image_src" href="{{ url($page->image) }}"/>
+    @else
+        {!! $defaultOGImage !!}
     @endif
     <meta name="twitter:card" content="summary_large_image">
     <meta name="og:title" content="{{ $page->title }}">
@@ -32,11 +34,12 @@
             <div class="slider-comments-box">
                 <div class="custom-prev-arrow slider2">
                     <svg class="default-arrow">
-                        <use xlink:href="/img/svgdefs.svg#icon-arrow-two"
+                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"
                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                     <svg class="hover-arrow">
-                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
+                             xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                 </div>
                 <div class="slider-comments">
@@ -47,7 +50,7 @@
                                 <div class="comment">
                                     <div class="comment-inner">
                                         <div class="comment-img">
-                                            <img data-src="/{{ $review->file }}" alt="{{ $review->alt }}"
+                                            <img data-src="{{ asset($review->file) }}" alt="{{ $review->alt }}"
                                                  class="lazy-img">
                                         </div>
                                         <div class="comment-text-wrap">
@@ -65,11 +68,12 @@
                 </div>
                 <div class="custom-next-arrow slider2">
                     <svg class="default-arrow">
-                        <use xlink:href="/img/svgdefs.svg#icon-arrow-two"
+                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"
                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                     <svg class="hover-arrow">
-                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
+                             xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                 </div>
                 <div class="custom-dots slider2"></div>
@@ -85,11 +89,12 @@
             <div class="slider-audio-comments-box">
                 <div class="custom-prev-arrow slider8">
                     <svg class="default-arrow">
-                        <use xlink:href="/img/svgdefs.svg#icon-arrow-two"
+                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"
                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                     <svg class="hover-arrow">
-                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
+                             xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                 </div>
                 <div class="slider-audio-comments">
@@ -107,8 +112,10 @@
                                                     <div id="wave{{$review->id}}" style="height: 60px"
                                                          class="waveform"></div>
                                                     <button class="wavePlay" disabled id="controls_wave{{$review->id}}">
-                                                        <img class="play" src="/img/icons/play-audio-min.png"/>
-                                                        <img class="pause" src="/img/icons/pause-audio-min.png"/>
+                                                        <img class="play"
+                                                             src="{{ asset('/img/icons/play-audio-min.png') }}"/>
+                                                        <img class="pause"
+                                                             src="{{ asset('/img/icons/pause-audio-min.png') }}"/>
                                                     </button>
                                                 </div>
 
@@ -122,11 +129,12 @@
                 </div>
                 <div class="custom-next-arrow slider8">
                     <svg class="default-arrow">
-                        <use xlink:href="/img/svgdefs.svg#icon-arrow-two"
+                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"
                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                     <svg class="hover-arrow">
-                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
+                             xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                 </div>
                 <div class="custom-dots slider8"></div>
@@ -142,11 +150,12 @@
             <div class="slider-text-comments-box">
                 <div class="custom-prev-arrow slider9">
                     <svg class="default-arrow">
-                        <use xlink:href="/img/svgdefs.svg#icon-arrow-two"
+                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"
                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                     <svg class="hover-arrow">
-                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
+                             xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                 </div>
                 <div class="slider-text-comments">
@@ -171,11 +180,12 @@
                 </div>
                 <div class="custom-next-arrow slider9">
                     <svg class="default-arrow">
-                        <use xlink:href="/img/svgdefs.svg#icon-arrow-two"
+                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"
                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                     <svg class="hover-arrow">
-                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
+                             xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                     </svg>
                 </div>
                 <div class="custom-dots slider9"></div>
@@ -251,9 +261,9 @@
 @endsection
 
 @section('script')
-    <script defer src="/js/slick.min.js"></script>
-    <script src="/js/wavesurfer.js"></script>
-    <script defer src="/js/slider.js"></script>
+    <script defer src="{{ asset('/js/slick.min.js') }}"></script>
+    <script src="{{ asset('/js/wavesurfer.js') }}"></script>
+    <script defer src="{{ asset('/js/slider.js') }}"></script>
     <script>
         var waves = [];
         var surfers = [];

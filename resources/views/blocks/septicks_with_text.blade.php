@@ -20,7 +20,7 @@
             <a href="{{route('catalog.category', $septic->link)}}" class="septic-item-link">
                 <div class="septic-item">
                     <div class="septic-img">
-                        <img class="lazy" data-src="/min/{{ $septic->image }}" alt="{{ $septic->alt }}">
+                        <img class="lazy" data-src="{{ asset('/min/' . $septic->image) }}" alt="{{ $septic->alt }}">
                     </div>
                     <div class="septic-footer">
                         <div class="septic-content">
@@ -38,7 +38,7 @@
                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                 </svg>
                                 <svg class="hover-svg">
-                                    <use xlink:href="/img/svgdefs.svg#icon-arrow-two"
+                                    <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow-two') }}"
                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                 </svg>
                             </div>

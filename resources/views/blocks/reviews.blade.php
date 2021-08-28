@@ -21,8 +21,7 @@
                         <div class="comment">
                             <div class="comment-inner">
                                 <div class="comment-img">
-                                {{-- @todo --}}
-                                    <img data-src="/{{ $review->file }}" alt="{{ $review->alt }}" class="lazy-img">
+                                    <img data-src="{{ asset($review->file) }}" alt="{{ $review->alt }}" class="lazy-img">
                                 </div>
                                 <div class="comment-text-wrap">
                                     <div class="comment-text">

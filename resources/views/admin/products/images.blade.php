@@ -10,7 +10,6 @@
                     <i class="fa fa-ellipsis-v"></i>
                     <i class="fa fa-ellipsis-v"></i>
                 </span>
-                {{-- @todo --}}
                 <a href="/{!! $image->image !!}" class="mailbox-attachment-name" target="_blank"><i class="fa fa-camera"></i><span class="file-name"> /{!! $image->image !!}</span></a>
             </td>
             <td>{!! $image->alt !!}</td>

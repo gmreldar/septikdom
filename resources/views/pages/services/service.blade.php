@@ -7,6 +7,8 @@
     @if($service->image)
         <meta property="og:image" content="{{ url($service->seo_image) }}"/>
         <link rel="image_src" href="{{ url($service->seo_image) }}"/>
+    @else
+        {!! $defaultOGImage !!}
     @endif
     <meta name="twitter:card" content="summary_large_image">
     <meta name="og:title" content="{{ $service->title }}">
@@ -22,8 +24,7 @@
                 <span class="description">{{ $service->annotation }}</span>
                 <div class="articles-text">
                     {{--<div class="articles-pic first" style="background-image: url(/{{ $service->image }});"></div>--}}
-                    {{-- @todo --}
-                    <img class="articles-pic first lazy" data-src="/{{ $service->image }}" alt="">
+                    <img class="articles-pic first lazy" data-src="{{ asset('$service->image') }}" alt="">
                     {!! $service->text !!}
 
                     <div class="info">

@@ -7,6 +7,8 @@
     @if($page->image)
         <meta property="og:image" content="{{ url($page->image) }}"/>
         <link rel="image_src" href="{{ url($page->image) }}"/>
+    @else
+        {!! $defaultOGImage !!}
     @endif
     <meta name="twitter:card" content="summary_large_image">
     <meta name="og:title" content="{{ $page->title }}">

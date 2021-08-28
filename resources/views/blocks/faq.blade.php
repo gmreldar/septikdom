@@ -15,7 +15,6 @@
                             <div class="question-title">{{ $question->name }}</div>
                             <div class="question-icon">
                                 <svg class="question-arrow-two">
-                                {{-- @todo folder dist --}}
                                     <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                 </svg>

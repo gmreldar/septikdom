@@ -36,7 +36,6 @@
 <body class="hold-transition login-page">
 <div class="login-box">
     <div class="login-logo">
-    {{-- @todo --}}
         <a href="//egc.fi/" target="_blank">
             <img class="lazy" data-src="{{ asset('/img/admin/egc_logo_max.7355130.svg') }}" alt="">
         </a>

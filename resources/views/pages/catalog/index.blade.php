@@ -7,6 +7,8 @@
     @if($page->image)
         <meta property="og:image" content="{{ url($page->image) }}"/>
         <link rel="image_src" href="{{ url($page->image) }}"/>
+    @else
+        {!! $defaultOGImage !!}
     @endif
     <meta name="twitter:card" content="summary_large_image">
     <meta name="og:title" content="{{ $page->title }}">
@@ -39,8 +41,7 @@
                             <div class="septic-item">
                                 <div class="septic-img">
                                     @if ($category->image)
-                                    {{-- @todo --}}
-                                        <img class="lazy" data-src="/min/{{ $category->image }}"
+                                        <img class="lazy" data-src="{{ asset('/min/' . $category->image) }}"
                                              alt="{{ $category->alt }}">
                                     @else
                                         <img alt="{{ $category->alt }}">
@@ -99,8 +100,7 @@
                             <div class="septic-item">
                                 <div class="septic-img">
                                     @if ($category->image)
-                                    {{-- @todo --}}
-                                        <img class="lazy" data-src="/min/{{ $category->image }}"
+                                        <img class="lazy" data-src="{{ asset('/min/' . $category->image) }}"
                                              alt="{{ $category->alt }}">
                                     @else
                                         <img alt="{{ $category->alt }}">
@@ -157,8 +157,7 @@
                             <div class="septic-item">
                                 <div class="septic-img">
                                     @if ($category->image)
-                                    {{-- @todo --}}
-                                        <img class="lazy" data-src="/min/{{ $category->image }}"
+                                        <img class="lazy" data-src="{{ asset('/min/' . $category->image) }}"
                                              alt="{{ $category->alt }}">
                                     @else
                                         <img alt="{{ $category->alt }}">
@@ -209,8 +208,7 @@
                             <div class="septic-item">
                                 <div class="septic-img">
                                     @if ($category->image)
-                                    {{-- @todo --}}
-                                        <img class="lazy" data-src="/min/{{ $category->image }}"
+                                        <img class="lazy" data-src="{{ asset('/min/' . $category->image) }}"
                                              alt="{{ $category->alt }}">
                                     @else
                                         <img alt="{{ $category->alt }}">

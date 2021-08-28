@@ -7,6 +7,8 @@
     @if($product->image)
         <meta property="og:image" content="{{ url($product->image) }}"/>
         <link rel="image_src" href="{{ url($product->image) }}"/>
+    @else
+        {!! $defaultOGImage !!}
     @endif
     <meta name="twitter:card" content="summary_large_image">
     <meta name="og:title" content="{{ $product->title }}">
@@ -42,8 +44,8 @@
                 {{ Breadcrumbs::render('catalog.product', $category, $product) }}
             </nav>
             <div class="single-product">
-                <div class="single-product-title">
-                    <h1>{{ $product->name }}</h1>
+                <div class="single-product-title" itemscope itemtype="https://schema.org/Product">
+                    <h1 itemprop="name">{{ $product->name }}</h1>
                 </div>
                 <div class="single-product-tabs">
                     <div class="tabs-box">
@@ -197,17 +199,20 @@
                             {!! $product->text !!}
                         </div>
                     </div>
-                    <div class="tab-content" id="reviews-content">
-                        <div class="single-item-review">
+                    <div class="tab-content" id="reviews-content" >
+                        <div class="single-item-review" itemprop="review" itemscope itemtype="https://schema.org/Review">
                             <div class="review-info">
                                 <div class="review-count">Отзывы <span>({{ $comments->total() }})</span></div>
                                 <button scroll-to=".review-form-box" class="add-review">Добавить отзыв</button>
                             </div>
                             @foreach($comments as $comment)
                                 <div class="review">
-                                    <h4 class="review-title">{{ $comment->name }}</h4>
+                                    <h4 class="review-title" itemprop="author">{{ $comment->name }}</h4>
                                     <div class="review-rating">
-                                        <span class="review-datetime">{{ $comment->created_at->format('d.m.Y') }}</span>
+                                        <span class="review-datetime">
+                                                <meta itemprop="datePublished" content="{{ $comment->created_at->format('d.m.Y') }}">
+                                                {{ $comment->created_at->format('d.m.Y') }}
+                                            </span>
                                     </div>
                                     <p class="review-content">
                                         {{ $comment->text }}
@@ -216,13 +221,11 @@
                                         <p>Читать полностью</p>
                                         <div class="icons">
                                             <svg class="default-icon">
-                                            {{-- @todo folder dist and two slashes--}}
-                                                <use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow-two') }}"
+                                                <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                             </svg>
                                             <svg class="hover-icon">
-                                            {{-- @todo folder dist and two slashes--}}
-                                                <use xlink:href="{{ asset('/dist//img/svgdefs.svg#icon-arrow') }}"
+                                                <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow') }}"
                                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                             </svg>
                                         </div>
@@ -350,8 +353,7 @@
                         <a href="{{route('catalog.product', [$analogProduct->category->link, $analogProduct->link])}}"
                            class="analog-img">
                             @if($image)
-                            {{-- @todo --}}
-                                <img class="lazy" data-src="/min/{{ $image->image }}" alt="{{ $image->alt }}">
+                                <img class="lazy" data-src="{{ asset('/min/' . $image->image) }}" alt="{{ $image->alt }}">
                             @endif
                             @if($sale)
                                 <span class="sale">{{ $sale->discount }}% акция</span>
