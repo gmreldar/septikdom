@@ -97,8 +97,8 @@
         </script>
         <!-- <script async type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?160",t.onload=function(){VK.Retargeting.Init("VK-RTRG-343087-8eJol"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-343087-8eJol" style="position:fixed; left:-999px;" alt=""/></noscript> -->
         <script src="{{ asset('/js/lazyload.min.js') }}"></script>
-        <script src=src="{{ asset('/js/jquery.lazy.min.js') }}"></script>
-        <script src=src="{{ asset('/js/jquery.lazy.iframe.min.js') }}"></script>
+        <script src="{{ asset('/js/jquery.lazy.min.js') }}"></script>
+        <script src="{{ asset('/js/jquery.lazy.iframe.min.js') }}"></script>
     @else
         <script src="{{ asset('/js/libs.min.js') }}"></script>
         <script src="{{ asset('/js/feedback.js') }}"></script>
@@ -171,8 +171,8 @@
         </script>
         <!-- <script async type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src="https://vk.com/js/api/openapi.js?160",t.onload=function(){VK.Retargeting.Init("VK-RTRG-343087-8eJol"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-343087-8eJol" style="position:fixed; left:-999px;" alt=""/></noscript> -->
         <script src="{{ asset('/js/lazyload.min.js') }}"></script>
-        <script src=src="{{ asset('/js/jquery.lazy.min.js') }}"></script>
-        <script src=src="{{ asset('/js/jquery.lazy.iframe.min.js') }}"></script>
+        <script src="{{ asset('/js/jquery.lazy.min.js') }}"></script>
+        <script src="{{ asset('/js/jquery.lazy.iframe.min.js') }}"></script>
         <!-- Device -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/device.js/0.2.7/device.min.js" integrity="sha256-7/l5ueSGd9WLyoPL4cgw7QRrS9VnoqA9gDCYHGZUvy8=" crossorigin="anonymous"></script>
         <script>

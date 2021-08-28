@@ -98,8 +98,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.4.3/js/adminlte.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/iCheck/1.0.2/icheck.min.js"></script>
-<script src=src="{{ asset('/js/jquery.lazy.min.js') }}"></script>
-<script src=src="{{ asset('/js/jquery.lazy.iframe.min.js') }}"></script>
+<script src="{{ asset('/js/jquery.lazy.min.js') }}"></script>
+<script src="{{ asset('/js/jquery.lazy.iframe.min.js') }}"></script>
 <script>
 </script>
 </body>

@@ -211,7 +211,7 @@
         })
     </script>
     @yield('scripts')
-    <script src=src="{{ asset('/js/jquery.lazy.min.js') }}"></script>
-    <script src=src="{{ asset('/js/jquery.lazy.iframe.min.js') }}"></script>
+    <script src="{{ asset('/js/jquery.lazy.min.js') }}"></script>
+    <script src="{{ asset('/js/jquery.lazy.iframe.min.js') }}""></script>
 </body>
 </html>
