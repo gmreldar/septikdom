@@ -35,7 +35,7 @@
                     <h1>
                         {{ $article->name }}
                     </h1>
-                    <div class="articles-pic" style="background-image: url(/{{ $article->image }});"></div>
+                    <div class="articles-pic" style="background-image: url('{{ asset($article->image) }}');"></div>
                     {!! $article->text !!}
                     <div class="info">
                         <div class="info-main">

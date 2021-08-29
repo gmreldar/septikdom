@@ -37,9 +37,11 @@
 					<meta itemprop="name" content="Септикдом">
 					<div class="block">
 						<div class="block-wrap">
-							<div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-								<h4>Адрес офиса:</h4>
-								<p itemprop="streetAddress">{!! $contact->address !!}</p>
+							<div class="address" itemprop="address">
+								<span itemscope itemtype="http://schema.org/PostalAddress">
+									<h4>Адрес офиса:</h4>
+									<p itemprop="streetAddress">{!! $contact->address !!}</p>
+								</span>
 							</div>
 							<div class="work-time">
 								<h4>График работы:</h4>

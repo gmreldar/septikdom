@@ -31,7 +31,7 @@
                 <span class="subtitle">{!! $text1 !!}</span>
             </div>
         </div>
-        <div class="about-view" style="background-image: url(/{{ $contact->about_image }});"></div>
+        <div class="about-view" style="background-image: url('{{ asset($contact->about_image) }}');"></div>
         <div class="wrapper-text about-body">
             {!! $text2 !!}
         </div>

@@ -319,7 +319,7 @@
                                 </div>
                                 <p class="hover-block" id="image-error-review"></p>
                             </div> --}}
-                            <label class="photo" style="background-image: url(/img/icons/photo-min.png);"
+                            <label class="photo" style="background-image: url('{{ asset('/img/icons/photo-min.png') }}');"
                                    for="uploaded_photo">
                                 <div class="add-block">
                                     <div class="plus">
@@ -409,7 +409,7 @@
                 <div id="AudioReview" class="tabcontent">
                     <form enctype="multipart/form-data" id="review_video_form" role="form">
                         <div class="block">
-                            <label class="photo" style="background-image: url(/img/icons/audio-min.png);"
+                            <label class="photo" style="background-image: url('{{ asset('/img/icons/audio-min.png') }}');"
                                    for="uploaded_audio">
                                 <div class="add-block">
                                     <div class="plus">

@@ -265,7 +265,7 @@
                             @isset($articles)
                                 @foreach($articles as $article)
                                     <div class="article">
-                                        <div class="article-img lazy-img" data-bg="url(/min/{{ $article->image }})"></div>
+                                        <div class="article-img lazy-img" data-bg="url({{ asset('/min/' . $article->image) }})"></div>
                                         <div class="article-footer">
                                             <div class="article-content">
                                                 <div class="article-title">{{ $article->name }}</div>

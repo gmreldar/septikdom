@@ -836,7 +836,7 @@
         </div>
     </section>
 
-    <section id="card-five" style="background-image: url(/img/bg2.jpg);">
+    <section id="card-five" style="background-image: url('{{ asset('/img/bg2.jpg') }}');">
         <div class="card-five-content">
             <div class="card-five-title">
                 <h2>Отлично работающая автономная канализация с гарантией</h2>
