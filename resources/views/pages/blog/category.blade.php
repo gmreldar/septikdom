@@ -108,7 +108,7 @@
     <section class="popup video-popup">
         <div class="popup-overlay"></div>
         <svg class="popup-close">
-            <use xlink:href="img/svgdefs.svg#icon-cross" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+            <use xlink:href="{{ asset('/img/svgdefs.svg#icon-cross') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
         </svg>
         <div class="popup-wrapper">
             <div class="video-box">
