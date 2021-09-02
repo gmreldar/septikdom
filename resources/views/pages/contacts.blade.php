@@ -116,7 +116,7 @@
 				</div>
 				<div class="contact-map">
 					<div class="frame-container">
-						<iframe src="https://yandex.ru/map-widget/v1/-/CBBNb0XvTC" width="100%" height="400" frameborder="0" allowfullscreen="true"></iframe>
+						<iframe src="https://yandex.ru/map-widget/v1/-/CCUmuSr6pC" width="100%" height="400" frameborder="0" allowfullscreen="true"></iframe>
 					</div>
 				</div>
 			</div>

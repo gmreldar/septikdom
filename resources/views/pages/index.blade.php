@@ -76,7 +76,7 @@
                             <div class="slide-bg-1" style="background-image: url('{{ asset('/img/gray-bg.jpg') }}')">
                                 <div class="slider-bg-1-fade"></div>
                             </div>
-                            <div class="slide-bg-2" style="background-image: url('/{{ asset($slide->image) }}');">
+                            <div class="slide-bg-2" style="background-image: url('{{ asset($slide->image) }}');">
                                 <div class="slider-bg-2-fade"></div>
                             </div>
                         </div>
