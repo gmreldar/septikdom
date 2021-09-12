@@ -11,26 +11,8 @@
 |
 */
 
-$url = '';
-if (str_contains(url()->current(), 'https://')) {
-    $url = str_replace_first('https://', '', url()->current());
-    $newUrl = str_replace('//', '/', $url);
-    if ($url != $newUrl) {
-        header("HTTP/1.1 301 Moved Permanently");
-        header("Location: https://$newUrl");
-        exit();
-    }
-}
-
-if (str_contains(url()->current(), 'http://')) {
-    $url = str_replace_first('http://', '', url()->current());
-    $newUrl = str_replace('//', '/', $url);
-    if ($url != $newUrl) {
-        header("HTTP/1.1 301 Moved Permanently");
-        header("Location: http://$newUrl");
-        exit();
-    }
-}
+removeUrlDoubleSlash();
+removeUrlDoubleSlash('https');
 
 Route::get('clear', function () {
     Log::debug('CLEARED');

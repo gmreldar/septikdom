@@ -4,7 +4,8 @@ RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 #RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 #RewriteRule ^uslugi/montazh_avtonomnoy_kanalizatsii$ /uslugi/septic_montaz? [L,R=301]
 #RewriteRule ^blog/zhirouloviteli/kakaya_kanalizacia_luchshe$ /blog/kanalizatsii/kakaya_kanalizacia_luchshe? [L,R=301]
-
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [L,R=301]
 
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
@@ -16,6 +17,7 @@ RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
     # Redirect Trailing Slashes If Not A Folder...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^(.*)/$ /$1 [L,R=301]
+
 
 
     # Handle Front Controller...
