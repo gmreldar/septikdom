@@ -27,6 +27,9 @@ class MicroMarkupProduct implements IMicroMarkup
     private function PrepareResult(Product $product, ProductCategory $category, LengthAwarePaginator $comments)
     {
         $comments_markup = array();
+        $comments_markup[] = Schema::aggregateRating()
+            ->ratingValue(5)
+            ->ratingCount(count($comments));
         foreach ($comments as $comment){
             $comments_markup[] = Schema::review()
                 ->name("Отзыв")
