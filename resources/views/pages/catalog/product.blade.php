@@ -536,7 +536,7 @@
                                                 @foreach($product->images as $image)
                                                     @if($image->carousels == 1)
                                                         <div>
-                                                            <img data-lazy="/{{ $image->image }}"
+                                                            <img src="{{ asset($image->image) }}"
                                                                  alt="{{ $image->alt }}">
                                                         </div>
                                                     @endif
@@ -1343,13 +1343,13 @@
                             </div>
                         </div>
                         <div class="tab-content" id="reviews-content" >
-                            <div class="single-item-review" itemprop="review" itemscope itemtype="https://schema.org/Review">
+                            <div class="single-item-review">
                                 <div class="review-info">
-                                    <div class="review-count">Отзывы <span>({{ $comments->total() }})</span></div>
+                                    <div class="review-count" itemprop="reviewCount">Отзывы <span>({{ $comments->total() }})</span></div>
                                     <button scroll-to=".review-form-box" class="add-review">Добавить отзыв</button>
                                 </div>
                                 @foreach($comments as $comment)
-                                    <div class="review">
+                                    <div class="review" itemprop="review" itemscope itemtype="https://schema.org/Review">
                                         <h4 class="review-title" itemprop="author">{{ $comment->name }}</h4>
                                         <div class="review-rating">
                                             <span class="review-datetime">
@@ -1357,7 +1357,7 @@
                                                 {{ $comment->created_at->format('d.m.Y') }}
                                             </span>
                                         </div>
-                                        <p class="review-content">
+                                        <p class="review-content" itemprop="reviewBody">
                                             {{ $comment->text }}
                                         </p>
                                         <div class="review-link">
