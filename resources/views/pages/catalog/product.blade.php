@@ -1345,7 +1345,6 @@
                         <div class="tab-content" id="reviews-content" >
                             <div class="single-item-review">
                                 <div class="review-info" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                                    <span style="display: none" itemprop="ratingValue">5</span>
                                     <div class="review-count" itemprop="reviewCount">Отзывы <span>({{ $comments->total() }})</span></div>
                                     <button scroll-to=".review-form-box" class="add-review">Добавить отзыв</button>
                                 </div>

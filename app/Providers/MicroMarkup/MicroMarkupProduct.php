@@ -27,13 +27,9 @@ class MicroMarkupProduct implements IMicroMarkup
     private function PrepareResult(Product $product, ProductCategory $category, LengthAwarePaginator $comments)
     {
         $comments_markup = array();
-        $comments_markup[] = Schema::aggregateRating()
-            ->ratingValue(5)
-            ->ratingCount(count($comments));
         foreach ($comments as $comment){
             $comments_markup[] = Schema::review()
                 ->name("Отзыв")
-                ->aggregateRating(Schema::aggregateRating())
                 ->author($comment->name)
                 ->description($comment->text)
                 ->datePublished($comment->created_at->format('Y-m-d'));
@@ -48,11 +44,6 @@ class MicroMarkupProduct implements IMicroMarkup
             }
         }
         $this->Markup = Schema::product()
-            ->aggregateRating(
-                Schema::aggregateRating()
-                ->ratingValue(5)
-                ->reviewCount(count($comments))
-            )
             ->name($product->name)
             ->image($images_list)
             ->brand([$category->name])

@@ -43,8 +43,8 @@
                 @include('blocks.catalog')
                 {{ Breadcrumbs::render('catalog.product', $category, $product) }}
             </nav>
-            <div class="single-product">
-                <div class="single-product-title" itemscope itemtype="https://schema.org/Product">
+            <div class="single-product" itemscope itemtype="https://schema.org/Product">
+                <div class="single-product-title">
                     <h1 itemprop="name">{{ $product->name }}</h1>
                 </div>
                 <div class="single-product-tabs">
