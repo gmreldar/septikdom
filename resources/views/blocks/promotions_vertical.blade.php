@@ -11,8 +11,10 @@
                     {{$promotion->name}}
                 </h3>
                 <div class="post-img_wrapper">
-{{--                    <div class="post-img" style="background-image: url(/min/{{$promotion->discount_menu_img ? $promotion->discount_menu_img : ($promotion->discount_slider_img ? $promotion->discount_slider_img : $promotion->image)}});"></div>--}}
-                    <div class=""><img src="{{ asset('/min/' . $promotion->discount_menu_img ? $promotion->discount_menu_img : ($promotion->discount_slider_img ? $promotion->discount_slider_img : $promotion->image)) }}" alt=""></div>
+                    {{--                    <div class="post-img" style="background-image: url(/min/{{$promotion->discount_menu_img ? $promotion->discount_menu_img : ($promotion->discount_slider_img ? $promotion->discount_slider_img : $promotion->image)}});"></div>--}}
+                    <div class=""><img
+                                src="{{ asset($promotion->discount_menu_img ?: ($promotion->discount_slider_img ?: $promotion->image)) }}"
+                                alt=""></div>
                 </div>
             </a>
         @endforeach
