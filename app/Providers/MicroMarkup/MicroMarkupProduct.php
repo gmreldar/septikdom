@@ -33,6 +33,7 @@ class MicroMarkupProduct implements IMicroMarkup
         foreach ($comments as $comment){
             $comments_markup[] = Schema::review()
                 ->name("Отзыв")
+                ->aggregateRating(Schema::aggregateRating())
                 ->author($comment->name)
                 ->description($comment->text)
                 ->datePublished($comment->created_at->format('Y-m-d'));
@@ -50,6 +51,7 @@ class MicroMarkupProduct implements IMicroMarkup
             ->aggregateRating(
                 Schema::aggregateRating()
                 ->ratingValue(5)
+                ->reviewCount(count($comments))
             )
             ->name($product->name)
             ->image($images_list)
