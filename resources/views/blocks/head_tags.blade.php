@@ -31,20 +31,6 @@
   else d.documentElement.firstChild.appendChild(s);
  })(document, window, 'TalkMe');
 </script>
-<!-- {/literal} End Talk-Me -->
-{{--<!-- Marquiz script start -->--}}
-{{--<script src="https://script.marquiz.ru/v1.js" type="application/javascript"></script>--}}
-{{--<script>--}}
-{{-- document.addEventListener("DOMContentLoaded", function() {--}}
-{{--  Marquiz.init({--}}
-{{--   id: '5e6745b750f9440044fc767b',--}}
-{{--   autoOpen: false,--}}
-{{--   autoOpenFreq: 'once',--}}
-{{--   openOnExit: false--}}
-{{--  });--}}
-{{-- });--}}
-{{--</script>--}}
-{{--<!-- Marquiz script end -->--}}
 @if( empty(Request::path()) || Request::path() === '/')
     <link rel="canonical" href="{{ url('/') }}" />
 @else
