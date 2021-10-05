@@ -351,7 +351,7 @@
                                     <textarea name="message" placeholder="Сообщение*" class="message-input"
                                               id="textarea-scroll" required></textarea>
                                     <span class="bar"></span>
-                                    <span class="error-field" id="message-error-review"></span>
+                                    <span class="error-field message-error-review" id="message-error-review"></span>
                                 </div>
                                 <div class="input-group">
                                     <div class="captcha-block">
@@ -474,7 +474,7 @@
                                     <textarea name="message" placeholder="Сообщение*" class="message-input"
                                               id="textarea-scroll" required></textarea>
                                     <span class="bar"></span>
-                                    <span class="error-field" id="message-error-review"></span>
+                                    <span class="error-field message-error-review" id="message-error-review"></span>
                                 </div>
                                 <div class="input-group">
                                     <div class="captcha-block">

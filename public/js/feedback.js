@@ -82,8 +82,8 @@ function review(btn) {
         contentType: false,
         success: function (data) {
             $.each(values, function (key, value) {
-                $('#' + value + '-error-review').html('');
-                $('#' + value + '-error-review').parent().removeClass("error");
+                $('.' + value + '-error-review').html('');
+                $('.' + value + '-error-review').parent().removeClass("error");
             });
             $('.modal-popup').removeClass('popup-open');
             $('.review-block').removeClass('active');
@@ -111,12 +111,13 @@ function review(btn) {
         },
         error: function (data) {
             $.each(values, function (key, value) {
-                $('#' + value + '-error-review').html('');
-                $('#' + value + '-error-review').parent().removeClass("error");
+                $('.' + value + '-error-review').html('');
+                $('.' + value + '-error-review').parent().removeClass("error");
             });
             $.each(data.responseJSON.errors, function (key, value) {
-                $('#' + key + '-error-review').html(value);
-                $('#' + key + '-error-review').parent().addClass("error");
+                console.log(key)
+                $('.' + key + '-error-review').html(value);
+                $('.' + key + '-error-review').parent().addClass("error");
             });
         }
     });

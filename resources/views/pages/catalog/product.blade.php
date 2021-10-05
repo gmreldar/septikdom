@@ -563,6 +563,46 @@
                                 </div>
 
                                 <style>
+                                    .rating-area {
+                                        overflow: hidden;
+                                        margin-left: 70%;
+                                        margin-top: -5px;
+                                    }
+                                    .rating-area:not(:checked) > input {
+                                        display: none;
+                                    }
+                                    .rating-area:not(:checked) > label {
+                                        float: right;
+                                        width: 25px;
+                                        padding: 0;
+                                        cursor: default;
+                                        font-size: 20px;
+                                        /*line-height: 32px;*/
+                                        color: gold;
+                                        text-shadow: 1px 1px #bbb;
+                                    }
+                                    .rating-area:not(:checked) > label:before {
+                                        content: '★';
+                                    }
+                                    .rating-area > input:checked ~ label {
+                                        color: gold;
+                                        text-shadow: 1px 1px #c60;
+                                    }
+                                    .rating-area:not(:checked) > label:hover,
+                                    .rating-area:not(:checked) > label:hover ~ label {
+                                        color: gold;
+                                    }
+                                    .rating-area > input:checked + label:hover,
+                                    .rating-area > input:checked + label:hover ~ label,
+                                    .rating-area > input:checked ~ label:hover,
+                                    .rating-area > input:checked ~ label:hover ~ label,
+                                    .rating-area > label:hover ~ input:checked ~ label {
+                                        color: gold;
+                                        text-shadow: 1px 1px goldenrod;
+                                    }
+                                    .rate-area > label:active {
+                                        position: relative;
+                                    }
                                     .div-button {
                                         width: 100%;
                                         display: flex;
@@ -1346,6 +1386,7 @@
                             <div class="single-item-review">
                                 <div class="review-info" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
                                     <div class="review-count" itemprop="reviewCount">Отзывы <span>({{ $comments->total() }})</span></div>
+                                    <span style="display:none;" itemprop="ratingValue">4</span>
                                     <button scroll-to=".review-form-box" class="add-review">Добавить отзыв</button>
                                 </div>
                                 @foreach($comments as $comment)
@@ -1356,6 +1397,18 @@
                                                 <meta itemprop="datePublished" content="{{ $comment->created_at->format('d.m.Y') }}">
                                                 {{ $comment->created_at->format('d.m.Y') }}
                                             </span>
+                                            <div class="rating-area">
+                                                <input type="radio" id="star-5" name="rating" value="5">
+                                                <label for="star-5" title="Оценка «5»"></label>
+                                                <input type="radio" id="star-4" name="rating" value="4">
+                                                <label for="star-4" title="Оценка «4»"></label>
+                                                <input type="radio" id="star-3" name="rating" value="3">
+                                                <label for="star-3" title="Оценка «3»"></label>
+                                                <input type="radio" id="star-2" name="rating" value="2">
+                                                <label for="star-2" title="Оценка «2»"></label>
+                                                <input type="radio" id="star-1" name="rating" value="1">
+                                                <label for="star-1" title="Оценка «1»"></label>
+                                            </div>
                                         </div>
                                         <p class="review-content" itemprop="reviewBody">
                                             {{ $comment->text }}

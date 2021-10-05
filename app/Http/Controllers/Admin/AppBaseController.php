@@ -42,7 +42,6 @@ class AppBaseController extends LaravelController
             route('blog'),
             route('price'),
             route('shipping'),
-            route('payment-shipping'),
             route('portfolio'),
             route('contacts'),
             route('catalog'),

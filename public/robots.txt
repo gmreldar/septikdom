@@ -1,6 +1,5 @@
 User-Agent: *
-Disallow: /*?utm
-Disallow: /*destination=
+Disallow: /?
 Disallow: /download/
 
 Sitemap: https://septikdom.com/sitemap.xml

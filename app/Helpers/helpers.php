@@ -4,9 +4,9 @@ if (!function_exists('removeUrlDoubleSlash')) {
 
     function removeUrlDoubleSlash($httpType = 'http')
     {
-        $url = '';
-        if (str_contains(url()->current(), "$httpType://")) {
-            $url = str_replace_first("$httpType://", '', url()->current());
+        $url = str_replace_first("$httpType://", '', url()->full());
+        if (str_contains(url()->full(), "$httpType://") && str_contains($url, '//')) {
+            $url = str_replace_first("$httpType://", '', url()->full());
             $newUrl = str_replace('//', '/', $url);
             if ($url != $newUrl) {
                 header("HTTP/1.1 301 Moved Permanently");
