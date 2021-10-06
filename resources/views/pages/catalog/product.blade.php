@@ -1387,7 +1387,7 @@
                                 <div class="review-info" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
                                     <div class="review-count">Отзывы <span>({{ $comments->total() }})</span></div>
                                     <span style="display:none;" itemprop="reviewCount">{{ $comments->total() }}</span>
-                                    <span style="display:none;" itemprop="ratingValue">4</span>
+                                    <span style="display:none;" itemprop="ratingValue">5</span>
                                     <button scroll-to=".review-form-box" class="add-review">Добавить отзыв</button>
                                 </div>
                                 @foreach($comments as $comment)

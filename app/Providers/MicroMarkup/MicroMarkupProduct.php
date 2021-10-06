@@ -30,6 +30,7 @@ class MicroMarkupProduct implements IMicroMarkup
         foreach ($comments as $comment){
             $comments_markup[] = Schema::review()
                 ->name("Отзыв")
+                ->reviewRating(Schema::rating()->bestRating(5)->ratingValue(5)->worstRating(1))
                 ->author($comment->name)
                 ->description($comment->text)
                 ->datePublished($comment->created_at->format('Y-m-d'));
@@ -44,14 +45,15 @@ class MicroMarkupProduct implements IMicroMarkup
             }
         }
         $this->Markup = Schema::product()
+            ->aggregateRating(Schema::aggregateRating()->reviewCount(21)->ratingValue(5))
             ->name($product->name)
             ->image($images_list)
             ->brand([$category->name])
+            ->review($comments_markup)
             ->offers(
                 Schema::offer()->priceCurrency("руб")
                 ->price($product->price())
                 ->description($product->description)
-                ->reviews($comments_markup)
             );
     }
 
