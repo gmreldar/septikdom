@@ -14,11 +14,11 @@ if (!function_exists('removeUrlDoubleSlash')) {
                 exit();
             }
         }
-//        $uri = preg_replace('/([^:])(\/{2,})/', '$1/', url()->current());
-//        if ($uri != url()->current()) {
-//            header("HTTP/1.1 301 Moved Permanently");
-//            header("Location: $httpType://$url");
-//            exit();
-//        }
+        $uri = preg_replace('/([^:])(\/{2,})/', '$1/', url()->current());
+        if ($uri != url()->current()) {
+            header("HTTP/1.1 301 Moved Permanently");
+            header("Location: $httpType://$url");
+            exit();
+        }
     }
 }
