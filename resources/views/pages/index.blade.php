@@ -13,6 +13,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="og:title" content="{{ $page->title }}">
     <meta name="og:description" content="{{ $page->description }}">
+    <meta name="google-site-verification" content="MO7vdUuFllRUwSt-UV7FfKzqRjIgSTWoIMKGgYpCfTs" />
 
 @endsection
 
