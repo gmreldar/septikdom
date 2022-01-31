@@ -1,6 +1,6 @@
 <div class="title-box" id="otzyvy">
     <div class="title-content">
-        <h1 class="title">Отзывы</h1>
+        <h2 class="title">Отзывы</h2>
         <span>Что о нас говорят клиенты?</span>
     </div>
 </div>

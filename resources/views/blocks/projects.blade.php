@@ -3,7 +3,7 @@
 <section id="new-comments">
     <div class="title-box">
         <div class="title-content">
-            <h1 class="title">Портфолио</h1>
+            <h2 class="title">Портфолио</h2>
             <span>Примеры наших работ</span>
         </div>
     </div>

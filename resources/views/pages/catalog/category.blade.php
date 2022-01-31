@@ -257,7 +257,7 @@
                     <div class="wrapper">
                         <div class="title-box">
                             <div class="title-content">
-                                <h1 class="title"><a href="{{route('blog')}}">Блог</a></h1>
+                                <h2 class="title"><a href="{{route('blog')}}">Блог</a></h2>
                                 <span>«Интересные материалы»</span>
                             </div>
                         </div>
