@@ -3,7 +3,11 @@
         <div class="wrapper">
             <div class="title-box">
                 <div class="title-content">
-                    <h2 class="title">FAQ</h2>
+                    @if (Route::currentRouteName() == 'faq')
+                        <h1 class="title">FAQ</h1>
+                    @else
+                        <h2 class="title">FAQ</h2>
+                    @endif
                     <span>Часто задаваемые вопросы</span>
                 </div>
                 <div class="subtitle">Здесь собраны самые популярные вопросы о септиках для загородного дома</div>

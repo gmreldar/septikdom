@@ -1,7 +1,11 @@
 <section id="new-comments">
     <div class="title-box">
         <div class="title-content">
-            <h2 class="title">Видео отзывы</h2>
+            @if (Route::currentRouteName() == 'pages.reviews')
+                <h1 class="title">Видео отзывы</h1>
+            @else
+                <h2 class="title">Видео отзывы</h2>
+            @endif
             <span>Видеоролики о нашей работе</span>
         </div>
     </div>
