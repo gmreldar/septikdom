@@ -3,7 +3,7 @@
 @section('head')
     <title>{{ $title ?? $page->title }}</title>
     <meta name="keywords" content="{{ $page->keywords }}">
-    <meta name="description" content="{{ $page->description }}">
+    <meta name="description" content="География выполненных работ по установке септиков.">
     @if($page->image)
         <meta property="og:image" content="{{ url($page->image) }}"/>
         <link rel="image_src" href="{{ url($page->image) }}"/>
