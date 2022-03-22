@@ -2753,8 +2753,14 @@ header.scroll .scroll-menu {
 
 .whatsapp-mobile {
     display: none;
-    margin: 0.3rem 0 0 2.6rem;
+    margin: 0.3rem 0 0 0;
     font-size: 1.4rem;
+}
+
+.social-mobile {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 .whatsapp-mobile svg {
