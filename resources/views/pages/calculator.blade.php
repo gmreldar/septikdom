@@ -8,7 +8,6 @@
     {{--<meta property="og:image" content="{{ url($page->image) }}"/>--}}
     {{--<link rel="image_src" href="{{ url($page->image) }}"/>--}}
     {{--@endif--}}
-    {{--<meta name="twitter:card" content="summary_large_image">--}}
     {{--<meta name="og:title" content="{{ $page->seo_title }}">--}}
     {{--<meta name="og:description" content="{{ $page->seo_desc }}">--}}
 @endsection

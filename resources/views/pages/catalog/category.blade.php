@@ -10,7 +10,6 @@
     @else
         {!! $defaultOGImage !!}
     @endif
-    <meta name="twitter:card" content="summary_large_image">
     <meta name="og:title" content="{{ $category->title }}">
     <meta name="og:description" content="{{ $category->description }}">
 @endsection

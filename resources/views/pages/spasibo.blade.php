@@ -10,7 +10,6 @@
     @else
         {!! $defaultOGImage !!}
     @endif
-    <meta name="twitter:card" content="summary_large_image">
     <meta name="og:title" content="{{ $page->title }}">
     <meta name="og:description" content="{{ $page->description }}">
 @endsection
@@ -101,16 +100,7 @@
                                             <div class="wrapper1">
                                                 <div class="wrapper2">
                                                     <div class="macros-button">
-                                                        <div class="btn-out center xs-none"><a class="btn-inner"
-                                                                                               href="https://www.instagram.com/septikdom"
-                                                                                               target="_blank">
-                                                                <button class="btn font-text" id="uid12" data-id=""
-                                                                        data-action="link" data-ym_goal=""
-                                                                        data-ga_category="" data-ga_action=""
-                                                                        need_hover="true"><img
-                                                                            src="{{ asset('img/instagram.png') }}"
-                                                                            style="width: 36px;" class=""></button>
-                                                            </a></div>
+                                                        <div class="btn-out center xs-none"></div>
                                                     </div>
                                                 </div>
                                             </div>

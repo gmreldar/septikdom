@@ -10,7 +10,6 @@
 	@else
 		{!! $defaultOGImage !!}
 	@endif
-    <meta name="twitter:card" content="summary_large_image">
     <meta name="og:title" content="{{ $page->title }}">
     <meta name="og:description" content="{{ $page->description }}">
 @endsection
@@ -67,18 +66,6 @@
 										<svg>
 											<use xlink:href="{{ asset('/img/svgdefs.svg#icon-telegram') }}"
 													xmlns:xlink="http://www.w3.org/1999/xlink"></use>
-										</svg>
-									</a>
-									<a class="fb" href="{{ $contact->fb }}" target="_blank">
-										<svg>
-											<use xlink:href="img/svgdefs.svg#icon-facebook"
-												 xmlns:xlink="http://www.w3.org/1999/xlink"></use>
-										</svg>
-									</a>
-									<a class="inst" href="{{ $contact->in }}" target="_blank">
-										<svg>
-											<use xlink:href="img/svgdefs.svg#icon-instagram"
-												 xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 										</svg>
 									</a>
 									<a class="vk" href="{{ $contact->vk }}" target="_blank">

@@ -7,7 +7,6 @@
     @if($product->image)
 
     @endif
-    <meta name="twitter:card" content="summary_large_image">
     <meta name="og:title" content="{{ $product->title }}">
     <meta name="og:description" content="{{ $product->description }}">
     <style>
@@ -698,12 +697,6 @@
                                 <div class="single-item-social">
                                     <div class="social-title">Поделиться:</div>
                                     <div class="social-icons">
-                                        <a onclick="Share.facebook()">
-                                            <svg>
-                                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-facebook') }}"
-                                                     xmlns:xlink="http://www.w3.org/1999/xlink"></use>
-                                            </svg>
-                                        </a>
                                         <a onclick="Share.vk()">
                                             <svg>
                                                 <use xlink:href="{{ asset('/img/svgdefs.svg#icon-vk') }}"

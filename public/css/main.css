@@ -2751,7 +2751,20 @@ header.scroll .scroll-menu {
     height: 100%
 }
 
+.whatsapp-mobile {
+    display: none;
+    margin: 0.3rem 0 0 2.6rem;
+    font-size: 1.4 rem;
+}
+
+.whatsapp-mobile svg {
+    color: #34a844;
+}
+
 @media only screen and (max-width: 1129px) {
+    .whatsapp-mobile {
+        display: block;
+    }
     .mobile-menu-open {
         display: block
     }

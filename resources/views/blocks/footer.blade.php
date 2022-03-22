@@ -221,18 +221,6 @@
 									 xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 							</svg>
 						</a>
-						<a href="{{ $contact->in }}" target="_blank">
-							<svg>
-								<use xlink:href="{{ asset('/img/svgdefs.svg#icon-instagram') }}"
-									xmlns:xlink="http://www.w3.org/1999/xlink"></use>
-							</svg>
-						</a>
-						<a href="{{ $contact->fb }}" target="_blank">
-							<svg>
-								<use xlink:href="{{ asset('/img/svgdefs.svg#icon-facebook') }}"
-									xmlns:xlink="http://www.w3.org/1999/xlink"></use>
-							</svg>
-						</a>
 						<a href="{{ $contact->vk }}" target="_blank">
 							<svg>
 								<use xlink:href="{{ asset('/img/svgdefs.svg#icon-vk') }}" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
