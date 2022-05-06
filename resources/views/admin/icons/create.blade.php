@@ -7,7 +7,7 @@
             <h1>Создание группы иконок</h1>
         </section>
         <div>
-            {!! Form::open(['route' => 'icons.store']) !!}
+            {!! Form::open(['route' => 'new_icons.store']) !!}
             <div class="form-group col-sm-12 col-lg-12">
                 {!! Form::label('title', 'Название:') !!}
                 {!! Form::text('title', null, ['class' => 'form-control']) !!}

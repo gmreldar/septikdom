@@ -2,16 +2,12 @@
 
 namespace App\Http\Controllers\Admin;
 
-
-use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-use App;
 use App\Models\Icons;
 use App\Models\IconsToProduct;
-use DB;
+use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
-
-class IconsController extends Controller
+class NewIconsController extends Controller
 {
     public function index(Request $request)
     {

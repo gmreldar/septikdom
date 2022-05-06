@@ -97,7 +97,7 @@ Route::middleware(['admin'])->group(function () {
     Route::resource('services', 'Admin\ServiceController');
 
     Route::resource('documentation', 'Admin\DocumentationController');
-    Route::resource('icons', 'Admin\IconsController');
+    Route::resource('new_icons', 'Admin\NewIconsController');
 //    Route::get('documentation', 'Admin\DocumentationController@index');
 
     Route::resource('articles', 'Admin\ArticleController');

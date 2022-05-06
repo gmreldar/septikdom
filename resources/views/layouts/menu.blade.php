@@ -173,7 +173,7 @@
 </li>
 
 <li class="{{ Request::is('icons*') ? 'active' : '' }}">
-    <a href="{!! route('icons.index') !!}"><i class="fa fa-life-ring"></i><span>Иконки</span></a>
+    <a href="{!! route('new_icons.index') !!}"><i class="fa fa-life-ring"></i><span>Иконки</span></a>
 </li>
 
 <li class="{{ Request::is('categoriesText*') ? 'active' : '' }}">
