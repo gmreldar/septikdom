@@ -759,12 +759,12 @@
                                                                 <span class="bar"></span>
                                                                 <div class="select-field">
                                                                     <svg class="top-icon top-icon1">
-                                                                    
+
                                                                         <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                                     </svg>
                                                                     <svg class="bottom-icon bottom-icon1">
-                                                                    
+
                                                                         <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                                     </svg>
@@ -787,12 +787,12 @@
                                                                 <span class="bar"></span>
                                                                 <div class="select-field">
                                                                     <svg class="top-icon top-icon1">
-                                                                    
+
                                                                         <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                                     </svg>
                                                                     <svg class="bottom-icon bottom-icon1">
-                                                                    
+
                                                                         <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                                     </svg>
@@ -815,12 +815,12 @@
                                                                 <span class="bar"></span>
                                                                 <div class="select-field">
                                                                     <svg class="top-icon top-icon1">
-                                                                    
+
                                                                         <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                                     </svg>
                                                                     <svg class="bottom-icon bottom-icon1">
-                                                                    
+
                                                                         <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                                     </svg>
@@ -843,12 +843,12 @@
                                                                 <span class="bar"></span>
                                                                 <div class="select-field">
                                                                     <svg class="top-icon top-icon1">
-                                                                    
+
                                                                         <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                                     </svg>
                                                                     <svg class="bottom-icon bottom-icon1">
-                                                                    
+
                                                                         <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                                     </svg>
@@ -871,12 +871,12 @@
                                                                 <span class="bar"></span>
                                                                 <div class="select-field">
                                                                     <svg class="top-icon top-icon1">
-                                                                    
+
                                                                         <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                                     </svg>
                                                                     <svg class="bottom-icon bottom-icon1">
-                                                                    
+
                                                                         <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                                     </svg>
@@ -899,12 +899,12 @@
                                                                 <span class="bar"></span>
                                                                 <div class="select-field">
                                                                     <svg class="top-icon top-icon1">
-                                                                    
+
                                                                         <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                                     </svg>
                                                                     <svg class="bottom-icon bottom-icon1">
-                                                                    
+
                                                                         <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                                     </svg>
@@ -972,12 +972,12 @@
                                                                 <span class="bar"></span>
                                                                 <div class="select-field" data-step="10">
                                                                     <svg class="top-icon">
-                                                                    
+
                                                                         <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                                     </svg>
                                                                     <svg class="bottom-icon">
-                                                                    
+
                                                                         <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                                     </svg>
@@ -1002,12 +1002,12 @@
                                                                 <span class="bar"></span>
                                                                 <div class="select-field">
                                                                     <svg class="top-icon">
-                                                                    
+
                                                                         <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                                     </svg>
                                                                     <svg class="bottom-icon">
-                                                                    
+
                                                                         <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                                     </svg>
@@ -1032,12 +1032,12 @@
                                                                 <span class="bar"></span>
                                                                 <div class="select-field" data-step="10">
                                                                     <svg class="top-icon top-icon1">
-                                                                    
+
                                                                         <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                                     </svg>
                                                                     <svg class="bottom-icon bottom-icon1">
-                                                                    
+
                                                                         <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                                     </svg>
@@ -1228,12 +1228,12 @@
                                             <span class="bar"></span>
                                             <div class="select-field">
                                                 <svg class="top-icon">
-                                                
+
                                                     <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                 </svg>
                                                 <svg class="bottom-icon">
-                                                
+
                                                     <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                 </svg>
@@ -1246,7 +1246,7 @@
                                                 <div class="radio-input-input"></div>
                                                 <div class="radio-input-icon">
                                                     <svg>
-                                                    
+
                                                         <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-checkbox') }}"
                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                     </svg>
@@ -1267,12 +1267,12 @@
                                             <span class="bar"></span>
                                             <div class="select-field">
                                                 <svg class="top-icon station-drop">
-                                                
+
                                                     <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                 </svg>
                                                 <svg class="bottom-icon station-drop">
-                                                
+
                                                     <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                 </svg>
@@ -1285,7 +1285,7 @@
                                                 <div class="radio-input-input"></div>
                                                 <div class="radio-input-icon">
                                                     <svg>
-                                                    
+
                                                         <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-checkbox') }}"
                                                              xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                     </svg>
@@ -1294,7 +1294,7 @@
                                             </div>
                                             <div class="hint-right" id="station-drop-distance-hint">
                                                 <svg class="close-hint">
-                                                
+
                                                     <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-cross') }}"
                                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                 </svg>
@@ -1377,7 +1377,7 @@
                         </div>
                         <div class="tab-content" id="reviews-content" >
                             <div class="single-item-review">
-                                <div class="review-info" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                                <div class="review-info" itemprop="aggregateRating" {{ !$comments->isEmpty() ? 'itemscope itemtype="https://schema.org/AggregateRating"' : '' }}>
                                     <div class="review-count">Отзывы <span>({{ $comments->total() }})</span></div>
                                     <span style="display:none;" itemprop="reviewCount">{{ $comments->total() }}</span>
                                     <span style="display:none;" itemprop="ratingValue">5</span>
@@ -1411,12 +1411,12 @@
                                             <p>Читать полностью</p>
                                             <div class="icons">
                                                 <svg class="default-icon">
-                                                
+
                                                     <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow-two') }}"
                                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                 </svg>
                                                 <svg class="hover-icon">
-                                                
+
                                                     <use xlink:href="{{ asset('/dist/img/svgdefs.svg#icon-arrow') }}"
                                                          xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                                 </svg>

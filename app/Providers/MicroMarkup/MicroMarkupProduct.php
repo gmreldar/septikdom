@@ -31,7 +31,7 @@ class MicroMarkupProduct implements IMicroMarkup
             $comments_markup[] = Schema::review()
                 ->name("Отзыв")
                 ->reviewRating(Schema::rating()->bestRating(5)->ratingValue(5)->worstRating(1))
-                ->author($comment->name)
+                ->author(explode(' ',trim($comment->name))[0])
                 ->description($comment->text)
                 ->datePublished($comment->created_at->format('Y-m-d'));
         }
