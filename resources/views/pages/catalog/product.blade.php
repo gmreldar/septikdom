@@ -1377,7 +1377,7 @@
                         </div>
                         <div class="tab-content" id="reviews-content" >
                             <div class="single-item-review">
-                                <div class="review-info" {{ !$comments->isEmpty() ? 'itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating"' : '' }}>
+                                <div class="review-info" @if(!$comments->isEmpty()) itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating" @else @endif>
                                     <div class="review-count">Отзывы <span>({{ $comments->total() }})</span></div>
                                     @if (!$comments->isEmpty())
                                         <span style="display:none;" itemprop="reviewCount">{{ $comments->total() }}</span>
