@@ -28,6 +28,9 @@ class MicroMarkupProduct implements IMicroMarkup
     {
         $comments_markup = array();
         foreach ($comments as $comment){
+            if ($comment->isEmpty()) {
+                continue;
+            }
             $comments_markup[] = Schema::review()
                 ->name("Отзыв")
                 ->reviewRating(Schema::rating()->bestRating(5)->ratingValue(5)->worstRating(1))
