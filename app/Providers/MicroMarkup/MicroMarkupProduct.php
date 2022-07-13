@@ -47,21 +47,26 @@ class MicroMarkupProduct implements IMicroMarkup
                 $images_list[] = "/{$image->image}";
             }
         }
-        $this->Markup = Schema::product()
-            ->aggregateRating(Schema::aggregateRating()->reviewCount(21)->ratingValue(5))
-            ->name($product->name)
-            ->image($images_list)
-            ->brand([$category->name])
-            ->review($comments_markup)
-            ->offers(
-                Schema::offer()->priceCurrency("руб")
-                ->price($product->price())
-                ->description($product->description)
-            );
+        if (!$comments->isEmpty()) {
+            $this->Markup = Schema::product()
+                ->aggregateRating(Schema::aggregateRating()->reviewCount($comments->total())->ratingValue(5))
+                ->name($product->name)
+                ->image($images_list)
+                ->brand([$category->name])
+                ->review($comments_markup)
+                ->offers(
+                    Schema::offer()->priceCurrency("руб")
+                        ->price($product->price())
+                        ->description($product->description)
+                );
+        }
     }
 
     public function GetMarkup(): string
     {
+        if (!$this->Markup) {
+            return '';
+        }
         return $this->Markup->toScript();
     }
 }
