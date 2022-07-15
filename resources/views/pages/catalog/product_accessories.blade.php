@@ -332,7 +332,7 @@
     </section>
     @if(count($analogProducts))
     <section id="card-two">
-        <div class="wrapper">
+        <div class="wrapper wrapper__analog">
             <div class="title-box">
                 <div class="title-content">
                     <h2 class="header-bigtitle">Вам также могут подойти</h2>

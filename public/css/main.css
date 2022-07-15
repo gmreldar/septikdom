@@ -1751,6 +1751,21 @@ q {
 section:not(#one) {
     padding: 90px 0 100px
 }
+.wrapper__analog {
+    margin-left: 320px !important;
+}
+
+.wrapper__analog .analogs {
+    justify-content: center;
+}
+@media (max-width: 1129px) {
+    .wrapper__analog .analogs {
+        justify-content: start;
+    }
+    .wrapper__analog {
+        margin-left: 0px !important;
+    }
+}
 
 .wrapper {
     position: relative;

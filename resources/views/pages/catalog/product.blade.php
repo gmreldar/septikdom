@@ -1643,7 +1643,7 @@
     @if(count($analogProducts))
         <section id="card-two">
 
-            <div class="wrapper">
+            <div class="wrapper wrapper__analog">
                 <div class="title-box">
                     <div class="title-content">
                         <h2 class="header-bigtitle">Вам также могут подойти</h2>
@@ -1962,8 +1962,9 @@
                         $('#table-price').html('<div class="sale"><span>' + price + ' руб.</span> / <strike>' + oldPrice + ' руб.</strike></div>');
                         $('#price').html('<div class="single-item-sales"><strike>' + oldPrice + ' руб.</strike><div class="sale">Акция <span class="sale-value">' + data["discount"] + '%</span></div></div><div class="single-item-price">' + price + ' руб.</div>');
                     } else {
-                        $('#table-price').html('<div class="value">' + oldPrice + ' руб.</div>');
-                        $('#price').html('<div class="single-item-price">' + oldPrice + ' руб.</div>');
+                        let newPrice = new Intl.NumberFormat('ru-RU').format(data["price"]);
+                        $('#table-price').html('<div class="value">' + newPrice + ' руб.</div>');
+                        $('#price').html('<div class="single-item-price">' + newPrice + ' руб.</div>');
                     }
                     if (data['destination'] == 0) {
                         var text = 'Самотечный способ - отведение очищенной воды самотеком. Выброс возможен на глубине 50-60 см. на поля фильтрации или дренажный колодец.';

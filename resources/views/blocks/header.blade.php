@@ -89,8 +89,8 @@
                 </ul>
             </li>
             <li class="{{ in_array(Route::currentRouteName(), ['price', 'price.category']) ? 'active' : '' }}"><a
-                        onclick="toggle('#vipad2');">Прайс-лист</a></li>
-            <div id="vipad2" class="vipad">
+                        onclick="toggle('#vipad_pricelist');">Прайс-лист</a></li>
+            <div id="vipad_pricelist" class="vipad">
                 <a href="{!! route('price') !!}">Септики</a>
                 <a href="{{route('price.category', 3)}}">Погребы</a>
                 <a href="{{route('price.category', 4)}}" style="margin-bottom: 20px;">Кессоны</a>
