@@ -68,6 +68,12 @@
                 <div class="single-product" itemscope itemtype="https://schema.org/Product">
                     <div class="single-product-title" >
                         <h1 itemprop="name">{{ $product->name }}</h1>
+                        <meta itemprop="name" content="{{ $product->name }}" />
+                        <meta itemprop="description" content="{{ $product->description }}" />
+                        <div itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
+                            <link itemprop="url" href="{{url()->current()}}" />
+                            <meta itemprop="priceCurrency" content="RUB" />
+                        </div>
                     </div>
                     <div class="single-product-tabs">
                         <div class="tabs-box">
@@ -138,6 +144,7 @@
                                                         @endphp
                                                     @endif
                                                     <img data-lazy="/{{ $image->image }}" alt="{{ $image->alt }}">
+                                                    <link itemprop="image" href="{{ asset($image->image) }}" />
                                                 @endif
                                             @endforeach
                                         </div>
@@ -1387,7 +1394,11 @@
                                 </div>
                                 @foreach($comments as $comment)
                                     <div class="review" itemprop="review" itemscope itemtype="https://schema.org/Review">
-                                        <h4 class="review-title" itemprop="author">{{ $comment->name }}</h4>
+                                        <h4 class="review-title" itemtype="https://schema.org/Person" itemprop="author">{{ $comment->name }}</h4>
+                                        <div style="display: none" itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
+                                            <meta itemprop="ratingValue" content="5" />
+                                            <meta itemprop="bestRating" content="5" />
+                                        </div>
                                         <div class="review-rating">
                                             <span class="review-datetime">
                                                 <meta itemprop="datePublished" content="{{ $comment->created_at->format('d.m.Y') }}">

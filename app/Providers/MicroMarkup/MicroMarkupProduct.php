@@ -67,6 +67,7 @@ class MicroMarkupProduct implements IMicroMarkup
         if (!$this->Markup) {
             return '';
         }
-        return $this->Markup->toScript();
+//        return $this->Markup->toScript();
+        return '';
     }
 }
