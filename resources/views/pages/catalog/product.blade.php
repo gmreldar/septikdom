@@ -73,6 +73,9 @@
                         <div itemprop="offers" itemtype="https://schema.org/Offer" itemscope>
                             <link itemprop="url" href="{{url()->current()}}" />
                             <meta itemprop="priceCurrency" content="RUB" />
+                            @if ($product->price)
+                                <meta itemprop="price" content="{{ $product->price }}" />
+                            @endif
                         </div>
                     </div>
                     <div class="single-product-tabs">

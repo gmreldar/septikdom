@@ -270,6 +270,9 @@ class ProductsController extends Controller
         $questions = Question::orderBy('ord')
             ->get();
         $modifications = $product->modifications;
+        if ($price = $modifications->first()->price) {
+            $product->price = $price;
+        }
         $comments = $this->getComments($product->id);
         $works = Work::orderBy('ord')
             ->select('name', 'link', 'image', 'alt', 'annotation')
