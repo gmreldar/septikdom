@@ -67,7 +67,6 @@ Route::post('/review', ['uses' => 'MainController@review']);
 Route::post('/calculator', ['uses' => 'CalculatorController@searchModification'])->name('katalog.calculator');
 
 Route::get('/shipping', 'MainController@shipping')->name('shipping');
-Route::get('/payment', 'MainController@paymentShipping')->name('payment-shipping');
 
 Route::get('/view/reviews', 'ReviewsController@index')->name('pages.reviews');
 

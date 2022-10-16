@@ -22,10 +22,16 @@
 </div>
 
 <!-- Image Field -->
-@php ($image = ['src' => isset($review->file) ? $review->file : null, 'name' => 'file', 'title' => 'Изображение'])
+@php ($image = ['src' => isset($review->file) ? $review->file : null, 'name' => 'file', 'title' => $mimeTitle])
+@if (is_null($mimeType))
 <div class="col-sm-4">
     @include('admin.fields.image')
 </div>
+@else
+    <div class="col-sm-4">
+        @include('admin.fields.' . $mimeType)
+    </div>
+@endif
 
 <!-- Alt Field -->
 <div class="form-group col-sm-6 col-sm-offset-2">

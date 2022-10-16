@@ -222,7 +222,7 @@ class MainController extends Controller
 
     public function paymentShipping()
     {
-        return redirect(route('shipping'), 301);
+        abort(404);
     }
 
     public function shipping()

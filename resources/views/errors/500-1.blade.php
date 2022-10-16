@@ -16,7 +16,7 @@
             <span class="subtitle">При обработке запроса произошла ошибка. Пожалуйста, повторите позже операцию</span>
         </div>
         <div class="wrap">
-            <a "{{ asset('/') }}" class="button button-transparent">
+            <a href="{{ asset('/') }}" class="button button-transparent">
                 <div class="button-content">
                     <span>Вернуться на главную</span>
                     <div class="button-svg">

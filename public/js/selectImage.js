@@ -2,7 +2,7 @@ function readURL(input) {
     if (input.files && input.files[0]) {
         var reader = new FileReader();
         var type = input.files[0].type.split('/');
-        if (type[1] === 'svg+xml' || type[0] !== 'image') {
+        if (type[1] === 'svg+xml') {
             alert('Недопустимое расширение файла.');
             $(input).prop('value', '');
             $(input).closest('.image-upload').find('.mailbox-attachments li').removeClass('loaded')

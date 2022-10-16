@@ -17,10 +17,14 @@ class ReviewController extends AppBaseController
 {
     /** @var  ReviewRepository */
     private $reviewRepository;
+    private $mimeTypeDeterminant;
 
-    public function __construct(ReviewRepository $reviewRepo)
-    {
+    public function __construct(
+        ReviewRepository $reviewRepo,
+        \App\Services\MimeType\MimeTypeDeterminant $mimeTypeDeterminant
+    ) {
         $this->reviewRepository = $reviewRepo;
+        $this->mimeTypeDeterminant = $mimeTypeDeterminant;
     }
 
     /**
@@ -100,14 +104,24 @@ class ReviewController extends AppBaseController
     public function edit($id)
     {
         $review = $this->reviewRepository->findWithoutFail($id);
-
+        $mimeType = $this->mimeTypeDeterminant->determine($review->file);
+        $mimeTitle = '';
+        if ($mimeType == \App\Services\MimeType\Processors\ImageProcessor::TYPE) {
+            $mimeTitle = 'Изображение';
+        }
+        if ($mimeType == \App\Services\MimeType\Processors\VideoProcessor::TYPE) {
+            $mimeTitle = 'Видео';
+        }
+        if ($mimeType == \App\Services\MimeType\Processors\AudioProcessor::TYPE) {
+            $mimeTitle = 'Аудио';
+        }
         if (empty($review)) {
             Flash::error('Запись не найдена.');
 
             return redirect(route('reviews.index'));
         }
 
-        return view('admin.reviews.edit')->with('review', $review);
+        return view('admin.reviews.edit', compact('review', 'mimeType', 'mimeTitle'));
     }
 
     /**
@@ -132,9 +146,18 @@ class ReviewController extends AppBaseController
         if ($request->hasFile('file')) {
             Storage::disk('public_path')->delete($review->image);
             Storage::disk('public_path')->delete('min/' . $review->image);
+            $mimeType = $this->mimeTypeDeterminant->determine($request->file('file'));
             //$input['file'] = StorageController::saveImage('avatars', $input['image'], 500);
-            $input['file'] = 'uploads/' .Storage::disk('uploads')->put('avatars', $request->file('file'));
-            StorageController::saveMinImage($input['file'], 500, 100);
+            if ($mimeType == \App\Services\MimeType\Processors\ImageProcessor::TYPE) {
+                $input['file'] = 'uploads/' .Storage::disk('uploads')->put('avatars', $request->file('file'));
+                StorageController::saveMinImage($input['file'], 500, 100);
+            }
+            if ($mimeType == \App\Services\MimeType\Processors\VideoProcessor::TYPE) {
+                $input['file'] = 'uploads/' .Storage::disk('uploads')->put('avatars', $request->file('file'));
+            }
+            if ($mimeType == \App\Services\MimeType\Processors\AudioProcessor::TYPE) {
+                $input['file'] = 'uploads/' .Storage::disk('uploads')->put('audios', $request->file('file'));
+            }
         }
         $input['is_active'] = array_key_exists('is_active', $input) ? $input['is_active'] : 0;
 
