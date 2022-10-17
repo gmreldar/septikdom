@@ -49,7 +49,10 @@ class ReviewController extends AppBaseController
      */
     public function create()
     {
-        return view('admin.reviews.create');
+        $mimeTitle = 'Файл';
+        $mimeType = null;
+
+        return view('admin.reviews.create', compact('mimeTitle', 'mimeType'));
     }
 
     /**
@@ -63,8 +66,19 @@ class ReviewController extends AppBaseController
     {
         $input = $request->all();
 
-        if($request->has('image'))
-            $input['image'] = StorageController::saveImage('images', $input['image'], 500);
+        if($request->has('file')) {
+            $mimeType = $this->mimeTypeDeterminant->determine($request->file('file'));
+            if ($mimeType == \App\Services\MimeType\Processors\ImageProcessor::TYPE) {
+                $input['file'] = 'uploads/' .Storage::disk('uploads')->put('avatars', $request->file('file'));
+                StorageController::saveMinImage($input['file'], 500, 100);
+            }
+            if ($mimeType == \App\Services\MimeType\Processors\VideoProcessor::TYPE) {
+                $input['file'] = 'uploads/' .Storage::disk('uploads')->put('avatars', $request->file('file'));
+            }
+            if ($mimeType == \App\Services\MimeType\Processors\AudioProcessor::TYPE) {
+                $input['file'] = 'uploads/' .Storage::disk('uploads')->put('audios', $request->file('file'));
+            }
+        }
 
         $input['is_active'] = array_key_exists('is_active', $input) ? $input['is_active'] : 0;
         $review = $this->reviewRepository->create($input);
@@ -105,16 +119,8 @@ class ReviewController extends AppBaseController
     {
         $review = $this->reviewRepository->findWithoutFail($id);
         $mimeType = $this->mimeTypeDeterminant->determine($review->file);
-        $mimeTitle = '';
-        if ($mimeType == \App\Services\MimeType\Processors\ImageProcessor::TYPE) {
-            $mimeTitle = 'Изображение';
-        }
-        if ($mimeType == \App\Services\MimeType\Processors\VideoProcessor::TYPE) {
-            $mimeTitle = 'Видео';
-        }
-        if ($mimeType == \App\Services\MimeType\Processors\AudioProcessor::TYPE) {
-            $mimeTitle = 'Аудио';
-        }
+        $mimeTitle = 'Файл';
+
         if (empty($review)) {
             Flash::error('Запись не найдена.');
 

@@ -2,9 +2,9 @@
     <div class="form-group">
         <b>{{ $image['title'] }}:</b><br>
         <label for="{{ $image['name'] }}">
-            <a class="btn btn-success button-load"><i class="fa fa-upload"></i> Выбор изображения</a>
+            <a class="btn btn-success button-load"><i class="fa fa-upload"></i> Выбор файл</a>
         </label>
-        <input type="file" accept="image/*" id="{{ $image['name'] }}" name="{{ $image['name'] }}" style="display: none;">
+        <input type="file"  id="{{ $image['name'] }}" name="{{ $image['name'] }}" style="display: none;">
     </div>
     <!-- Image Field -->
     <ul class="mailbox-attachments clearfix">

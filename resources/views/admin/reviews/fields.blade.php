@@ -22,7 +22,7 @@
 </div>
 
 <!-- Image Field -->
-@php ($image = ['src' => isset($review->file) ? $review->file : null, 'name' => 'file', 'title' => $mimeTitle])
+@php ($image = ['src' => isset($review->file) ? $review->file : null, 'name' => 'file', 'title' => $mimeTitle ?? ''])
 @if (is_null($mimeType))
 <div class="col-sm-4">
     @include('admin.fields.image')
