@@ -4,7 +4,7 @@
         <label for="{{ $image['name'] }}">
             <a class="btn btn-success button-load"><i class="fa fa-upload"></i> Выбор {{ $image['title'] }}</a>
         </label>
-        <input type="file" accept="audio/*" id="{{ $image['name'] }}" name="{{ $image['name'] }}" style="display: none;">
+        <input type="file"  id="{{ $image['name'] }}" name="{{ $image['name'] }}" style="display: none;">
     </div>
     <!-- Image Field -->
     <ul class="mailbox-attachments clearfix">
