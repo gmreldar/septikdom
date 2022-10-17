@@ -147,3 +147,5 @@ Route::middleware(['admin'])->group(function () {
 });
 
 Route::post('/uploadImage', ['uses' => 'StorageController@uploadImage']);
+
+Route::get('/privacy-policy', 'PrivacyPolicyController@index')->name('privacy.policy');

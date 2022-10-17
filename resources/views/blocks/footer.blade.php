@@ -1,5 +1,5 @@
 <section id="fiveteen">
-	<img data-src="{{ asset('/img/bg-about.jpg') }}" alt="Img" class="bgi lazy-img">
+{{--	<img data-src="{{ asset('/img/bg-about.jpg') }}" alt="Img" class="bgi lazy-img">--}}
 	<div class="wrapper">
 		<h2>Узнайте точную стоимость всех работ за 1 минуту</h2>
 		<p>Получите годовое обслуживание бесплатно при обращении сегодня! Позвоните прямо сейчас <a
@@ -40,15 +40,9 @@
 								<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
 									xmlns:xlink="http://www.w3.org/1999/xlink"></use>
 							</svg>
-							<span class="footer-menu-first-item-link" id="privacy-policy-modal">Политика конфиденциальности</span>
+							<a class="white-color" href="{!! route('privacy.policy') !!}">Политика конфиденциальности</a>
 						</li>
-						<li class="footer-menu-first-item">
-							<svg class="footer-menu-first-item-icon">
-								<use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
-									xmlns:xlink="http://www.w3.org/1999/xlink"></use>
-							</svg>
-							<span class="footer-menu-first-item-link" id="requisites-modal">Реквизиты</span>
-						</li>
+
 					</ul>
 				</div>
 				<nav class="footer-menu">

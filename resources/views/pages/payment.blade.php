@@ -86,6 +86,61 @@
                             </div>
                         </div>
                     </div>
+                    <div class="payment-shipping-title">
+                        <h2 class="payment-shipping-title-h1">Реквизиты</h2>
+                    </div>
+                    <div class="pay-questions-box">
+                        <div class="pay-questions">
+                            <div class="pay-question-box">
+                                <div class="pay-question">
+                                    <ul class="footer-modal-content-list">
+                                        <li class="footer-modal-content-list-item">
+                                            <svg class="footer-modal-content-list-item-icon">
+                                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
+                                                     xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                            </svg>
+                                            <span class="footer-modal-content-list-item-text">Название организации ООО «Экосеть»</span>
+                                        </li>
+                                        <li class="footer-modal-content-list-item">
+                                            <svg class="footer-modal-content-list-item-icon">
+                                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
+                                                     xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                            </svg>
+                                            <span class="footer-modal-content-list-item-text">ИНН 7811638132</span>
+                                        </li>
+                                        <li class="footer-modal-content-list-item">
+                                            <svg class="footer-modal-content-list-item-icon">
+                                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
+                                                     xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                            </svg>
+                                            <span class="footer-modal-content-list-item-text">КПП 781101001</span>
+                                        </li>
+                                        <li class="footer-modal-content-list-item">
+                                            <svg class="footer-modal-content-list-item-icon">
+                                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
+                                                     xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                            </svg>
+                                            <span class="footer-modal-content-list-item-text">ОГРН 1177847061732</span>
+                                        </li>
+                                        <li class="footer-modal-content-list-item">
+                                            <svg class="footer-modal-content-list-item-icon">
+                                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
+                                                     xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                            </svg>
+                                            <span class="footer-modal-content-list-item-text">Юридический адрес 193079, Санкт-Петербург, Московское шоссе 25, корпус 1, литер А, оф 801 Г</span>
+                                        </li>
+                                        <li class="footer-modal-content-list-item">
+                                            <svg class="footer-modal-content-list-item-icon">
+                                                <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
+                                                     xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                                            </svg>
+                                            <span class="footer-modal-content-list-item-text">Фактический адрес 196158, г. Санкт-Петербург, Московское шоссе 25 к 1 оф 813</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
