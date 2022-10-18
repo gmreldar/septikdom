@@ -15,8 +15,11 @@ class MimeTypeDeterminant
         $this->mimeProcessor = $mimeProcessor;
     }
 
-    public function determine(string $path): ?string
+    public function determine( $path): ?string
     {
+        if (is_null($path)) {
+            return null;
+        }
         foreach ($this->mimeProcessor->getProcessors() as $processor) {
             if ($processor->setFilePath($path)->canProcess()) {
                 return $processor->process();
