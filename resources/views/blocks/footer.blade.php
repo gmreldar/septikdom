@@ -300,7 +300,7 @@
 			</div>
 			<div class="footer-modal-content">
 				<h3 class="footer-modal-content-title">Политика конфиденциальности персональных данных</h3>
-				<p class="footer-modal-content-p">Настоящая Политика конфиденциальности персональных данных (далее – Политика конфиденциальности) действует в отношении всей информации, которую сайт <strong>Системы автономной канализации "Septikdom"</strong>, (далее – Сайт) расположенный на доменном имени <strong>septikdom.ru</strong> (а также его субдоменах), может получить о Пользователе во время использования сайта <strong>septikdom.ru</strong> (а также его субдоменов), его программ и его продуктов.</p>
+				<p class="footer-modal-content-p">Настоящая Политика конфиденциальности персональных данных (далее – Политика конфиденциальности) действует в отношении всей информации, которую сайт <strong>Системы автономной канализации "Septikdom"</strong>, (далее – Сайт) расположенный на доменном имени <strong>septikdom.com</strong> (а также его субдоменах), может получить о Пользователе во время использования сайта <strong>septikdom.ru</strong> (а также его субдоменов), его программ и его продуктов.</p>
 				<ol class="footer-modal-content-list ordered">
 					<li class="footer-modal-content-list-item">
 						<div class="footer-modal-content-list-item-container">
@@ -341,7 +341,7 @@
 									<li class="footer-modal-content-list-item lv-3">
 										<div class="footer-modal-content-list-item-container">
 											<span class="footer-modal-content-list-item-num">1.1.5.</span>
-											<span class="footer-modal-content-list-item-text">«Сайт Системы автономной канализации "Septikdom"» - это совокупность связанных между собой веб-страниц, размещенных в сети Интернет по уникальному адресу (URL): septikdom.ru, а также его субдоменах.</span>
+											<span class="footer-modal-content-list-item-text">«Сайт Системы автономной канализации "Septikdom"» - это совокупность связанных между собой веб-страниц, размещенных в сети Интернет по уникальному адресу (URL): septikdom.com, а также его субдоменах.</span>
 										</div>
 									</li>
 									<li class="footer-modal-content-list-item lv-3">
@@ -841,7 +841,7 @@
 							<div class="footer-modal-content-list-item-container">
 									<span class="footer-modal-content-list-item-num">9.3.</span>
 									<span class="footer-modal-content-list-item-text">Все предложения или вопросы касательно настоящей Политики конфиденциальности следует сообщать по адресу:
-										<br><a class="footer-modal-content-list-item-link" href="mailto:info@septikdom.ru">info@septikdom.ru</a></span>
+										<br><a class="footer-modal-content-list-item-link" href="mailto:info@septikdom.com">info@septikdom.com</a></span>
 									</div>
 							</li>
 						</ol>
