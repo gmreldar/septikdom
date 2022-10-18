@@ -31,13 +31,13 @@
                     Политика
                     конфиденциальности) действует в отношении всей информации, которую сайт <strong>Системы автономной
                         канализации
-                        "Septikdom"</strong>, (далее – Сайт) расположенный на доменном имени
-                    <strong>septikdom.ru</strong>
+                        "Septikdom.com"</strong>, (далее – Сайт) расположенный на доменном имени
+                    <strong>septikdom.com</strong>
                     (а
                     также
                     его
                     субдоменах), может получить о Пользователе во время использования сайта
-                    <strong>septikdom.ru</strong> (а
+                    <strong>septikdom.com</strong> (а
                     также
                     его
                     субдоменов), его программ и его продуктов.</p>
@@ -57,7 +57,7 @@
                                     <li class="footer-modal-content-list-item lv-3">
                                         <div class="footer-modal-content-list-item-container">
                                             <span class="footer-modal-content-list-item-num">1.1.1.</span>
-                                            <span class="footer-modal-content-list-item-text">«Администрация сайта» (далее – Администрация) – уполномоченные сотрудники на управление сайтом Системы автономной канализации "Septikdom", действующие от имени ООО "Экосеть", которые организуют и (или) осуществляют обработку персональных данных, а также определяет цели обработки персональных данных, состав персональных данных, подлежащих обработке, действия (операции), совершаемые с персональными данными.</span>
+                                            <span class="footer-modal-content-list-item-text">«Администрация сайта» (далее – Администрация) – уполномоченные сотрудники на управление сайтом Системы автономной канализации "Septikdom.com", действующие от имени ООО "Экосеть", которые организуют и (или) осуществляют обработку персональных данных, а также определяет цели обработки персональных данных, состав персональных данных, подлежащих обработке, действия (операции), совершаемые с персональными данными.</span>
                                         </div>
                                     </li>
                                     <li class="footer-modal-content-list-item lv-3">
@@ -81,19 +81,19 @@
                                     <li class="footer-modal-content-list-item lv-3">
                                         <div class="footer-modal-content-list-item-container">
                                             <span class="footer-modal-content-list-item-num">1.1.5.</span>
-                                            <span class="footer-modal-content-list-item-text">«Сайт Системы автономной канализации "Septikdom"» - это совокупность связанных между собой веб-страниц, размещенных в сети Интернет по уникальному адресу (URL): septikdom.ru, а также его субдоменах.</span>
+                                            <span class="footer-modal-content-list-item-text">«Сайт Системы автономной канализации "Septikdom.com"» - это совокупность связанных между собой веб-страниц, размещенных в сети Интернет по уникальному адресу (URL): septikdom.com, а также его субдоменах.</span>
                                         </div>
                                     </li>
                                     <li class="footer-modal-content-list-item lv-3">
                                         <div class="footer-modal-content-list-item-container">
                                             <span class="footer-modal-content-list-item-num">1.1.6.</span>
-                                            <span class="footer-modal-content-list-item-text">«Субдомены» - это страницы или совокупность страниц, расположенные на доменах третьего уровня, принадлежащие сайту Системы автономной канализации "Septikdom", а также другие временные страницы, внизу который указана контактная информация Администрации.</span>
+                                            <span class="footer-modal-content-list-item-text">«Субдомены» - это страницы или совокупность страниц, расположенные на доменах третьего уровня, принадлежащие сайту Системы автономной канализации "Septikdom.com", а также другие временные страницы, внизу который указана контактная информация Администрации.</span>
                                         </div>
                                     </li>
                                     <li class="footer-modal-content-list-item lv-3">
                                         <div class="footer-modal-content-list-item-container">
                                             <span class="footer-modal-content-list-item-num">1.1.7.</span>
-                                            <span class="footer-modal-content-list-item-text">«Пользователь сайта Системы автономной канализации "Septikdom" » (далее Пользователь) – лицо, имеющее доступ к сайту Системы автономной канализации "Septikdom", посредством сети Интернет и использующее информацию, материалы и продукты сайта Системы автономной канализации "Septikdom".</span>
+                                            <span class="footer-modal-content-list-item-text">«Пользователь сайта Системы автономной канализации "Septikdom.com" » (далее Пользователь) – лицо, имеющее доступ к сайту Системы автономной канализации "Septikdom.com", посредством сети Интернет и использующее информацию, материалы и продукты сайта Системы автономной канализации "Septikdom.com".</span>
                                         </div>
                                     </li>
                                     <li class="footer-modal-content-list-item lv-3">
@@ -129,19 +129,19 @@
                             <li class="footer-modal-content-list-item lv-2">
                                 <div class="footer-modal-content-list-item-container">
                                     <span class="footer-modal-content-list-item-num">2.1.</span>
-                                    <span class="footer-modal-content-list-item-text">Использование сайта Системы автономной канализации "Septikdom" Пользователем означает согласие с настоящей Политикой конфиденциальности и условиями обработки персональных данных Пользователя.</span>
+                                    <span class="footer-modal-content-list-item-text">Использование сайта Системы автономной канализации "Septikdom.com" Пользователем означает согласие с настоящей Политикой конфиденциальности и условиями обработки персональных данных Пользователя.</span>
                                 </div>
                             </li>
                             <li class="footer-modal-content-list-item lv-2">
                                 <div class="footer-modal-content-list-item-container">
                                     <span class="footer-modal-content-list-item-num">2.2.</span>
-                                    <span class="footer-modal-content-list-item-text">В случае несогласия с условиями Политики конфиденциальности Пользователь должен прекратить использование сайта Системы автономной канализации "Septikdom".</span>
+                                    <span class="footer-modal-content-list-item-text">В случае несогласия с условиями Политики конфиденциальности Пользователь должен прекратить использование сайта Системы автономной канализации "Septikdom.com".</span>
                                 </div>
                             </li>
                             <li class="footer-modal-content-list-item lv-2">
                                 <div class="footer-modal-content-list-item-container">
                                     <span class="footer-modal-content-list-item-num">2.3.</span>
-                                    <span class="footer-modal-content-list-item-text">Настоящая Политика конфиденциальности применяется к сайту Системы автономной канализации "Septikdom". Сайт не контролирует и не несет ответственность за сайты третьих лиц, на которые Пользователь может перейти по ссылкам, доступным на сайте Системы автономной канализации "Septikdom".</span>
+                                    <span class="footer-modal-content-list-item-text">Настоящая Политика конфиденциальности применяется к сайту Системы автономной канализации "Septikdom.com". Сайт не контролирует и не несет ответственность за сайты третьих лиц, на которые Пользователь может перейти по ссылкам, доступным на сайте Системы автономной канализации "Septikdom.com".</span>
                                 </div>
                             </li>
                             <li class="footer-modal-content-list-item lv-2">
@@ -161,13 +161,13 @@
                             <li class="footer-modal-content-list-item lv-2">
                                 <div class="footer-modal-content-list-item-container">
                                     <span class="footer-modal-content-list-item-num">3.1.</span>
-                                    <span class="footer-modal-content-list-item-text">Настоящая Политика конфиденциальности устанавливает обязательства Администрации по неразглашению и обеспечению режима защиты конфиденциальности персональных данных, которые Пользователь предоставляет по запросу Администрации при регистрации на сайте Системы автономной канализации "Septikdom", при подписке на информационную e-mail рассылку или при оформлении заказа.</span>
+                                    <span class="footer-modal-content-list-item-text">Настоящая Политика конфиденциальности устанавливает обязательства Администрации по неразглашению и обеспечению режима защиты конфиденциальности персональных данных, которые Пользователь предоставляет по запросу Администрации при регистрации на сайте Системы автономной канализации "Septikdom.com", при подписке на информационную e-mail рассылку или при оформлении заказа.</span>
                                 </div>
                             </li>
                             <li class="footer-modal-content-list-item lv-2">
                                 <div class="footer-modal-content-list-item-container">
                                     <span class="footer-modal-content-list-item-num">3.2.</span>
-                                    <span class="footer-modal-content-list-item-text">Персональные данные, разрешённые к обработке в рамках настоящей Политики конфиденциальности, предоставляются Пользователем путём заполнения форм на сайте Системы автономной канализации "Septikdom" и включают в себя следующую информацию:</span>
+                                    <span class="footer-modal-content-list-item-text">Персональные данные, разрешённые к обработке в рамках настоящей Политики конфиденциальности, предоставляются Пользователем путём заполнения форм на сайте Системы автономной канализации "Septikdom.com" и включают в себя следующую информацию:</span>
                                 </div>
                                 <ol class="footer-modal-content-list ordered">
                                     <li class="footer-modal-content-list-item lv-3">
@@ -258,19 +258,19 @@
                                     <li class="footer-modal-content-list-item lv-3">
                                         <div class="footer-modal-content-list-item-container">
                                             <span class="footer-modal-content-list-item-num">4.1.1.</span>
-                                            <span class="footer-modal-content-list-item-text">Идентификации Пользователя, зарегистрированного на сайте Системы автономной канализации "Septikdom" для его дальнейшей авторизации, оформления заказа и других действий.</span>
+                                            <span class="footer-modal-content-list-item-text">Идентификации Пользователя, зарегистрированного на сайте Системы автономной канализации "Septikdom.com" для его дальнейшей авторизации, оформления заказа и других действий.</span>
                                         </div>
                                     </li>
                                     <li class="footer-modal-content-list-item lv-3">
                                         <div class="footer-modal-content-list-item-container">
                                             <span class="footer-modal-content-list-item-num">4.1.2</span>
-                                            <span class="footer-modal-content-list-item-text">Предоставления Пользователю доступа к персонализированным данным сайта Системы автономной канализации "Septikdom".</span>
+                                            <span class="footer-modal-content-list-item-text">Предоставления Пользователю доступа к персонализированным данным сайта Системы автономной канализации "Septikdom.com".</span>
                                         </div>
                                     </li>
                                     <li class="footer-modal-content-list-item lv-3">
                                         <div class="footer-modal-content-list-item-container">
                                             <span class="footer-modal-content-list-item-num">4.1.3</span>
-                                            <span class="footer-modal-content-list-item-text">Установления с Пользователем обратной связи, включая направление уведомлений, запросов, касающихся использования сайта Системы автономной канализации "Septikdom", оказания услуг и обработки запросов и заявок от Пользователя.</span>
+                                            <span class="footer-modal-content-list-item-text">Установления с Пользователем обратной связи, включая направление уведомлений, запросов, касающихся использования сайта Системы автономной канализации "Septikdom.com", оказания услуг и обработки запросов и заявок от Пользователя.</span>
                                         </div>
                                     </li>
                                     <li class="footer-modal-content-list-item lv-3">
@@ -288,7 +288,7 @@
                                     <li class="footer-modal-content-list-item lv-3">
                                         <div class="footer-modal-content-list-item-container">
                                             <span class="footer-modal-content-list-item-num">4.1.6.</span>
-                                            <span class="footer-modal-content-list-item-text">Создания учетной записи для использования частей сайта Системы автономной канализации "Septikdom", если Пользователь дал согласие на создание учетной записи.</span>
+                                            <span class="footer-modal-content-list-item-text">Создания учетной записи для использования частей сайта Системы автономной канализации "Septikdom.com", если Пользователь дал согласие на создание учетной записи.</span>
                                         </div>
                                     </li>
                                     <li class="footer-modal-content-list-item lv-3">
@@ -300,13 +300,13 @@
                                     <li class="footer-modal-content-list-item lv-3">
                                         <div class="footer-modal-content-list-item-container">
                                             <span class="footer-modal-content-list-item-num">4.1.8.</span>
-                                            <span class="footer-modal-content-list-item-text">Предоставления Пользователю эффективной технической поддержки при возникновении проблем, связанных с использованием сайта Системы автономной канализации "Septikdom".</span>
+                                            <span class="footer-modal-content-list-item-text">Предоставления Пользователю эффективной технической поддержки при возникновении проблем, связанных с использованием сайта Системы автономной канализации "Septikdom.com".</span>
                                         </div>
                                     </li>
                                     <li class="footer-modal-content-list-item lv-3">
                                         <div class="footer-modal-content-list-item-container">
                                             <span class="footer-modal-content-list-item-num">4.1.9.</span>
-                                            <span class="footer-modal-content-list-item-text">Предоставления Пользователю с его согласия специальных предложений, информации о ценах, новостной рассылки и иных сведений от имени сайта Системы автономной канализации "Septikdom".</span>
+                                            <span class="footer-modal-content-list-item-text">Предоставления Пользователю с его согласия специальных предложений, информации о ценах, новостной рассылки и иных сведений от имени сайта Системы автономной канализации "Septikdom.com".</span>
                                         </div>
                                     </li>
                                     <li class="footer-modal-content-list-item lv-3">
@@ -336,7 +336,7 @@
                             <li class="footer-modal-content-list-item lv-2">
                                 <div class="footer-modal-content-list-item-container">
                                     <span class="footer-modal-content-list-item-num">5.2.</span>
-                                    <span class="footer-modal-content-list-item-text">Пользователь соглашается с тем, что Администрация вправе передавать персональные данные третьим лицам, в частности, курьерским службам, организациями почтовой связи (в том числе электронной), операторам электросвязи, исключительно в целях выполнения заказа Пользователя, оформленного на сайте Системы автономной канализации "Septikdom", включая доставку Товара, документации или e-mail сообщений.</span>
+                                    <span class="footer-modal-content-list-item-text">Пользователь соглашается с тем, что Администрация вправе передавать персональные данные третьим лицам, в частности, курьерским службам, организациями почтовой связи (в том числе электронной), операторам электросвязи, исключительно в целях выполнения заказа Пользователя, оформленного на сайте Системы автономной канализации "Septikdom.com", включая доставку Товара, документации или e-mail сообщений.</span>
                                 </div>
                             </li>
                             <li class="footer-modal-content-list-item lv-2">
@@ -382,7 +382,7 @@
                                     <li class="footer-modal-content-list-item lv-3">
                                         <div class="footer-modal-content-list-item-container">
                                             <span class="footer-modal-content-list-item-num">6.1.1.</span>
-                                            <span class="footer-modal-content-list-item-text">Принимать свободное решение о предоставлении своих персональных данных, необходимых для использования сайта Системы автономной канализации "Septikdom", и давать согласие на их обработку.</span>
+                                            <span class="footer-modal-content-list-item-text">Принимать свободное решение о предоставлении своих персональных данных, необходимых для использования сайта Системы автономной канализации "Septikdom.com", и давать согласие на их обработку.</span>
                                         </div>
                                     </li>
                                     <li class="footer-modal-content-list-item lv-3">
@@ -482,13 +482,13 @@
                             <li class="footer-modal-content-list-item lv-2">
                                 <div class="footer-modal-content-list-item-container">
                                     <span class="footer-modal-content-list-item-num">7.4.</span>
-                                    <span class="footer-modal-content-list-item-text">Пользователь признает, что ответственность за любую информацию (в том числе, но не ограничиваясь: файлы с данными, тексты и т. д.), к которой он может иметь доступ как к части сайта Системы автономной канализации "Septikdom", несет лицо, предоставившее такую информацию.</span>
+                                    <span class="footer-modal-content-list-item-text">Пользователь признает, что ответственность за любую информацию (в том числе, но не ограничиваясь: файлы с данными, тексты и т. д.), к которой он может иметь доступ как к части сайта Системы автономной канализации "Septikdom.com", несет лицо, предоставившее такую информацию.</span>
                                 </div>
                             </li>
                             <li class="footer-modal-content-list-item lv-2">
                                 <div class="footer-modal-content-list-item-container">
                                     <span class="footer-modal-content-list-item-num">7.5.</span>
-                                    <span class="footer-modal-content-list-item-text">Пользователь соглашается, что информация, предоставленная ему как часть сайта Системы автономной канализации "Septikdom", может являться объектом интеллектуальной собственности, права на который защищены и принадлежат другим Пользователям, партнерам или рекламодателям, которые размещают такую информацию на сайте Системы автономной канализации "Septikdom".</span>
+                                    <span class="footer-modal-content-list-item-text">Пользователь соглашается, что информация, предоставленная ему как часть сайта Системы автономной канализации "Septikdom.com", может являться объектом интеллектуальной собственности, права на который защищены и принадлежат другим Пользователям, партнерам или рекламодателям, которые размещают такую информацию на сайте Системы автономной канализации "Septikdom.com".</span>
                                 </div>
                             </li>
                             <li class="footer-modal-content-list-item lv-2">
@@ -500,13 +500,13 @@
                             <li class="footer-modal-content-list-item lv-2">
                                 <div class="footer-modal-content-list-item-container">
                                     <span class="footer-modal-content-list-item-num">7.7.</span>
-                                    <span class="footer-modal-content-list-item-text">В отношение текстовых материалов (статей, публикаций, находящихся в свободном публичном доступе на сайте Системы автономной канализации "Septikdom") допускается их распространение при условии, что будет дана ссылка на Сайт.</span>
+                                    <span class="footer-modal-content-list-item-text">В отношение текстовых материалов (статей, публикаций, находящихся в свободном публичном доступе на сайте Системы автономной канализации "Septikdom.com") допускается их распространение при условии, что будет дана ссылка на Сайт.</span>
                                 </div>
                             </li>
                             <li class="footer-modal-content-list-item lv-2">
                                 <div class="footer-modal-content-list-item-container">
                                     <span class="footer-modal-content-list-item-num">7.8.</span>
-                                    <span class="footer-modal-content-list-item-text">Администрация не несет ответственности перед Пользователем за любой убыток или ущерб, понесенный Пользователем в результате удаления, сбоя или невозможности сохранения какого-либо Содержания и иных коммуникационных данных, содержащихся на сайте Системы автономной канализации "Septikdom" или передаваемых через него.</span>
+                                    <span class="footer-modal-content-list-item-text">Администрация не несет ответственности перед Пользователем за любой убыток или ущерб, понесенный Пользователем в результате удаления, сбоя или невозможности сохранения какого-либо Содержания и иных коммуникационных данных, содержащихся на сайте Системы автономной канализации "Septikdom.com" или передаваемых через него.</span>
                                 </div>
                             </li>
                             <li class="footer-modal-content-list-item lv-2">
@@ -518,7 +518,7 @@
                             <li class="footer-modal-content-list-item lv-2">
                                 <div class="footer-modal-content-list-item-container">
                                     <span class="footer-modal-content-list-item-num">7.10.</span>
-                                    <span class="footer-modal-content-list-item-text">Администрация не несет ответственность за какую-либо информацию, размещенную пользователем на сайте Системы автономной канализации "Septikdom", включая, но не ограничиваясь: информацию, защищенную авторским правом, без прямого согласия владельца авторского права.</span>
+                                    <span class="footer-modal-content-list-item-text">Администрация не несет ответственность за какую-либо информацию, размещенную пользователем на сайте Системы автономной канализации "Septikdom.com", включая, но не ограничиваясь: информацию, защищенную авторским правом, без прямого согласия владельца авторского права.</span>
                                 </div>
                             </li>
                         </ol>
@@ -574,7 +574,7 @@
                             <li class="footer-modal-content-list-item lv-2">
                                 <div class="footer-modal-content-list-item-container">
                                     <span class="footer-modal-content-list-item-num">9.2.</span>
-                                    <span class="footer-modal-content-list-item-text">Новая Политика конфиденциальности вступает в силу с момента ее размещения на сайте Системы автономной канализации "Septikdom", если иное не предусмотрено новой редакцией Политики конфиденциальности.</span>
+                                    <span class="footer-modal-content-list-item-text">Новая Политика конфиденциальности вступает в силу с момента ее размещения на сайте Системы автономной канализации "Septikdom.com", если иное не предусмотрено новой редакцией Политики конфиденциальности.</span>
                                 </div>
                             </li>
                             <li class="footer-modal-content-list-item lv-2">
@@ -582,7 +582,7 @@
                                     <span class="footer-modal-content-list-item-num">9.3.</span>
                                     <span class="footer-modal-content-list-item-text">Все предложения или вопросы касательно настоящей Политики конфиденциальности следует сообщать по адресу:
 										<br><a class="footer-modal-content-list-item-link"
-                                               href="mailto:info@septikdom.ru">info@septikdom.ru</a></span>
+                                               href="mailto:info@septikdom.com">info@septikdom.com</a></span>
                                 </div>
                             </li>
                         </ol>
