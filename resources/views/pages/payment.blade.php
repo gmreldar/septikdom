@@ -134,7 +134,7 @@
                                                 <use xlink:href="{{ asset('/img/svgdefs.svg#icon-arrow') }}"
                                                      xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                                             </svg>
-                                            <span class="footer-modal-content-list-item-text">Фактический адрес 196158, г. Санкт-Петербург, Московское шоссе 25 к 1 оф 813</span>
+                                            <span class="footer-modal-content-list-item-text">Фактический адрес 196158, г. Санкт-Петербург, ул. Ленсовета 97, ТРЦ "Континент", прямо у метро Звездная, Бизнес центр, оф. 502</span>
                                         </li>
                                     </ul>
                                 </div>
