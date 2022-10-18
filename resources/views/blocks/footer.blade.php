@@ -300,7 +300,7 @@
 			</div>
 			<div class="footer-modal-content">
 				<h3 class="footer-modal-content-title">Политика конфиденциальности персональных данных</h3>
-				<p class="footer-modal-content-p">Настоящая Политика конфиденциальности персональных данных (далее – Политика конфиденциальности) действует в отношении всей информации, которую сайт <strong>Системы автономной канализации "Septikdom"</strong>, (далее – Сайт) расположенный на доменном имени <strong>septikdom.com</strong> (а также его субдоменах), может получить о Пользователе во время использования сайта <strong>septikdom.ru</strong> (а также его субдоменов), его программ и его продуктов.</p>
+				<p class="footer-modal-content-p">Настоящая Политика конфиденциальности персональных данных (далее – Политика конфиденциальности) действует в отношении всей информации, которую сайт <strong>Системы автономной канализации "Septikdom"</strong>, (далее – Сайт) расположенный на доменном имени <strong>septikdom.com</strong> (а также его субдоменах), может получить о Пользователе во время использования сайта <strong>septikdom.com</strong> (а также его субдоменов), его программ и его продуктов.</p>
 				<ol class="footer-modal-content-list ordered">
 					<li class="footer-modal-content-list-item">
 						<div class="footer-modal-content-list-item-container">
