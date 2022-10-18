@@ -4,9 +4,8 @@ if (!function_exists('removeUrlDoubleSlash')) {
 
     function removeUrlDoubleSlash($httpType = 'http')
     {
-        if (preg_match('/[\/]{2,100}/', $_SERVER['REQUEST_URI'])) {
-            $a = url()->full();
-            $newUrl = url()->full() . '/';
+        if (preg_match('/[\/]{1,100}$/', $_SERVER['REQUEST_URI'])) {
+            $newUrl = url()->full();
             header("HTTP/1.1 301 Moved Permanently");
             header("Location: $newUrl");
             exit();
